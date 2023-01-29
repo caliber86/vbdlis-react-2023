@@ -1,0 +1,35 @@
+{
+  "id": "customer",
+  "ico": "customer",
+  "title": "Đối tác nói gì về chúng tôi",
+  "children": [
+    {
+      "customerId": "1",
+      "avatar": "./../content/img/customer-1.png",
+      "name": "Mr. Trường",
+      "info": "Văn phòng đăng ký đất đai tỉnh Tây Ninh",
+      "description": "Phần mềm hỗ trợ tốt cho công tác quản lý, cấp giấy chứng nhận sử dụng đất"
+    },
+    {
+      "customerId": "2",
+      "avatar": "./../content/img/customer-2.png",
+      "name": "Mrs. Trang",
+      "info": "Văn phòng Sở TNMT tỉnh Điện Biên",
+      "description": "Phần mềm VBDLis đã giúp ích rất nhiều cho các Phòng, Ban chức năng của Huyện, trong công tác Quản lý địa chính với hầu hết các quy trình, nghiệm vụ như: quản lý sổ đỏ, giấy chứng nhận quyền SDD, hồ sơ quét...."
+    },
+    {
+      "customerId": "3",
+      "avatar": "",
+      "name": "Customer Name CCC",
+      "info": "Customer Name CCC",
+      "description": "Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc"
+    },
+    {
+      "customerId": "444",
+      "avatar": "./../content/img/customer-4.png",
+      "name": "Customer Name DDD",
+      "info": "Customer Name DDD",
+      "description": "Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd "
+    }
+  ]
+}

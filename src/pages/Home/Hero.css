@@ -1,0 +1,147 @@
+/**
+COLOR
+*/
+.hero {
+  padding: 0;
+}
+
+.hero-home {
+  background: transparent radial-gradient(closest-side at 36% 26%, #102257 0, #07174a 38%, #071235 65%, #00092D 100%) 0 0 no-repeat padding-box;
+  height: 650px;
+}
+.hero-home h1 {
+  font-size: 57px;
+  margin: 0 0 20px;
+  color: #fff;
+}
+.hero-home h2 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.hero-home .container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-home .container .home-hero-left {
+  max-width: 500px;
+  margin-top: 120px;
+}
+.hero-home .container .home-hero-left a {
+  padding-right: 16px;
+}
+.hero-home .container .home-hero-images {
+  width: 100%;
+  max-width: 860px;
+  margin-right: -20px;
+}
+.hero-home .container .home-hero-images img {
+  width: 100%;
+  height: 100%;
+}
+.hero-home .container .hero-globe {
+  display: block;
+}
+.hero-home .container .hero-globe .hero-globe-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation {
+  background: #0086ff;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  -webkit-animation: hero-globe-animation 2.5s linear infinite;
+          animation: hero-globe-animation 2.5s linear infinite;
+  transition: all 0.7s ease;
+  margin-top: 100px;
+}
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao {
+  position: relative;
+}
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao img {
+  position: absolute;
+}
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao .anh2 {
+  width: 20%;
+  top: 8px;
+  left: -10px;
+  -webkit-animation: 1.5s 0.5s infinite alternate bounce;
+          animation: 1.5s 0.5s infinite alternate bounce;
+}
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao .anh3 {
+  width: 20%;
+  top: 300px;
+  right: -10px;
+  -webkit-animation: 1s infinite alternate bounce;
+          animation: 1s infinite alternate bounce;
+}
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao .anh4 {
+  width: 15%;
+  top: 320px;
+  left: 16px;
+  -webkit-animation: 1.5s 1.5s infinite alternate bounce;
+          animation: 1.5s 1.5s infinite alternate bounce;
+}
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao .anh5 {
+  width: 12%;
+  top: 80px;
+  right: -50px;
+  -webkit-animation: 1.5s 1s infinite alternate bounce;
+          animation: 1.5s 1s infinite alternate bounce;
+}
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-12px);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-12px);
+  }
+}
+@-webkit-keyframes hero-globe-animation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(39, 63, 134, 0.3), 0 0 0 1px rgba(39, 63, 134, 0.3), 0 0 0 3px rgba(39, 63, 134, 0.3), 0 0 0 5px rgba(39, 63, 134, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(39, 63, 134, 0.3), 0 0 0 4px rgba(39, 63, 134, 0.3), 0 0 0 50px rgba(39, 63, 134, 0), 0 0 0 80px rgba(39, 63, 134, 0);
+  }
+}
+@keyframes hero-globe-animation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(39, 63, 134, 0.3), 0 0 0 1px rgba(39, 63, 134, 0.3), 0 0 0 3px rgba(39, 63, 134, 0.3), 0 0 0 5px rgba(39, 63, 134, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(39, 63, 134, 0.3), 0 0 0 4px rgba(39, 63, 134, 0.3), 0 0 0 50px rgba(39, 63, 134, 0), 0 0 0 80px rgba(39, 63, 134, 0);
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-home h1 {
+    font-size: 52px;
+  }
+  .hero-home h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  .hero-home .container {
+    flex-direction: column;
+  }
+  .hero-home .container .home-hero-left {
+    margin-top: 60px;
+  }
+  .hero-home .container .home-hero-images {
+    margin-top: 60px;
+  }
+}/*# sourceMappingURL=Hero.css.map */

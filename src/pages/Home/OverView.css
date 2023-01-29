@@ -1,0 +1,136 @@
+/**
+COLOR
+*/
+.section-content {
+  margin-bottom: 3rem;
+}
+.section-content:last-child {
+  margin-bottom: 0;
+}
+.section-content:nth-child(odd) {
+  background: #fff;
+  flex-direction: row-reverse;
+  grid-column-gap: 80px;
+}
+.section-content:nth-child(odd) .product-img {
+  justify-content: flex-end;
+}
+.section-content:nth-child(even) {
+  background: #fff;
+  flex-direction: row;
+  grid-column-gap: 80px;
+}
+.section-content:nth-child(even) .product-img {
+  justify-content: flex-end;
+}
+
+.overview .title {
+  font-size: 48px;
+  margin: 0 96px 0 96px;
+}
+.overview .overview-text {
+  max-width: 960px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 24px auto 96px auto;
+}
+.overview .section-content {
+  display: flex;
+  align-items: center;
+}
+.overview .section-content .product-img {
+  flex: 0 0 55%;
+  display: flex;
+}
+.overview .section-content .product-img img {
+  width: 100%;
+  height: 100%;
+}
+.overview .section-content .product-highlight {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.overview .section-content .product-highlight h1 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+.overview .section-content .product-highlight .service-heading-title {
+  font-size: 24px;
+  color: #41497B;
+}
+.overview .section-content .product-highlight .link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0086ff;
+  position: relative;
+  padding-right: 32px;
+}
+.overview .section-content .product-highlight .link::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background: url(./../../images/ic-arow.svg);
+  transition: right 0.1s ease-out;
+}
+.overview .section-content .product-highlight .link:hover::after {
+  right: -2px;
+}
+.overview .section-content .product-highlight .service-heading-text {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #050C38;
+  margin: 20px 0 20px 0;
+}
+.overview .section-content .product-highlight .product-detail {
+  margin-top: 40px;
+}
+.overview .section-content .product-highlight .product-detail ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+}
+.overview .section-content .product-highlight .product-detail ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 26px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #333;
+}
+.overview .section-content .product-highlight .product-detail ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  background-image: url(../../images/checkmark.svg);
+  width: 16px;
+  height: 16px;
+}
+.overview .section-content.overview-1 {
+  margin-bottom: 120px;
+}
+
+@media (max-width: 425px) {
+  .section-content:nth-child(odd), .section-content:nth-child(even) {
+    flex-direction: column;
+  }
+  #overview .container .product-img {
+    width: 100%;
+    max-width: 100%;
+  }
+  #overview .container .product-highlight {
+    max-width: 100%;
+    min-width: auto;
+    margin-top: 48px;
+  }
+}/*# sourceMappingURL=OverView.css.map */

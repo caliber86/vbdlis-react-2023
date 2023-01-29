@@ -1,0 +1,8 @@
+{
+  "id": "mapsApi",
+  "ico": "map",
+  "title": "Hệ thống quản lý đất đai VBDLIS",
+  "image": "./../content/img/hero-img.svg",
+  "useImage": false,
+  "description": "Cung cấp các giải pháp tổng thể phục vụ công tác quản lý đất đai, cung cấp các dịch vụ công về đất đai."
+}

@@ -1,0 +1,170 @@
+@import './../../variables.scss';
+
+.hero {
+  padding: 0;
+}
+.hero-home {
+  // background-color: #f8f8f8;
+  background: transparent radial-gradient(closest-side at 36% 26%,#102257 0,#07174a 38%,#071235 65%,#00092D 100%) 0 0 no-repeat padding-box;
+  height: 650px;
+
+  h1 {
+    font-size: 57px;
+    margin: 0 0 20px;
+    color: $white;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: $white;
+    margin-bottom: 40px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .home-hero-left {
+      a {
+        margin-right: 16px;
+      }
+      max-width: 500px;
+      margin-top: 120px;
+      .ic-btn {
+        position: absolute;
+        margin-top: -2px;
+        // margin-right: 18px;
+      }
+      .btn-text {
+        margin-left: 32px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+
+    .home-hero-images {
+      width: 100%;
+      max-width: 860px;
+      margin-right: -20px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }     
+    }
+    .hero-globe {
+      display: block;
+
+      .hero-globe-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .hero-globe-animation {
+          background: $blue;
+          // position: absolute;
+          width: 450px;
+          height: 450px;
+          border-radius: 50%;
+          animation: hero-globe-animation 2.5s linear infinite;
+          transition: all .7s ease;
+          margin-top: 100px;
+
+          .hero-globe-img {
+            .haohao {
+              position: relative;            
+              img {
+                position: absolute;
+              }
+              .anh2 {
+                width: 20%;
+                top: 8px;
+                left: -10px; 
+                animation: 1.5s .5s infinite alternate bounce;
+              }
+              .anh3 {
+                width: 20%;
+                top: 300px;
+                right: -10px;
+                animation: 1s infinite alternate bounce;
+              }
+              .anh4 {
+                width: 15%;
+                top: 320px;
+                left: 16px;
+                animation: 1.5s 1.5s infinite alternate bounce;
+              }
+              .anh5 {
+                width: 12%;
+                top: 80px;
+                right: -50px;
+                animation: 1.5s 1s infinite alternate bounce;
+              }
+            }
+            @keyframes bounce {
+              0% {transform: translateY(0);}
+              100% {transform: translateY(-12px);}
+            }
+          }
+        }
+      }
+    }
+    @keyframes hero-globe-animation {
+      0% {box-shadow: 0 0 0 0 rgb(39 63 134 / 30%), 0 0 0 1px rgb(39 63 134 / 30%), 0 0 0 3px rgb(39 63 134 / 30%), 0 0 0 5px rgb(39 63 134 / 30%);}
+      100% {box-shadow: 0 0 0 2px rgb(39 63 134 / 30%), 0 0 0 4px rgb(39 63 134 / 30%), 0 0 0 50px rgb(39 63 134 / 0%), 0 0 0 80px rgb(39 63 134 / 0%);}
+    }
+  }
+  // .flare {
+  //   position: absolute;
+  //   background-color: $blue;
+  //   width: 29vw;
+  //   height: 29vw;
+  //   left: 25%;
+  //   top: 0;
+  //   border-radius: 50%;
+  //   filter: blur(29vw * 0.28);
+  //   margin: calc(-0.5*29vw) 0 0 calc(-0.5*29vw);
+  //   // z-index: -1;
+  // }
+}
+
+@media (max-width: 767px) {
+  .hero-home {
+    h1 {
+      font-size: 52px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-home {
+    .container {
+      flex-direction: column;
+
+      .home-hero-left {
+        margin-top: 60px;
+        text-align: center;
+
+        .home-hero-button {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          a {
+            margin-bottom: 16px;
+            margin-right: 0;
+          }
+        }
+      }
+
+      .hero-globe {
+        display: none;
+      }
+    }
+  }
+}

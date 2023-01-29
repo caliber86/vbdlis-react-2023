@@ -1,0 +1,69 @@
+/**
+COLOR
+*/
+section.features {
+  background-color: #f5f6fa;
+}
+
+.features {
+  width: 100%;
+  padding: 96px 0px;
+}
+.features .title {
+  font-size: 48px;
+  margin: 0 96px 0 96px;
+}
+.features .features-text {
+  max-width: 960px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 24px auto 96px auto;
+}
+.features .features-card {
+  width: 100%;
+  max-width: 1248px;
+  display: grid;
+  margin: 90px auto 0;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  grid-gap: 80px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  text-align: center;
+}
+.features .aaa {
+  color: red;
+}
+.features .fe-title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.features .features-icon {
+  min-height: 48px;
+  margin-bottom: 20px;
+  display: grid;
+}
+.features .fe-text {
+  font-size: 18px;
+  line-height: 26px;
+  margin: 20px 0;
+  font-weight: 400;
+  color: #050C38;
+}
+
+@media (max-width: 425px) {
+  .features .features-card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 60px auto 0;
+  }
+  .features .features-col {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=Features.css.map */

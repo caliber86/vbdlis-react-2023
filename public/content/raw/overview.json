@@ -1,0 +1,23 @@
+{
+  "id": "overview",
+  "ico": "",
+  "title": "Tổng quan hệ thống thông tin đất đai VBDLIS",
+  "image": "",
+  "description": "Hệ thống thông tin đất đai (Land Information System) - VBDLIS do Vietbando tự nghiên cứu và phát triển. Được xây dựng dựa trên nền tảng cốt lõi là hệ thống quản lý dữ liệu VDMS kết hợp các giải pháp VIETBANDO GIS (Geographic Information Systems), triển khai trên Cloud Server mang đến các giải pháp tổng thể phục vụ công tác xây dựng, quản lý, vận hành, khai thác cơ sở dữ liệu đất đai. Là cơ sở quan trọng cho việc ra quyết định liên quan đến việc đầu tư, phát triển, quản lý và sử dụng đất đai hướng tới mục tiêu xây dựng Chính phủ số điện tử, tiến tới Chính phủ số, phát triển kinh tế, xã hội số, đô thị thông minh",
+  "children": [
+    {
+      "subtitle": "Hệ thống",
+      "title": "Vận hành cơ sở dữ liệu đất đai",
+      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền.",
+      "image": "./../content/img/hethong-vanhanh-csdl.svg",
+      "action": "Chi tiết"
+    },
+    {
+      "subtitle": "Hệ thống",
+      "title": "Xây dựng cơ sở dữ liệu đất đai",
+      "description": "Hệ thống được thiết kế đáp ứng theo Thông tư số 05/2017/TT-BTNMT ngày 25/4/2017 quy định về quy trình xây dựng CSDL đất đai. Cung cấp các giải pháp xây dựng, chuyển đổi, tích hợp, chuẩn hóa cơ sở dữ liệu đất đai gồm: cơ sở dữ liệu địa chính; cơ sở dữ liệu thống kê, kiểm kê đất đai; cơ sở dữ liệu quy hoạch, kế hoạch sử dụng đất; cơ sở dữ liệu giá đất.",
+      "image": "./../content/img/hethong-vanhanh-csdl.svg",
+      "action": "Chi tiết"
+    }
+  ]
+}

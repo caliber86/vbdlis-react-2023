@@ -1,0 +1,80 @@
+/**
+COLOR
+*/
+.vbt {
+  color: #fff;
+  cursor: pointer;
+  border-radius: 100px;
+  text-shadow: 0 1px 0 #0086ff;
+  background: linear-gradient(180deg, #0086ff, #0060DF) no-repeat;
+  border: none;
+  box-shadow: 0 7px 14px -3px rgba(45, 35, 66, 0.3), 0 2px 4px rgba(45, 35, 66, 0.2), inset 0 -2px #004FB8;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.vbt:hover {
+  box-shadow: 0px 4px 8px rgba(45, 35, 66, 0.4), 0px 7px 13px -3px rgba(45, 35, 66, 0.3), inset 0px -2px 0px #004FB8;
+  transform: translateY(-2px);
+}
+
+.vbt-white {
+  color: #272F5D;
+  cursor: pointer;
+  border-radius: 100px;
+  text-shadow: 0 1px 0 #fff;
+  background: linear-gradient(180deg, #fff, #efeff2) no-repeat;
+  border: none;
+  box-shadow: 0 7px 14px -3px rgba(45, 35, 66, 0.4), 0 2px 4px rgba(45, 35, 66, 0.3), inset 0 -2px #cfd1e3;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.vbt-white:hover {
+  box-shadow: 0px 4px 8px rgba(45, 35, 66, 0.4), 0px 7px 13px -3px rgba(45, 35, 66, 0.3), inset 0px -2px 0px #cfd1e3;
+  transform: translateY(-2px);
+}
+
+.vbt-blue-outline {
+  background: none;
+  text-shadow: none;
+  color: #272F5D;
+  border-color: #0086ff;
+  box-shadow: rgba(0, 96, 223, 0.4) 0px 0px 0px 2px inset;
+  transition: box-shadow 0.15s ease 0s, transform 0.15s ease 0s;
+}
+.vbt-blue-outline:hover {
+  box-shadow: #0086ff 0px 0px 0px 2px inset;
+  transform: none;
+}
+
+.vbt-white-outline {
+  background: none;
+  text-shadow: none;
+  color: #fff;
+  box-shadow: #fff 0px 0px 0px 2px inset;
+  transition: box-shadow 0.15s ease 0s, transform 0.15s ease 0s;
+}
+.vbt-white-outline:hover {
+  color: #272F5D;
+  background: #fff;
+  transform: none;
+  box-shadow: none;
+}
+
+.vbt-small {
+  font-size: 14px;
+  font-weight: 500;
+  height: 36px;
+  padding: 0 20px;
+}
+
+.vbt-medium {
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  padding: 0 24px;
+}
+
+.vbt-larger {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 40px;
+  height: 50px;
+}/*# sourceMappingURL=button.css.map */

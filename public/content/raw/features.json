@@ -1,0 +1,88 @@
+{
+  "id": "features",
+  "title": "Những tính năng nổi bật",
+  "description": "",
+  "children": [
+    {
+      "id": "features1",
+      "ico": "features1",
+      "title": "Quản lý người dùng tập trung (LDAP)",
+      "description": "Hệ thống người dùng sẽ được tích hợp với máy chủ LDAP phổ biến: OpenLADP, AD, Apache Directory Server,...",
+      "image": "./../content/img/features1.svg",
+      "action": "Chi tiết",
+      "detai": {}
+    },
+    {
+      "id": "features2",
+      "ico": "features2",
+      "title": "Đăng nhập một lần (SSO)",
+      "description": "Người dùng chỉ cần đăng nhập một lần để sử dụng tất cả dịch vụ",
+      "image": "./../content/img/features2.svg",
+      "action": "Chi tiết",
+      "detai": {}
+    },
+    {
+      "id": "features3",
+      "ico": "features3",
+      "title": "Quản lý Quy trình động",
+      "description": "Quản lý quy trình theo phiên bản, thiết lập và cấu hình quy trình một cách nhanh chóng với giao diện web kéo thả trực quan",
+      "image": "./../content/img/features3.svg",
+      "action": "Chi tiết",
+      "detai": {}
+    },
+    {
+      "id": "features4",
+      "ico": "features4",
+      "title": "Giao diện thiết kế thống nhất",
+      "description": "Giao diện được thiết kế thống nhất ở tất cả các phần mềm trong hệ thống, giúp người dùng thuận tiện trong quá trình sử dụng phần mềm",
+      "image": "./../content/img/features4.svg",
+      "action": "Chi tiết",
+      "detai": {}
+    },
+    {
+      "id": "features5",
+      "ico": "features5",
+      "title": "Hiệu năng hệ thống lớn",
+      "description": "Tăng tốc độ sử lý, thân thiện với người dùng",
+      "image": "./../content/img/features5.svg",
+      "action": "Chi tiết",
+      "detai": {}
+    },
+    {
+      "id": "features6",
+      "ico": "features6",
+      "title": "Liên thông giữa các phần mềm",
+      "description": "Liên thông giữa các phân hệ trong hệ thống. Liên thông giữa các đơn vị Sở Ban Ngành, Quận Huyện",
+      "image": "./../content/img/features6.svg",
+      "action": "Chi tiết",
+      "detai": {}
+    },
+    {
+      "id": "features7",
+      "ico": "features7",
+      "title": "Đề xuất xét duyệt, ký số",
+      "description": "Việc ứng dụng chữ ký số giúp tiết kiệm thời gian, chi phí hành chính. Hoạt động giao dịch điện tử, việc ký các văn bản ký điện tử có thể diễn ra ở bất kỳ đâu, bất kỳ thời gian nào",
+      "image": "./../content/img/features7.svg",
+      "action": "Chi tiết",
+      "detai": {}
+    },
+    {
+      "id": "features8",
+      "ico": "features8",
+      "title": "Ứng dụng di động",
+      "description": "Ứng dụng được triển khai trên các thiết bị di động. Thực hiện xử lý công việc, chỉ đạo điều hành, quản lý lịch công tác,... mọi lúc mọi nơi",
+      "image": "./../content/img/features8.svg",
+      "action": "Chi tiết",
+      "detai": {}
+    },
+    {
+      "id": "features9",
+      "ico": "features9",
+      "title": "Cloud",
+      "description": "Triển khai trên máy chủ điện toán đám mây (Cloud Computing). Hệ thống sẵn sàng cho việc triển khai phần mềm như một dịch vụ (SaaS)",
+      "image": "./../content/img/features9.svg",
+      "action": "Chi tiết",
+      "detai": {}
+    }
+  ]
+}
