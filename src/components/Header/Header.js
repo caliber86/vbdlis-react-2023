@@ -4,10 +4,10 @@ import Button from '../Button';
 import './Header.scss';
 
 import logofull from './../../vbdlis-logo-white.svg';
-import UP_ICON from '../../images/arrow-left.svg';
-import DOWN_ICON from '../../images/arrow-right.svg';
-import DD_ICON1 from '../../images/checkmark.svg';
-import DD_ICON2 from '../../images/ic-star.svg';
+import up_icon from '../../images/arrow-up-white.svg';
+import down_icon from '../../images/arrow-down-white.svg';
+import DD_ICON1 from '../../images/setting.svg';
+import DD_ICON2 from '../../images/data-check.svg';
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -32,24 +32,28 @@ const Header = () => {
         </div>
         <nav className={active ? "menu open" : "menu"}>
           <ul>
-            <li className="menu-item">
+            <li className={show ? 'menu-item active' : 'menu-item'}>
               <Link onClick={() => setShow(show ? false : true)}>
                 Hệ thống
-                <img width={'32px'} height={'32px'} src={show ? UP_ICON : DOWN_ICON} alt="" />
+                <img width={'24px'} height={'24px'} src={show ? up_icon : down_icon} alt="" />
               </Link>
               {show ? (
                 <div className="dropdown-cols">
-                  <div className="right">
+                  <div className="center">
                     <ul className="dropdown">
                       <li className="menu-item">
                         <Link to='/websystem'>
-                          <img width={'32px'} height={'32px'} src={DD_ICON1} alt="" />
-                          Hệ thống web
+                          <div className='dropdown-icon'>
+                            <img width={'24px'} height={'24px'} src={DD_ICON1} alt="" />
+                          </div>
+                          Hệ thống vận hành cơ sở dữ liệu đất đai
                         </Link></li>
                       <li className="menu-item">
                         <Link to='/desktopapp'>
-                          <img width={'32px'} height={'32px'} src={DD_ICON2} alt="" />
-                          Ứng dụng desktop
+                          <div className='dropdown-icon'>
+                            <img width={'24px'} height={'24px'} src={DD_ICON2} alt="" />
+                          </div>
+                          Hệ thống xây dựng cơ sở dữ liệu đất đai
                         </Link></li>
                     </ul>
                   </div>

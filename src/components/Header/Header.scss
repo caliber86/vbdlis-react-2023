@@ -120,12 +120,20 @@ header {
           list-style-type: none;
           margin: 0 1rem;
           cursor: default;
+          
+          &.active {
+            a {
+              color: $white;
+            }
+          }
 
           a {
+            display: flex;
+            align-items: center;
             color: $grey-400;
             font-size: 16px;
             font-weight: 500;
-            transition: color .2s ease;
+            transition: color .6s;
 
             &.active {
               color: $white;
@@ -137,96 +145,21 @@ header {
           }
         }
 
-        .menu-item.icon a {
-          color: #111;
-
-          &::before {
-            position: absolute;
-            z-index: 10000;
-            left: 50%;
-            top: 70px;
-            width: 0;
-            height: 0;
-            border-right: 12px solid transparent;
-            border-bottom: 10px solid white;
-            border-left: 12px solid transparent;
-            transform: translate(-50%, 100%);
-            opacity: 0;
-            content: "";
-          }
-
-          &::after {
-            content: "";
-            display: inline-block;
-            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 7' width='10' height='7'><path fill='black' d='M0.292 0.585l0 0c0.389,-0.389 1.025,-0.389 1.414,0l3.294 3.294 3.294 -3.294c0.388,-0.389 1.025,-0.389 1.414,0l0 0c0.39,0.389 0.39,1.025 0.001,1.414l-4.709 4.708 -4.709 -4.708c-0.389,-0.389 -0.389,-1.025 0.001,-1.414z'/></svg>");
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center center;
-            width: 11px;
-            height: 7px;
-            border: none;
-            position: relative;
-            top: -1px;
-            margin-left: 5px;
-            transition: transform 350ms ease;
-          }
-        }
-
-        .menu-item.icon.active a {
-          color: #f0523e;
-
-          &::before {
-            opacity: 1;
-          }
-
-          &::after {
-            transform: rotate(-180deg);
-            transform-origin: center center;
-            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 7' width='10' height='7'><path fill-rule='evenodd' style='fill:rgba(240, 82, 62, 1)' d='M0.292 0.585l0 0c0.389,-0.389 1.025,-0.389 1.414,0l3.294 3.294 3.294 -3.294c0.388,-0.389 1.025,-0.389 1.414,0l0 0c0.39,0.389 0.39,1.025 0.001,1.414l-4.709 4.708 -4.709 -4.708c-0.389,-0.389 -0.389,-1.025 0.001,-1.414z'/></svg>");
-          }
-        }
-
         .dropdown-cols {
           position: absolute;
-          // left: -320px;
-          // width: 980px;
-          width: 280px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 350px;
           height: auto;
           display: flex;
           flex-direction: row;
           flex: 0 auto;
-          border-radius: 4px;
+          border-radius: 20px;
           background: white;
           z-index: 1;
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 
-          .left {
-            width: 35%;
-            background-color: #feedec;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            flex-grow: 1;
-            border-radius: 4px 0 0 4px;
-            text-align: left;
-            cursor: default;
-
-            .dropdown-title {
-              font-size: 40px;
-              font-weight: 600;
-              line-height: 1.2;
-              margin: 20px 0 10px;
-            }
-
-            .dropdown-text {
-              margin-top: 10px;
-              font-size: 17px;
-              line-height: 24px;
-            }
-          }
-
-          .right {
+          .center {
             // width: 65%;
             width: 100%;
             display: flex;
@@ -239,34 +172,38 @@ header {
               flex-wrap: wrap;
 
               li {
-                list-style: none;
-                // width: 50%;
+                list-style: none;                
                 line-height: normal;
                 padding: 20px;
+                margin: 0;
                 cursor: pointer;
 
                 a {
                   display: flex;
                   align-items: center;
-                  color: #111;
-
-                  svg {
-                    margin-right: 20px;
-                  }
-
-                  &::after {
-                    display: none;
+                  font-size: 16px;
+                  font-weight: 600;
+                  color: $grey-800;
+                  .dropdown-icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 8px;
+                    padding: 8px;
+                    margin-right: 16px;
+                    background-color: $bglightgray;
                   }
                 }
 
                 &:hover a {
-                  color: #f0523e;
+                  color: $blue;
                 }
               }
             }
-          }
+          }                    
         }
-
       }
     }
   }
