@@ -53,9 +53,11 @@ header {
           &.top {
             top: 12px;
           }
+
           &.center {
             top: 18px;
           }
+
           &.bottom {
             top: 24px;
           }
@@ -86,9 +88,11 @@ header {
             top: 20px;
             transform: translateX(-50%) rotate(-45deg) translateY(-50%);
           }
+
           &.center {
             display: none;
           }
+
           &.bottom {
             top: 20px;
             margin-left: -2px;
@@ -184,8 +188,9 @@ header {
 
         .dropdown-cols {
           position: absolute;
-          left: -320px;
-          width: 980px;
+          // left: -320px;
+          // width: 980px;
+          width: 280px;
           height: auto;
           display: flex;
           flex-direction: row;
@@ -222,7 +227,8 @@ header {
           }
 
           .right {
-            width: 65%;
+            // width: 65%;
+            width: 100%;
             display: flex;
             flex-direction: column;
             text-align: left;
@@ -234,7 +240,7 @@ header {
 
               li {
                 list-style: none;
-                width: 50%;
+                // width: 50%;
                 line-height: normal;
                 padding: 20px;
                 cursor: pointer;
