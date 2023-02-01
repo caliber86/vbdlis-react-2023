@@ -2,7 +2,7 @@ import './Application.scss';
 import React, { useEffect, useState } from 'react'
 import Button from '../../components/Button';
 import DataHelper from '../../helper/data.helper';
-import ICON from '../../images/data-check.svg';
+import ICON from '../../images/ic-app.png';
 
 const TABS = [
   {
@@ -45,7 +45,7 @@ const OperatingApp = () => {
           Array.isArray(current?.children) && current?.children?.length && current.children.map((item) => {
             return (
               <div className='app-card' onClick={() => console.log(item)}>
-                <img width={'24px'} height={'24px'} src={ICON} alt="" />
+                <img width={'72px'} height={'72px'} src={ICON} alt="" />
                 <h5 className="ac-title">{item?.title}</h5>
                 <p className="ac-description">{item?.description}</p>
               </div>

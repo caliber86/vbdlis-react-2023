@@ -1,66 +1,61 @@
 {
   "app-web": [
     {
-      "title": "System Web 1",
+      "title": "Phân hệ địa chính",
       "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
+      "description": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương..."
     },
     {
-      "title": "System Web 2",
+      "title": "Phân hệ thống kê, kiểm kê đất đai",
       "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
+      "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL thống kê, kiểm kê đất đai."
     },
     {
-      "title": "System Web 3",
+      "title": "Phân hệ quản lý giá đất",
       "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
+      "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL giá đất."
     },
     {
-      "title": "System Web 4",
+      "title": "Phân hệ quản lý quy hoạch, kế hoạch sử dụng đất",
       "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
+      "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL."
     },
     {
-      "title": "System Web 5",
+      "title": "Phân hệ quản trị hệ thống",
       "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
+      "description": "Là nền tảng hỗ trợ việc quản trị hệ thống cho các phân hệ khác trong hệ sinh thái VBDLIS..."
     },
     {
-      "title": "System Web 6",
+      "title": "Khai thác dữ liệu bản đồ",
       "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
+      "description": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất,..."
+    },
+    {
+      "title": "Cổng thông tin đất đai - VBDLIS Portal",
+      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
+      "description": "VBDLIS Portal cung cấp thông tin đất đai cho người dân, doanh nghiệp..."
+    },
+    {
+      "title": "Hệ thống dịch vụ công",
+      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
+      "description": "VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến..."
+    },
+    {
+      "title": "Cơ sở dữ liệu quốc gia",
+      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
+      "description": "Hệ thống đảm bảo dữ liệu luôn được cập nhật mới thường xuyên, phục vụ công tác quản lý và chia sẽ CSDL giữa các ngành ở cấp TW."
     }
   ],
   "app-desktop": [
     {
-      "title": "App Desktop 1",
+      "title": "VBDLIS Desktop",
       "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
+      "description": "Ứng dụng hỗ trợ chuyên biệt về công tác quản lý, biên tập, chỉnh lý dữ liệu không gian địa chính. Dữ liệu được lưu trữ trên Cloud đảm bảo tính kết nối, đồng bộ với hệ thống web."
     },
     {
-      "title": "App Desktop 2",
+      "title": "LISEditor VPDK",
       "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
-    },
-    {
-      "title": "App Desktop 3",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
-    },
-    {
-      "title": "App Desktop 4",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
-    },
-    {
-      "title": "App Desktop 5",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
-    },
-    {
-      "title": "App Desktop 6",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai theo hướng tập trung thống nhất. Góp phần nâng cao công tác quản lý nhà nước, tăng sự hài lòng của người dân đối với những dịch vụ của chính quyền."
+      "description": "Ứng dụng hỗ trợ kiểm tra, tích hợp gói sản phẩm của 4 phân hệ Địa chính, Giá đất, TKKK, QHKHSD vào hệ thống vận hành của VPDK và Sở TNMT."
     }
   ]
 }

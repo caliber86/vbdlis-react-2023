@@ -2,6 +2,7 @@ import './OverView.scss';
 import React, { useEffect, useState } from 'react';
 import DataHelper, { isEmpty } from '../../helper/data.helper';
 import Button from '../../components/Button';
+import { Link } from 'react-router-dom';
 
 const OverView = () => {
 
@@ -38,7 +39,9 @@ const OverView = () => {
                 {/* {fe?.action && (
                   <Button buttonSize="vbt-medium">{fe?.action}</Button>
                 )} */}
-                <a href='/help' className='link'>Tổng quan về hệ thống</a>
+                <Link className='link' to={fe?.path || '/'}>
+                  Tổng quan về hệ thống
+                </Link>
               </div>
             </div>
           )
