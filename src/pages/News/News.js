@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function AboutUs() {
+const News = () => {
   return (
     <div className='container'>
-      About Us
+      {'Tin tức'}
     </div>
   )
 }
+export default News;

@@ -4,11 +4,16 @@ import { createBrowserRouter, RouterProvider, Link, Outlet } from 'react-router-
 import HomePage from './pages/Home/HomePage';
 import AdminPage from './admin/AdminPage';
 import PageNotFound from './components/PageNotFound';
+import Header from './components/Header/Header';
+import Footer from './components/Footer';
+
 import AboutUs from './pages/About/AboutUs';
 import Help from './pages/Help/Help';
-import Footer from './components/Footer';
-import Header from './components/Header/Header';
-import Clients from './pages/Home/Clients';
+import News from './pages/News/News';
+import OperatingApp from './pages/Application/OperatingApp';
+import ConstructorApp from './pages/Application/ConstructorApp';
+
+import ContactUs from './pages/ContactUs/ContactUs';
 
 function App() {
 
@@ -41,9 +46,12 @@ function App() {
       errorElement: <PageNotFound />,
       children: [
         { index: true, element: <HomePage /> },
+        { path: "operating-app", element: <OperatingApp /> },
+        { path: "constructor-app", element: <ConstructorApp /> },
         { path: "about", element: <AboutUs /> },
         { path: "help", element: <Help /> },
-        { path: "contact", element: <Clients /> }
+        { path: "contactus", element: <ContactUs /> },
+        { path: "news", element: <News /> },
       ]
     },
     {

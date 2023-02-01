@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import './Header.scss';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../Button';
-import './Header.scss';
 
 import logofull from './../../vbdlis-logo-white.svg';
 import up_icon from '../../images/arrow-up-white.svg';
@@ -12,6 +12,29 @@ import DD_ICON2 from '../../images/data-check.svg';
 const Header = () => {
   const [active, setActive] = useState(false);
   const [show, setShow] = useState(false);
+  const ref = useRef();
+
+  const useOnClickOutside = (ref, handler) => {
+    useEffect(
+      () => {
+        const listener = (event) => {
+          if (!ref.current || ref.current.contains(event.target)) {
+            return;
+          }
+          handler(event);
+        };
+        document.addEventListener("mousedown", listener);
+        document.addEventListener("touchstart", listener);
+        return () => {
+          document.removeEventListener("mousedown", listener);
+          document.removeEventListener("touchstart", listener);
+        };
+      },
+      [ref, handler]
+    );
+  }
+
+  useOnClickOutside(ref, () => setShow(false));
 
   return (
     <header>
@@ -32,7 +55,7 @@ const Header = () => {
         </div>
         <nav className={active ? "menu open" : "menu"}>
           <ul>
-            <li className={show ? 'menu-item active' : 'menu-item'}>
+            <li ref={ref} className={show ? 'menu-item active' : 'menu-item'}>
               <Link onClick={() => setShow(show ? false : true)}>
                 Hệ thống
                 <img width={'24px'} height={'24px'} src={show ? up_icon : down_icon} alt="" />
@@ -41,15 +64,15 @@ const Header = () => {
                 <div className="dropdown-cols">
                   <div className="center">
                     <ul className="dropdown">
-                      <li className="menu-item">
-                        <Link to='/websystem'>
+                      <li className="menu-item" onClick={() => setShow(false)}>
+                        <Link to='/operating-app'>
                           <div className='dropdown-icon'>
                             <img width={'24px'} height={'24px'} src={DD_ICON1} alt="" />
                           </div>
                           Hệ thống vận hành cơ sở dữ liệu đất đai
                         </Link></li>
-                      <li className="menu-item">
-                        <Link to='/desktopapp'>
+                      <li className="menu-item" onClick={() => setShow(false)}>
+                        <Link to='/constructor-app'>
                           <div className='dropdown-icon'>
                             <img width={'24px'} height={'24px'} src={DD_ICON2} alt="" />
                           </div>
@@ -61,8 +84,8 @@ const Header = () => {
               ) : null}
             </li>
             <li className="menu-item"><Link to='help'>Hướng dẫn</Link></li>
-            <li className="menu-item"><Link to='help'>Tin tức</Link></li>
-            <li className="menu-item"><Link to='help'>Liên hệ</Link></li>
+            <li className="menu-item"><Link to='news'>Tin tức</Link></li>
+            <li className="menu-item"><Link to='contactus'>Liên hệ</Link></li>
           </ul>
           <ul>
             <li className="menu-item"><Link to='/login'>Đăng nhập</Link></li>

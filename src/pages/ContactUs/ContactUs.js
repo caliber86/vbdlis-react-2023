@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function AboutUs() {
+const ContactUs = () => {
   return (
     <div className='container'>
-      About Us
+      {'ContactUs'}
     </div>
   )
 }
+export default ContactUs;

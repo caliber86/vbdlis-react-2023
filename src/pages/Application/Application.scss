@@ -1,0 +1,56 @@
+@import './../../variables.scss';
+
+.app-page {
+  position: relative;
+
+  .app-page--banner {
+    z-index: 1;
+    height: 300px;
+    width: 100%;
+    background: transparent radial-gradient(closest-side at 36% 26%, #102257 0, #07174a 38%, #071235 65%, #00092D 100%) 0 0 no-repeat padding-box;
+
+    .container {
+      height: 100%;
+      display: flex;
+    }
+
+    h2 {
+      color: #fff;
+      margin: auto 0;
+    }
+  }
+
+  .app-page--tabs {
+    background: linear-gradient(to top,
+        $primary-light 0%,
+        $primary-light 50%,
+        $primary-dark 50%,
+        $primary-dark 100%);
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+  }
+
+  .app-page--content {
+    background-color: $primary-light;
+    min-height: 500px;
+    width: 100%;
+  }
+}
+
+.operating-app {
+
+  .app-list-card {
+    width: 100%;
+    max-width: 1248px;
+    display: grid;
+    padding: 90px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    grid-gap: 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: left;
+  }
+}
