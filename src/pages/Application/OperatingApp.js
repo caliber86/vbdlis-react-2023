@@ -59,8 +59,8 @@ const OperatingApp = () => {
                 }}
               >
                 <img width={'72px'} height={'72px'} src={ICON} alt="" />
-                <h5 className="ac-title">{item?.title}</h5>
-                <p className="ac-description">{item?.description}</p>
+                <h5 className="ac-title">{item?.title || ''}</h5>
+                <p className="ac-description">{item?.subtitle || ''}</p>
               </div>
             )
           })

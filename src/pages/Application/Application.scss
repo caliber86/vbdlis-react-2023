@@ -70,29 +70,77 @@
         margin-top: 16px;
         margin-bottom: 16px;
       }
+
+      .ac-description {
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+.constructor-app{
+  .app-list-card {
+    width: 100%;
+    max-width: 1248px;
+    display: grid;
+    padding: 80px 160px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    cursor: pointer;
+
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: left;
+
+    .app-card {
+      height: 350px;
+      background-color: white;
+      padding: 60px;
+      border-radius: 24px;
+
+      &:hover {
+        box-shadow: 0 12px 35px rgb(0 49 69 / 12%);
+      }
+
+      .ac-title {
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 24px;
+        margin-bottom: 16px;
+      }
     }
   }
 }
 
 .card-modal {
   .card-modal-header {
-    padding: 50px;
+    padding: 80px 120px 40px 120px;
     background-color: $bglightgray;
-    border-radius: 16px 16px 0 0;
+    border-radius: 48px 48px 0 0;
+
+    h1 {
+      margin-top: 24px;
+      margin-bottom: 0;
+    }
   }
 
   .card-modal-info {
-    padding: 50px;
+    padding: 48px 120px 80px 120px;;
+
+    span {
+      font-size: 18px;
+    }
 
     ul {
-      margin: 24px 0 0 0;
+      margin-top: 24px;
       padding: 0;
 
       li {
         list-style: none;
         position: relative;
-        padding-left: 24px;
-        margin: 10px 0;
+        padding-left: 28px;
+        margin: 16px 0;
 
         &::before {
           content: "";
@@ -103,6 +151,21 @@
           width: 16px;
           height: 16px;
         }
+      }
+    }
+    .button-card {
+      display: block;
+      width: 100%;
+      margin-top: 48px;
+
+      .ic-btn {
+        position: absolute;
+        margin-top: -2px;        
+      }
+      .btn-text {
+        margin-left: 32px;
+        font-size: 18px;
+        font-weight: 600;
       }
     }
   }

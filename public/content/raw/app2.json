@@ -1,0 +1,52 @@
+{
+  "app-web": [
+    {
+      "title": "Hệ thống thi công CSDL địa chính",    
+      "infoDetail": [
+        "Hỗ trợ xây dựng, chuyển đổi CSDL thuộc tính, HSQ, SĐC điện tử",
+        "Quản lý các đợt chuyển đổi, đợt thi công CSDL địa chính",
+        "Kiểm tra, đánh giá chất lượng dữ liệu (không gian, thuộc tính, HSQ); tiến hành duyệt sản phẩm",
+        "Theo dõi tiến độ dự án, khối lượng thi công"
+      ]
+    },
+    {
+      "title": "Hệ thống thi công CSDL Giá đất",    
+      "infoDetail": [
+        "Hỗ trợ xây dựng dữ liệu thuộc tính của các lớp dữ liệu giá đất",
+        "Kiểm tra, đánh giá chất lượng dữ liệu thi công"
+      ]
+    },
+    {
+      "title": "Hệ thống thi công CSDL thống kê kiểm kê",    
+      "infoDetail": [
+        "Hỗ trợ xây dựng dữ liệu thuộc tính của các lớp dữ liệu TKKK",
+        "Kiểm tra, đánh giá chất lượng dữ liệu thi công"
+      ]
+    },
+    {
+      "title": "Hệ thống thi công CSDL Quy hoạch kế hoạch sử dụng đất",    
+      "infoDetail": [
+        "Hỗ trợ xây dựng dữ liệu thuộc tính của các lớp dữ liệu Quy hoạch kế hoạch sử dụng đât",
+        "Kiểm tra, đánh giá chất lượng dữ liệu thi công"
+      ]
+    }
+  ],
+  "app-desktop": [
+    {
+      "title": "Ứng dụng Convertdata",      
+      "infoDetail": [
+        "Hỗ trợ chuyển đổi dữ liệu thuộc tính, HSQ từ vilis, thư mục xml theo đúng cấu trúc",
+        "Hỗ trợ ký số sổ địa chính điện tử hàng loạt"
+      ]
+    },
+    {
+      "title": "Các ứng dụng Desktop",      
+      "infoDetail": [
+        "LisEditor TC  - thi công dữ liệu không gian nền và chuyên đề địa chính cho nhà thầu thi công",
+        "VBDLIS TK Desktop -  thi công dữ liệu thống kê, kiểm kê các kỳ",
+        "Quy hoạch KHSDD Desktop - thi công dữ liệu quy hoạch kế hoạch sử dụng đất các kỳ",
+        "Giá đất Desktop - thi công dữ liệu giá đất theo bảng giá đất ban hành của UBND tỉnh/TP"
+      ]
+    }
+  ]
+}

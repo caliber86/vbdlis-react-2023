@@ -2,7 +2,7 @@
   "app-web": [
     {
       "title": "Phân hệ địa chính",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
+      "subtitle": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương.",
       "description": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương. Kết nối, chia sẻ dữ liệu với Cơ sở dữ liệu đất đai quốc gia, các hệ thống thông tin, cơ sở dữ liệu của các bộ, ngành, địa phương...",
       "infoDetail": [
         "Vận hành xử lý TTHC gắn liền với việc đăng ký, cập nhật, chỉnh lý biến động.",
@@ -11,67 +11,111 @@
         "Kết nối, liên thông với hệ thống Một cửa điện tử.",
         "Kết nối, liên thông với hệ thống Lệ phí trước bạ của cơ quan Thuế.",
         "Đồng bộ CSDL với hệ thống Cơ sở dữ liệu đất đai quốc gia.",
-        "Quản lý công văn, đơn thư ngăn chặn tập trung.",
-        "Hỗ trợ tích hợp đồng bộ cơ sở dữ liệu vào hệ thống vận hành."
+        "Quản lý công văn, đơn thư ngăn chặn tập trung."
       ]
     },
     {
       "title": "Phân hệ thống kê, kiểm kê đất đai",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
+      "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL thống kê, kiểm kê đất đai.",
       "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL thống kê, kiểm kê đất đai.",
       "infoDetail": [
         "Tổng hợp số liệu TKKK các cấp",
-        "Hỗ trợ biên tập, xây dựng dữ liệu TKKK cho cấp xã,",
-        "Tổng hợp khái quát bản đồ hiện trạng cho cấp huyện, tỉnh, cấp vùng và cả nước.",
+        "Hỗ trợ biên tập, xây dựng dữ liệu TKKK cho cấp xã",
+        "Tổng hợp khái quát bản đồ hiện trạng cho cấp huyện, tỉnh, cấp vùng và cả nước",
         "Quản lý hiện trạng sử dụng đất các cấp"
       ]
     },
     {
       "title": "Phân hệ quản lý giá đất",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL giá đất."
+      "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL giá đất.",
+      "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL giá đất.",
+      "infoDetail": [
+        "Quản lý lý dữ liệu khung giá đất, bảng giá đất",
+        "Quản lý dữ liệu về giá thị trường, giá đất xác định đến từng thửa đất và các hệ số điều chỉnh hàng năm",
+        "Xây dựng bảng giá tự động",
+        "Tra cứu, khai thác thông tin"
+      ]
     },
     {
       "title": "Phân hệ quản lý quy hoạch, kế hoạch sử dụng đất",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL."
+      "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL.",
+      "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL quy hoạch kế hoạch sử dụng đất.",
+      "infoDetail": [
+        "Quản lý dữ liệu về Quy hoạch, kế hoạch sử dụng đất cấp huyện, cấp tỉnh",
+        "Quản lý dữ liệu về Khu chức năng cấp huyện, cấp tỉnh",
+        "Quản lý dữ liệu về các công trình, dự án",
+        "Tra cứu, khai thác thông tin"
+      ]
     },
     {
       "title": "Phân hệ quản trị hệ thống",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Là nền tảng hỗ trợ việc quản trị hệ thống cho các phân hệ khác trong hệ sinh thái VBDLIS..."
+      "subtitle": "Là nền tảng hỗ trợ việc quản trị hệ thống cho các phân hệ khác trong hệ sinh thái VBDLIS...",
+      "description": "Phân hệ quản trị hệ thống là nền tảng hỗ trợ việc quản trị hệ thống cho các phân hệ khác trong hệ sinh thái VBDLIS đảm bảo tính thống nhất và đồng bộ giữa các phân hệ.",
+      "infoDetail": [
+        "Quản trị và phân quyền người dùng linh hoạt theo chức năng, nhiệm vụ",
+        "Sử dụng dịch vụ SSO - đăng nhập một lần với nhiều phân hệ",
+        "Công nghệ Workflow cho phép thiết lập quy trình xử lý Thủ tục hành chính động, linh hoạt với từng địa phương",
+        "Quản lý tập trung danh mục dữ liệu dùng chung",
+        "Kết nối, chia sẻ thông tin với các hệ thống khác (Một cửa điện tử, Cổng thông tin, Thuế..)"
+      ]
     },
     {
       "title": "Khai thác dữ liệu bản đồ",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất,..."
+      "subtitle": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất,...",
+      "description": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất, Thống kê kiểm kê, Giá đất. Hệ thống được tách rời khỏi các phân hệ vận hành và được cấu trúc để hỗ trợ phân tích dữ liệu; cho phép chồng xếp các lớp dữ liệu để khai thác thông tin đa chiều đáp ứng nhu cầu của người dùng."
     },
     {
       "title": "Cổng thông tin đất đai - VBDLIS Portal",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "VBDLIS Portal cung cấp thông tin đất đai cho người dân, doanh nghiệp..."
+      "subtitle": "VBDLIS Portal cung cấp thông tin đất đai cho người dân, doanh nghiệp...",
+      "description": "VBDLIS PORTAL cung cấp thông tin đất đai cho người dân, doanh nghiệp; cung cấp các dịch vụ cho các hệ thống của sở, ban ngành khác tạo nền tảng cho triển khai Chính phủ điện tử, chính quyền điện tử và đô thị thông minh.",
+      "infoDetail": [
+        "Hỗ trợ người dân, doanh nghiệp nộp hồ sơ trực tuyến qua cổng thông tin đất đai",
+        "Tra cứu tình trạng giải quyết hồ sơ đang được xử lý, nhận kết quả qua mail, SMS",
+        "Cho phép khai thác thông tin hồ sơ địa chính, quy hoạch sử dụng đất, TKKK, giá đất",
+        "Cung cấp thông tin thuộc lĩnh vực đất đai",
+        "Tiếp nhận và giải quyết kiến nghị của cá nhân, tổ chức"
+      ]
     },
     {
       "title": "Hệ thống dịch vụ công",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến..."
+      "subtitle": "VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến...",
+      "description": "Hệ thống dịch vụ công đất đai VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến; hỗ trợ cá nhân, doanh nghiệp theo dõi tình trạng hồ sơ; tiếp nhận và xử lý phản ánh kiến nghị của công dân."
     },
     {
       "title": "Cơ sở dữ liệu quốc gia",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Hệ thống đảm bảo dữ liệu luôn được cập nhật mới thường xuyên, phục vụ công tác quản lý và chia sẽ CSDL giữa các ngành ở cấp TW."
+      "subtitle": "Hệ thống đảm bảo dữ liệu luôn được cập nhật mới thường xuyên, phục vụ công tác quản lý và chia sẻ CSDL giữa các ngành ở cấp TW.",
+      "description": "Hệ thống Cơ sở dữ liệu đất đai quốc gia được đồng bộ với Hệ thống quản lý đất đai VBLIS tại các tỉnh/Tp đảm bảo dữ liệu luôn được cập nhật mới thường xuyên, phục vụ công tác quản lý và chia sẻ CSDL giữa các ngành ở cấp TW.",
+      "infoDetail": [
+        "Dữ liệu tổng hợp về địa chính",
+        "Dữ liệu hiện trạng sử dụng đất",
+        "Dữ liệu giá đất ",
+        "Dữ liệu điều tra cơ bản về đất đai"
+      ]
     }
   ],
   "app-desktop": [
     {
       "title": "VBDLIS Desktop",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Ứng dụng hỗ trợ chuyên biệt về công tác quản lý, biên tập, chỉnh lý dữ liệu không gian địa chính. Dữ liệu được lưu trữ trên Cloud đảm bảo tính kết nối, đồng bộ với hệ thống web."
+      "subtitle": "Ứng dụng hỗ trợ chuyên biệt về công tác quản lý, biên tập, chỉnh lý dữ liệu không gian địa chính. Dữ liệu được lưu trữ trên Cloud đảm bảo tính kết nối, đồng bộ với hệ thống web.",
+      "description": "Ứng dụng hỗ trợ chuyên biệt về công tác quản lý, biên tập, chỉnh lý dữ liệu không gian địa chính. Dữ liệu được lưu trữ trên Cloud đảm bảo tính kết nối, đồng bộ với hệ thống web.",
+      "infoDetail": [
+        "Hỗ trợ import dữ liệu từ nhiều định dạng như Mapinfo, Shp, CSV, TXT, DGN, CAD, WFS, GML, Geodatabase, Geojson, Đo đạc file",
+        "Chỉnh lý biến động về thửa đất theo nhiều phương pháp: Tách, gộp thửa theo diện tích, theo ranh, giao hội cạnh, tách gộp thửa kèm chỉnh ranh...",
+        "Tạo, biên tập và quản lý Sơ đồ thửa",
+        "Tạo và quản lý hồ sơ kỹ thuật: Trích lục bản đồ, kết quả đo đạc, Ranh giới mốc giới, Tạo trích đo địa chính...",
+        "Nhận dạng giấy chứng nhận bằng công nghệ OCR"
+      ]
     },
     {
       "title": "LISEditor VPDK",
-      "subtitle": "Vận hành cơ sở dữ liệu đất đai",
-      "description": "Ứng dụng hỗ trợ kiểm tra, tích hợp gói sản phẩm của 4 phân hệ Địa chính, Giá đất, TKKK, QHKHSD vào hệ thống vận hành của VPDK và Sở TNMT."
+      "subtitle": "Ứng dụng hỗ trợ kiểm tra, tích hợp gói sản phẩm của 4 phân hệ Địa chính, Giá đất, TKKK, QHKHSD vào hệ thống vận hành của VPDK và Sở TNMT.",
+      "description": "Ứng dụng hỗ trợ kiểm tra, tích hợp gói sản phẩm của 4 phân hệ Địa chính, Giá đất, TKKK, QHKHSD vào hệ thống vận hành của VPDK và Sở TNMT.",
+      "infoDetail": [
+        "Hỗ trợ các công cụ biên tập dữ liệu địa chính",
+        "Hỗ trợ công cụ kiểm lỗi về cấu trúc, thuộc tính, không gian, kiểm tra cấu trúc gói sản phẩm giao nộp",
+        "Tích hợp gói sản phẩm lên hệ thống vận hành (web) để tiến hành kiểm tra, đối soát và đồng bộ vào vận hành",
+        "Tải dữ liệu đã vận hành bao gồm Thuộc tính, Không gian, HSQ, SĐC phụ vụ công tác quản lý, lưu trữ tại đơn vị"
+      ]
     }
   ]
 }
