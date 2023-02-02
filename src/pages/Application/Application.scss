@@ -47,13 +47,12 @@
     padding: 80px 0;
     justify-content: space-between;
     flex-wrap: nowrap;
+    cursor: pointer;
 
     grid-gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     text-align: left;
-
-    
 
     .app-card {
       height: 350px;
@@ -70,6 +69,40 @@
         font-weight: 600;
         margin-top: 16px;
         margin-bottom: 16px;
+      }
+    }
+  }
+}
+
+.card-modal {
+  .card-modal-header {
+    padding: 50px;
+    background-color: $bglightgray;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .card-modal-info {
+    padding: 50px;
+
+    ul {
+      margin: 24px 0 0 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        position: relative;
+        padding-left: 24px;
+        margin: 10px 0;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 2px;
+          background-image: url(../../images/checkmark.svg);
+          width: 16px;
+          height: 16px;
+        }
       }
     }
   }

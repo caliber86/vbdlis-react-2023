@@ -1,9 +1,10 @@
 import './Header.scss';
 import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Button from '../Button';
 
-import logofull from './../../vbdlis-logo-white.svg';
+import logoDark from './../../vbdlis-logo-white.svg';
+import logoLight from './../../vbdlis-logo-white.svg';
 import up_icon from '../../images/arrow-up-white.svg';
 import down_icon from '../../images/arrow-down-white.svg';
 import DD_ICON1 from '../../images/setting.svg';
@@ -12,7 +13,19 @@ import DD_ICON2 from '../../images/data-check.svg';
 const Header = () => {
   const [active, setActive] = useState(false);
   const [show, setShow] = useState(false);
+  const [theme, setTheme] = useState('');
+
   const ref = useRef();
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === '/help') {
+      setTheme('light-theme')
+    }
+    else {
+      setTheme('')
+    }
+  }, [location.pathname]);
 
   const useOnClickOutside = (ref, handler) => {
     useEffect(
@@ -37,10 +50,12 @@ const Header = () => {
   useOnClickOutside(ref, () => setShow(false));
 
   return (
-    <header>
+    <header className={`default-theme ${theme}`}>
       <div className="header-content container">
         <div id="logo" className="brand">
-          <Link to="/"><img src={logofull} alt="" /></Link>
+          <Link to="/">
+            <img src={theme === 'light-theme' ? logoLight : logoDark} alt="" />
+          </Link>
         </div>
 
         <div
