@@ -1,0 +1,52 @@
+@import './../../variables.scss';
+
+.tabs-control {
+
+  .tabs-header-wrap {
+    display: flex;
+    padding: 0.5rem;
+    background-color: $white;
+    border-radius: 16rem;
+    width: fit-content;
+    margin: 0 auto;
+
+    .tab-item {
+      background-color: $white;
+      border-radius: 16rem;
+      padding: 0.5rem;
+      cursor: pointer;
+      border: none;
+      transition: all .3s;
+
+      &:first-child {
+        margin-right: 4px;
+      }
+
+      &:hover {
+        background-color: $bglightgray;
+
+        span {
+          opacity: 1;
+        }
+      }
+
+      &.active {
+        background-color: $orange;
+
+        span {
+          color: white;
+          opacity: 1;
+        }
+      }
+    }
+
+    button {
+      span {
+        font-weight: 500;
+        opacity: 0.8;
+        margin: 0;
+        padding: 0.25rem 0.75rem;
+      }
+    }
+  }
+}

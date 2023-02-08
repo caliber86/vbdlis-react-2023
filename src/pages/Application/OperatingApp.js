@@ -5,6 +5,7 @@ import DataHelper from '../../helper/data.helper';
 import Modal from '../../components/Modal/Modal';
 import ICON from '../../images/ic-app.png';
 import CardModal from './CardModal';
+import Tabs from '../../components/Tabs/Tabs';
 
 const TABS = [
   {
@@ -81,22 +82,19 @@ const OperatingApp = () => {
 
         <div className='app-page--tabs'>
           <div className='container'>
-            {TABS.map((tab) => (
-              <Button
-                buttonStyle={current?.id === tab?.id ? 'vbt-blue-solid' : 'vbt-white'}
-                onClick={(e) => {
-                  if (current?.id === tab?.id) {
-                    e.stopPropagation();
-                  }
-                  else {
-                    const _curr = data.find((d) => d.id === tab.id)
-                    setCurrent(_curr)
-                  }
-                }}
-              >
-                {tab.name}
-              </Button>
-            ))}
+            <Tabs
+              menu={TABS}
+              selected={current?.id}
+              onSelect={(val) => {
+                if (current?.id === val) {
+                  return;
+                }
+                else {
+                  const _curr = data.find((d) => d.id === val)
+                  setCurrent(_curr)
+                }
+              }}
+            />
           </div>
         </div>
 
