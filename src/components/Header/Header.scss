@@ -135,8 +135,7 @@ header {
             display: flex;
             align-items: center;
             color: $grey-400;
-            font-size: 16px;
-            font-weight: 500;
+            font-size: 17px;
             transition: color .6s;
 
             &.active {
@@ -185,7 +184,7 @@ header {
                 a {
                   display: flex;
                   align-items: center;
-                  font-size: 16px;
+                  font-size: 17px;
                   font-weight: 600;
                   color: $grey-800;
 

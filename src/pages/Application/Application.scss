@@ -5,30 +5,66 @@
 
   .app-page--banner {
     z-index: 1;
-    height: 300px;
+    height: 100%;
     width: 100%;
-    background: transparent radial-gradient(closest-side at 36% 26%, #102257 0, #07174a 38%, #071235 65%, #00092D 100%) 0 0 no-repeat padding-box;
+    background: $grey-900;
 
     .container {
       height: 100%;
       display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      padding-top: 60px;
+
+      .app-hero-button {
+        margin-bottom: 80px;
+        a {
+          margin: 0 8px;
+        }
+        .ic-btn {
+          position: absolute;
+          margin-top: -2px;
+        }
+        .btn-text {
+          margin-left: 32px;
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+    }
+
+    h4 {
+      font-size: 28px;
+      color: $white;
+      margin-bottom: 8px;
+      margin-top: 40px;
     }
 
     h2 {
-      color: #fff;
-      margin: auto 0;
+      font-size: 52px;
+      color: $white;
+      margin-bottom: 40px;
     }
   }
 
   .app-page--tabs {
-    background: linear-gradient(to top,
-        $primary-light 0%,
-        $primary-light 50%,
-        $primary-dark 50%,
-        $primary-dark 100%);
+    // background: linear-gradient(to top,
+    //     $bglightgray 0%,
+    //     $bglightgray 50%,
+    //     $grey-800 50%,
+    //     $grey-800 100%);
+    background-color: $bglightgray;
     z-index: 2;
     text-align: center;
     width: 100%;
+    .container {
+      padding-top: 80px;
+      h2 {
+        margin-bottom: 40px;
+      }
+    }
   }
 
   .app-page--content {
@@ -49,7 +85,7 @@
     flex-wrap: nowrap;
     cursor: pointer;
 
-    grid-gap: 40px;
+    grid-gap: 24px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     text-align: left;
@@ -59,9 +95,13 @@
       background-color: white;
       padding: 40px;
       border-radius: 24px;
+      transition: box-shadow 0.15s ease, transform 0.15s ease;
+      // box-shadow: 0 100px 80px rgb(153 164 184 / 4%), 0 41.7776px 33.4221px rgb(153 164 184 / 6%), 0 22.3363px 17.869px rgb(153 164 184 / 7%), 0 12.5216px 10.0172px rgb(153 164 184 / 8%), 0 6.6501px 5.32008px rgb(153 164 184 / 10%), 0 2.76726px 2.21381px rgb(153 164 184 / 14%);
 
       &:hover {
-        box-shadow: 0 12px 35px rgb(0 49 69 / 12%);
+        transform: translateY(-8px);
+        box-shadow: 0 100px 80px rgb(153 164 184 / 14%), 0 42px 32px rgb(153 164 184 / 16%), 0 22px 18px rgb(153 164 184 / 17%), 0 12px 10px rgb(153 164 184 / 18%), 0 6px 6px rgb(153 164 184 / 20%), 0 2px 2px rgb(153 164 184 / 14%);
+        // box-shadow: 0 12px 35px rgb(0 49 69 / 12%);
       }
 
       .ac-title {
@@ -133,7 +173,7 @@
     }
 
     ul {
-      margin-top: 24px;
+      margin-top: 32px;
       padding: 0;
 
       li {
@@ -146,7 +186,7 @@
           content: "";
           position: absolute;
           left: 0;
-          top: 2px;
+          top: 3px;
           background-image: url(../../images/checkmark.svg);
           width: 16px;
           height: 16px;
