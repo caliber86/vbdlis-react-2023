@@ -74,6 +74,25 @@
   }
 }
 
+@media (max-width: 425px) {
+  .modal-popup {    
+    .modal {
+      width: 100%;
+      height: 100% !important;
+      margin: 40px auto auto auto !important;
+      border-radius: 48px 48px 0 0 !important;
+
+      .card-modal-header {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      .card-modal-info {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+    }
+  }
+}
 
 
 

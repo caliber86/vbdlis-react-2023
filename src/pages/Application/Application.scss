@@ -210,3 +210,54 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  .app-page {
+    .app-hero-button {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 40px !important;
+      a {
+        margin-bottom: 16px !important;
+      }
+    }
+    .app-page--banner {
+      .app-hero-image {
+        width: 100%;
+      }
+    }
+    .app-page--tabs {
+      display: flex;
+      flex-direction: column;
+      .tabs-header-wrap {
+        width: 100%;
+      }
+    }
+    .app-list-card {
+      display: flex;
+      flex-direction: column;
+      .app-card {
+        height: 100%;
+      }
+    }
+
+    .modal-popup {
+      .card-modal-header {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+      }
+      .card-modal-info {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+      }
+    }
+  }
+  .constructor-app {
+    .app-list-card {
+      padding: 80px 0;
+      .app-card {
+        padding: 40px;
+      }
+    }
+  }
+}

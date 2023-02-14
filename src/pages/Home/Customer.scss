@@ -9,3 +9,10 @@
 h1.title {
     margin-bottom: 80px;
 }
+
+@media (max-width: 425px) {
+    .customer {
+        display: flex;
+        flex-direction: column;
+    }
+  }
