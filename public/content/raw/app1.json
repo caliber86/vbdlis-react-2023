@@ -1,6 +1,7 @@
 {
   "app-web": [
     {
+      "image": "./../content/img/ic-operating-app-1.svg",
       "title": "Phân hệ địa chính",
       "subtitle": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương.",
       "description": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương. Kết nối, chia sẻ dữ liệu với Cơ sở dữ liệu đất đai quốc gia, các hệ thống thông tin, cơ sở dữ liệu của các bộ, ngành, địa phương...",

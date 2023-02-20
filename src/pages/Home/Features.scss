@@ -34,30 +34,25 @@ section.features {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     text-align: center;
-  }
 
-  .aaa {
-    color: red;
-  }
-
-  .fe-title {
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 600;
-  }
-
-  .features-icon {
-    min-height: 48px;
-    margin-bottom: 20px;
-    display: grid;
-  }
-
-  .fe-text {
-    font-size: 18px;
-    line-height: 26px;
-    margin: 20px 0;
-    font-weight: 400;
-    color: $grey-800;
+    img {
+      // width: 120px;
+      border-radius: 50%;
+      box-shadow: 8px 8px 16px rgb(5 12 56 / 15%);
+    }
+    .fe-title {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 600;
+      margin: 20px 0;
+    }
+    .fe-text {
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 20px;
+      font-weight: 400;
+      color: $grey-800;
+    }
   }
 }
 
