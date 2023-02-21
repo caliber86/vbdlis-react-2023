@@ -1,6 +1,7 @@
 {
   "app-web": [
     {
+      "image": "./../content/img/ic-constructor-app-1.svg",
       "title": "Hệ thống thi công CSDL địa chính",    
       "infoDetail": [
         "Hỗ trợ xây dựng, chuyển đổi CSDL thuộc tính, HSQ, SĐC điện tử",
@@ -10,6 +11,7 @@
       ]
     },
     {
+      "image": "./../content/img/ic-constructor-app-2.svg",
       "title": "Hệ thống thi công CSDL Giá đất",    
       "infoDetail": [
         "Hỗ trợ xây dựng dữ liệu thuộc tính của các lớp dữ liệu giá đất",
@@ -17,6 +19,7 @@
       ]
     },
     {
+      "image": "./../content/img/ic-constructor-app-3.svg",
       "title": "Hệ thống thi công CSDL thống kê kiểm kê",    
       "infoDetail": [
         "Hỗ trợ xây dựng dữ liệu thuộc tính của các lớp dữ liệu TKKK",
@@ -24,6 +27,7 @@
       ]
     },
     {
+      "image": "./../content/img/ic-constructor-app-4.svg",
       "title": "Hệ thống thi công CSDL Quy hoạch kế hoạch sử dụng đất",    
       "infoDetail": [
         "Hỗ trợ xây dựng dữ liệu thuộc tính của các lớp dữ liệu Quy hoạch kế hoạch sử dụng đât",
@@ -33,6 +37,7 @@
   ],
   "app-desktop": [
     {
+      "image": "./../content/img/ic-constructor-app-5.svg",
       "title": "Ứng dụng Convertdata",      
       "infoDetail": [
         "Hỗ trợ chuyển đổi dữ liệu thuộc tính, HSQ từ vilis, thư mục xml theo đúng cấu trúc",
@@ -40,6 +45,7 @@
       ]
     },
     {
+      "image": "./../content/img/ic-constructor-app-6.svg",
       "title": "Các ứng dụng Desktop",      
       "infoDetail": [
         "LisEditor TC  - thi công dữ liệu không gian nền và chuyên đề địa chính cho nhà thầu thi công",

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Button from '../../components/Button';
 import DataHelper from '../../helper/data.helper';
 import Modal from '../../components/Modal/Modal';
-import ICON from '../../images/ic-operating-app-1.svg';
+import IconDefault from '../../images/ic-app-default.svg';
 import CardModal from './CardModal';
 import Tabs from '../../components/Tabs/Tabs';
 import { Link } from 'react-router-dom';
@@ -60,7 +60,7 @@ const OperatingApp = () => {
                   setDataModal(item)
                 }}
               >
-                <img width={'80px'} height={'80px'} src={ICON} alt="" />
+                <img width={'80px'} height={'80px'} src={item?.image || IconDefault} alt="" />
                 <h5 className="ac-title">{item?.title || ''}</h5>
                 <p className="ac-description">{item?.subtitle || ''}</p>
               </div>
@@ -77,7 +77,7 @@ const OperatingApp = () => {
 
         <div className='app-page--banner'>
           <div className='container'>
-            <img width={'80px'} height={'80px'} src={ICON} alt="" />
+            <img width={'80px'} height={'80px'} src={IconDefault} alt="" />
             <h4>{'Hệ thống'}</h4>
             <h2>{'Vận hành cơ sở dữ liệu đất đai'}</h2>
             <div className='app-hero-button'>
