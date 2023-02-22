@@ -1,0 +1,45 @@
+@import './../../variables.scss';
+
+.cta {
+    position: relative;
+    margin-bottom: -200px;
+    .container {
+        .cta-card {
+            display: flex;
+            justify-content: space-between;
+            justify-content: flex-start;
+            height: auto;
+            max-height: 450px;
+            background-color: $blue;
+            border-radius: 48px;
+            padding: 80px;
+            
+            .card-content {
+                width: 50%;
+                position: absolute;
+                color: $white;
+                max-width: 450px;
+                z-index: 9999;
+
+                h1 {
+                    margin-bottom: 16px;
+                }
+
+                .card-description {
+                    font-size: 18px;
+                    margin-bottom: 16px;
+                }
+
+                button {
+                    margin-top: 16px;
+                }
+            }
+
+            img {
+                position: relative;
+                right: auto;
+                width: 100%;
+            }
+        }
+    }
+}

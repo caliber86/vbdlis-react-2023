@@ -4,6 +4,7 @@ import Customer from './Customer';
 import Features from './Features';
 import Hero from './Hero';
 import OverView from './OverView';
+import Cta from './Cta'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <OverView />
       <Features />
       <Customer />
+      <Cta />
     </div>
   )
 }

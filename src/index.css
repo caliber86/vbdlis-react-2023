@@ -108,12 +108,11 @@ h6 {
 p {
   font-size: 1rem;
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 span {
   font-size: 17px;
-  font-weight: 500;
   margin-bottom: 5px;
 }
 

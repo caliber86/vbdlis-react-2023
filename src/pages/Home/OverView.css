@@ -85,7 +85,6 @@ COLOR
 .overview .section-content .product-highlight .service-heading-text {
   font-size: 18px;
   line-height: 26px;
-  font-weight: 400;
   color: #050C38;
   margin: 20px 0 20px 0;
 }
@@ -127,6 +126,10 @@ COLOR
   #overview .container .product-img {
     width: 100%;
     max-width: 100%;
+  }
+  #overview .container .title {
+    margin-right: auto;
+    margin-left: auto;
   }
   #overview .container .product-highlight {
     max-width: 100%;

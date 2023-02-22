@@ -9,8 +9,7 @@
   margin: 30px 0;
 }
 .MarqueeContent:hover {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 .MarqueeContent::after {
   position: absolute;

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-
 import './Customer.scss';
 import DataHelper, { isEmpty } from '../../helper/data.helper';
 import TalkBox from '../../components/TalkBox/TalkBox';

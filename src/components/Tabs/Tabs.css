@@ -1,0 +1,45 @@
+/**
+COLOR
+*/
+.tabs-control .tabs-header-wrap {
+  display: flex;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 16rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+.tabs-control .tabs-header-wrap .tab-item {
+  background-color: #fff;
+  width: 250px;
+  border-radius: 16rem;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  transition: 0.25s ease-out;
+}
+.tabs-control .tabs-header-wrap .tab-item:first-child {
+  margin-right: 4px;
+}
+.tabs-control .tabs-header-wrap .tab-item:hover {
+  background-color: #f5f6fa;
+}
+.tabs-control .tabs-header-wrap .tab-item:hover span {
+  opacity: 1;
+}
+.tabs-control .tabs-header-wrap .tab-item.active {
+  background-color: #0086ff;
+}
+.tabs-control .tabs-header-wrap .tab-item.active span {
+  color: white;
+  opacity: 1;
+}
+.tabs-control .tabs-header-wrap button span {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #050C38;
+  opacity: 0.9;
+  margin: 0;
+}/*# sourceMappingURL=Tabs.css.map */
