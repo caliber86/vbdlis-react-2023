@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import Button from '../Button';
 
 import logoDark from './../../vbdlis-logo-white.svg';
-import logoLight from './../../vbdlis-logo-white.svg';
+import logoLight from './../../vbdlis-logo-full.svg';
 import up_icon from '../../images/arrow-up-white.svg';
 import down_icon from '../../images/arrow-down-white.svg';
 import DD_ICON1 from '../../images/setting.svg';
@@ -102,6 +102,8 @@ const Header = () => {
             <li className="menu-item"><Link to='news'>Tin tức</Link></li>
             <li className="menu-item"><Link to='contactus'>Liên hệ</Link></li>
           </ul>
+        </nav>
+        <nav className='menu-right'>
           <ul>
             <li className="menu-item"><Link to='/login'>Đăng nhập</Link></li>
             <li className="menu-item"><Link to='/register' className="redBtn"><Button buttonSize="vbt-medium" buttonStyle="vbt-blue-solid">Đăng ký</Button></Link></li>

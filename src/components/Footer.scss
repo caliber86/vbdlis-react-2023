@@ -3,7 +3,19 @@
 .footer {
     background-color: $grey-800;
     padding-bottom: 0;
-    padding-top: 200px;
+
+    .flare {
+        position: absolute;
+        background-color: $blue;
+        width: 29vw;
+        height: 29vw;
+        left: 25%;
+        // bottom: 0;
+        border-radius: 50%;
+        filter: blur(29vw * 0.28);
+        margin: calc(-0.5*29vw) 0 0 calc(-0.5*29vw);
+        // z-index: -1;
+    }
 
     .container {
         .footer-top {
@@ -40,7 +52,7 @@
                     .footer-title {
                         font-size: 18px;
                         font-weight: 600;
-                        color: $grey-400;
+                        color: $white;
                         margin-bottom: 24px;
                     }
                     a {
@@ -60,8 +72,8 @@
             justify-content: space-between;
             align-items: center;
             border-top: 1px solid $grey-500;
-            margin-top: 40px;
-            padding: 40px 0;
+            margin-top: 48px;
+            padding: 48px 0;
 
             .left-footer {
                 display: flex;
@@ -73,11 +85,11 @@
                     margin: 0;
                 }
                 .dot {
-                    font-size: 18px;
-                    line-height: 18px;
+                    font-size: 16px;
+                    line-height: 16px;
                     font-weight: 600;
                     color: $grey-400;
-                    margin: 0 20px;
+                    margin: 0 16px;
                 }
                 a {
                     color: $grey-400;

@@ -7,6 +7,7 @@ import IconDefault from '../../images/ic-app-default.svg';
 import CardModal from './CardModal';
 import Tabs from '../../components/Tabs/Tabs';
 import { Link } from 'react-router-dom';
+import Cta from '../Home/Cta';
 
 const TABS = [
   {
@@ -77,9 +78,10 @@ const OperatingApp = () => {
 
         <div className='app-page--banner'>
           <div className='container'>
-            <img width={'80px'} height={'80px'} src={IconDefault} alt="" />
-            <h4>{'Hệ thống'}</h4>
-            <h2>{'Vận hành cơ sở dữ liệu đất đai'}</h2>
+            {/* <img width={'80px'} height={'80px'} src={IconDefault} alt="" /> */}
+            {/* <h4>{'Hệ thống'}</h4> */}
+            <h1>{'Hệ thống vận hành cơ sở dữ liệu đất đai'}</h1>
+            <p>Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai</p>
             <div className='app-hero-button'>
               <Link to="" spy={true} smooth={true} duration={500} >                
                 <Button buttonStyle="vbt-blue-solid" buttonSize="vbt-larger">
@@ -126,6 +128,8 @@ const OperatingApp = () => {
           </div>
         </div>
 
+        {Cta()}
+        
       </div>
 
       {isOpen && <Modal setIsOpen={setIsOpen}> <CardModal className={'cardModal'} data={dataModal} /> </Modal>}

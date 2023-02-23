@@ -42,10 +42,18 @@
       margin-top: 40px;
     }
 
-    h2 {
-      font-size: 52px;
+    h1 {
+      font-size: 64px;
       color: $white;
-      margin-bottom: 40px;
+      margin: 0 auto 24px auto;
+      max-width: 800px;
+    }
+
+    p {
+      font-size: 20px;
+      color: $grey-400;
+      margin: 0 auto 48px auto;
+      max-width: 480px;     
     }
   }
 
@@ -239,6 +247,9 @@
       }
     }
     .app-page--banner {
+      h1 {
+        font-size: 48px;
+      }
       .app-hero-image {
         width: 100%;
       }

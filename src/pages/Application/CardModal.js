@@ -1,5 +1,5 @@
 import React from 'react';
-import ICON from '../../images/ic-app.png';
+import IconDefault from '../../images/ic-app-default.svg';
 import Button from '../../components/Button';
 import { Link } from 'react-router-dom';
 const CardModal = ({ data, className }) => {
@@ -7,7 +7,7 @@ const CardModal = ({ data, className }) => {
   return (
     <div className={`card-modal ${className}`}>
       <div className='card-modal-header'>
-        <img width={'80px'} height={'80px'} src={ICON} alt="" />
+        <img width={'80px'} height={'80px'} src={data?.image || IconDefault} alt="" />
         <h1>{data?.title || ''}</h1>
       </div>
       <div className='card-modal-info'>

@@ -7,7 +7,7 @@ export default function Cta() {
     return (
       <section id={'cta'} className={'cta'}>
         <div className='container'>
-            <div className='cta-card'>
+            <div className='cta-card' style={{backgroundImage: 'url(./../content/img/vbdlis-cta-bg.svg)'}}>
                 <div className='card-content'>
                     <h1 className='card-title'>Bắt đầu thử nghiệm với VBDLis</h1>
                     <div className='card-description'>Chúng tôi sẵn sàng gặp gỡ trực tiếp để tư vấn và mong muốn có cơ hội được hợp tác cùng Doanh nghiệp của bạn</div>
@@ -15,7 +15,6 @@ export default function Cta() {
                         <Button className='btn-cta' buttonStyle="vbt-white" buttonSize="vbt-larger">Đăng ký</Button>
                     </Link>
                 </div>
-                <img className='cta-image' src={'./../content/img/vbdlis-cta-bg.svg'}></img>
             </div>
         </div>
       </section>

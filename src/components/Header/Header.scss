@@ -1,7 +1,25 @@
 @import './../../variables.scss';
 
 header.light-theme {
-  background-color: RED;
+  background-color: $white;
+  border-bottom: 1px solid $bglightgray;
+  nav {
+    ul {
+      .menu-item {
+        a {
+          color: $grey-800 !important;
+
+          &.active {
+            color: $blue;
+          }
+
+          &:hover {
+            color: $blue !important;
+          }
+        }
+      }
+    }
+  }
 }
 
 header {
@@ -13,7 +31,11 @@ header {
   .header-content {
     display: grid;
     align-content: center;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    .menu-right {
+      justify-content: flex-end;
+    }
 
     &>* {
       align-self: center;
@@ -112,7 +134,7 @@ header {
 
     nav {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
 
       ul {
@@ -125,7 +147,7 @@ header {
           margin: 0 1rem;
           cursor: default;
 
-          &.active {
+          &:active {
             a {
               color: $white;
             }
@@ -138,7 +160,7 @@ header {
             font-size: 17px;
             transition: color .6s;
 
-            &.active {
+            &:active {
               color: $white;
             }
 
@@ -177,7 +199,7 @@ header {
               li {
                 list-style: none;
                 line-height: normal;
-                padding: 20px;
+                padding: 24px;
                 margin: 0;
                 cursor: pointer;
 

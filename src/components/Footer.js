@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <section id={'footer'} className={'footer'}>
+      {/* <div className="flare"></div> */}
       <div className='container'>
         <div className='footer-top'>
           <div className='left-footer'>

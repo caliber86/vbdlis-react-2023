@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="container">
           <div className="home-hero-left">
             <h1>{data?.title}</h1>
-            <h2>{data?.description}</h2>
+            <p>{data?.description}</p>
             <div className='home-hero-button'>
               <Link to="" spy={true} smooth={true} duration={500} >
                 {/* <Button buttonStyle="vbt-blue-solid" buttonSize="vbt-larger">Video demo</Button> */}
