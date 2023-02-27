@@ -1,4 +1,5 @@
 import './App.scss';
+import { useEffect, useState } from 'react';
 import { createBrowserRouter, RouterProvider, Link, Outlet } from 'react-router-dom';
 
 import HomePage from './pages/Home/HomePage';
@@ -14,15 +15,28 @@ import OperatingApp from './pages/Application/OperatingApp';
 import ConstructorApp from './pages/Application/ConstructorApp';
 
 import ContactUs from './pages/ContactUs/ContactUs';
+import ScrollToTop from './components/ScrollToTop';
+import useWindownSize from './components/Base/useWindownSize';
 
 function App() {
+  const [viewMode, setViewMode] = useState();
+  const size = useWindownSize();
+
+  useEffect(() => {
+    if (size?.width <= 425) {
+      setViewMode('mobile-mode')
+    }
+    else {
+      setViewMode('')
+    }
+  }, [size?.width]);
 
   const Main = () => (
-    <>
+    <ScrollToTop>
       <Header />
       <Outlet />
       <Footer />
-    </>
+    </ScrollToTop>
   );
 
   const Admin = () => (
@@ -43,7 +57,7 @@ function App() {
     {
       path: "/",
       element: <Main />,
-      errorElement: <PageNotFound />,
+      // errorElement: <PageNotFound />,
       children: [
         { index: true, element: <HomePage /> },
         { path: "operating-app", element: <OperatingApp /> },
@@ -65,7 +79,7 @@ function App() {
   ]);
 
   return (
-    <div className="VbdLisApp">
+    <div className={`VbdLisApp ${viewMode}`}>
       <RouterProvider router={router} />
     </div>
   );

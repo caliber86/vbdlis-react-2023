@@ -2,6 +2,7 @@ import './Header.scss';
 import React, { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Button from '../Button';
+import { Animated } from 'react-animated-css';
 
 import logoDark from './../../vbdlis-logo-white.svg';
 import logoLight from './../../vbdlis-logo-full.svg';
@@ -11,7 +12,7 @@ import DD_ICON1 from '../../images/setting.svg';
 import DD_ICON2 from '../../images/data-check.svg';
 
 const Header = () => {
-  const [active, setActive] = useState(false);
+  const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [theme, setTheme] = useState('');
 
@@ -20,7 +21,7 @@ const Header = () => {
 
   useEffect(() => {
     if (location.pathname === '/help') {
-      setTheme('light-theme')
+      setTheme('light-theme');
     }
     else {
       setTheme('')
@@ -49,44 +50,28 @@ const Header = () => {
 
   useOnClickOutside(ref, () => setShow(false));
 
-  return (
-    <header className={`default-theme ${theme}`}>
-      <div className="header-content container">
-        <div id="logo" className="brand">
-          <Link to="/">
-            <img src={theme === 'light-theme' ? logoLight : logoDark} alt="" />
-          </Link>
-        </div>
-
-        <div
-          onClick={() => setActive(active ? false : true)}
-          className={active ? "menu-toggle close" : "menu-toggle"}>
-          <div className="menu-icon">
-            <span className="bar top" />
-            <span className="bar center" />
-            <span className="bar bottom" />
-            {/* <span className="bar-text">menu</span> */}
-          </div>
-        </div>
-        <nav className={active ? "menu open" : "menu"}>
+  const renderMemu = () => {
+    return (
+      <>
+        <nav className={mobile ? "menu open" : "menu"}>
           <ul>
-            <li ref={ref} className={show ? 'menu-item active' : 'menu-item'}>
+            <li ref={ref} className={show ? `${getClassNameMenu('/sys-app')} menu-with-dropdown` : `${getClassNameMenu('/sys-app')}`}>
               <Link onClick={() => setShow(show ? false : true)}>
                 Hệ thống
                 <img width={'24px'} height={'24px'} src={show ? up_icon : down_icon} alt="" />
               </Link>
-              {show ? (
+              {show || mobile ? (
                 <div className="dropdown-cols">
                   <div className="center">
                     <ul className="dropdown">
-                      <li className="menu-item" onClick={() => setShow(false)}>
+                      <li className={getClassNameMenu('/operating-app')} onClick={() => setShow(false)}>
                         <Link to='/operating-app'>
                           <div className='dropdown-icon'>
                             <img width={'24px'} height={'24px'} src={DD_ICON1} alt="" />
                           </div>
                           Hệ thống vận hành cơ sở dữ liệu đất đai
                         </Link></li>
-                      <li className="menu-item" onClick={() => setShow(false)}>
+                      <li className={getClassNameMenu('/constructor-app')} onClick={() => setShow(false)}>
                         <Link to='/constructor-app'>
                           <div className='dropdown-icon'>
                             <img width={'24px'} height={'24px'} src={DD_ICON2} alt="" />
@@ -98,19 +83,69 @@ const Header = () => {
                 </div>
               ) : null}
             </li>
-            <li className="menu-item"><Link to='help'>Hướng dẫn</Link></li>
-            <li className="menu-item"><Link to='news'>Tin tức</Link></li>
-            <li className="menu-item"><Link to='contactus'>Liên hệ</Link></li>
+            <li className={getClassNameMenu('/help')}><Link to='/help'>Hướng dẫn</Link></li>
+            <li className={getClassNameMenu('/news')}><Link to='/news'>Tin tức</Link></li>
+            <li className={getClassNameMenu('/contactus')}><Link to='/contactus'>Liên hệ</Link></li>
           </ul>
         </nav>
-        <nav className='menu-right'>
+        <nav className={mobile ? "menu menu-right open" : "menu menu-right"}>
           <ul>
-            <li className="menu-item"><Link to='/login'>Đăng nhập</Link></li>
-            <li className="menu-item"><Link to='/register' className="redBtn"><Button buttonSize="vbt-medium" buttonStyle="vbt-blue-solid">Đăng ký</Button></Link></li>
+            <li className={getClassNameMenu('/login')}><Link to='/login'>Đăng nhập</Link></li>
+            <li className={getClassNameMenu('/register')}><Link to='/register' className="redBtn"><Button buttonSize="vbt-medium" buttonStyle="vbt-blue-solid">Đăng ký</Button></Link></li>
           </ul>
         </nav>
+      </>
+    )
+  }
+
+  const getClassNameMenu = (path) => {
+    let string = '';
+    if ((path === '/sys-app' && location?.pathname === '/operating-app') || (path === '/sys-app' && location?.pathname === '/constructor-app')) {
+      string = 'menu-item active';
+    }
+    else {
+      if (path === location?.pathname) {
+        string = 'menu-item active'
+      }
+      else {
+        string = 'menu-item'
+      }
+    }
+    return string;
+  }
+
+  return (
+    <header className={`default-theme ${theme}`}>
+      <div className="header-content container">
+        <div id="logo" className="brand">
+          <Link to="/">
+            <img src={theme === 'light-theme' ? logoLight : logoDark} alt="" />
+          </Link>
+        </div>
+
+        <div
+          onClick={() => setMobile(mobile ? false : true)}
+          className={mobile ? "menu-toggle close" : "menu-toggle"}>
+          <div className="menu-icon">
+            <span className="bar top" />
+            <span className="bar center" />
+            <span className="bar bottom" />
+          </div>
+        </div>
+        {
+          !mobile ? renderMemu() : <Animated
+            className='drawer-menu'
+            animationIn={'slideInRight'}
+            animationOut={'slideOutRight'}
+            animationInDuration={250}
+            animationOutDuration={250}
+            isVisible
+          >
+            {renderMemu()}
+          </Animated>
+        }
       </div>
-    </header >
+    </header>
   )
 }
 export default Header;
