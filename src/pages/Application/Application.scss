@@ -1,13 +1,27 @@
 @import './../../variables.scss';
 
 .app-page {
-  position: relative;
+  // position: relative;
 
   .app-page--banner {
     z-index: 1;
     height: 100%;
     width: 100%;
     background: $grey-900;
+    position: relative;
+
+    .flare {
+      position: absolute;
+      background-color: $blue-400;
+      width: 29vw;
+      height: 29vw;
+      left: 50%;
+      top: 50%;
+      border-radius: 50%;
+      filter: blur(29vw * 0.28);
+      margin: calc(-0.5*29vw) 0 0 calc(-0.5*29vw);
+      z-index: -1;
+    }
 
     .container {
       height: 100%;

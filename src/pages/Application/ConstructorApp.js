@@ -77,6 +77,7 @@ const ConstructorApp = () => {
       <div className='app-page constructor-app'>
 
         <div className='app-page--banner'>
+          <div className="flare"></div>
           <div className='container'>
             {/* <img className='ic-banner-app' width={'80px'} height={'80px'} src={ICON} alt="" /> */}
             {/* <h4>{'Hệ thống'}</h4> */}
@@ -99,7 +100,7 @@ const ConstructorApp = () => {
                 </Button>            
               </Link>             
             </div>
-            <img className='app-hero-image' width={'1200px'} height={'auto'} src={'./../content/img/Hero Image-p-2000.webp'} alt="aaa" />
+            <img className='app-hero-image' width={'1200px'} height={'auto'} src={'./../content/img/app-hero-images.png'} alt="aaa" />
           </div>
         </div>
 

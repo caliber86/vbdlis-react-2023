@@ -1,7 +1,7 @@
 {
   "app-web": [
     {
-      "image": "./../content/img/ic-operating-app-1.svg",
+      "image": "./../content/img/ic-app-1.svg",
       "title": "Phân hệ địa chính",
       "subtitle": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương.",
       "description": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương. Kết nối, chia sẻ dữ liệu với Cơ sở dữ liệu đất đai quốc gia, các hệ thống thông tin, cơ sở dữ liệu của các bộ, ngành, địa phương...",
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "image": "./../content/img/ic-operating-app-2.svg",
+      "image": "./../content/img/ic-app-2.svg",
       "title": "Phân hệ thống kê, kiểm kê đất đai",
       "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL thống kê, kiểm kê đất đai.",
       "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL thống kê, kiểm kê đất đai.",
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "image": "./../content/img/ic-operating-app-3.svg",
+      "image": "./../content/img/ic-app-3.svg",
       "title": "Phân hệ quản lý giá đất",
       "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL giá đất.",
       "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL giá đất.",
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "image": "./../content/img/ic-operating-app-4.svg",
+      "image": "./../content/img/ic-app-4.svg",
       "title": "Phân hệ quản lý quy hoạch, kế hoạch sử dụng đất",
       "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL.",
       "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL quy hoạch kế hoạch sử dụng đất.",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "image": "./../content/img/ic-operating-app-5.svg",
+      "image": "./../content/img/ic-app-5.svg",
       "title": "Phân hệ quản trị hệ thống",
       "subtitle": "Là nền tảng hỗ trợ việc quản trị hệ thống cho các phân hệ khác trong hệ sinh thái VBDLIS...",
       "description": "Phân hệ quản trị hệ thống là nền tảng hỗ trợ việc quản trị hệ thống cho các phân hệ khác trong hệ sinh thái VBDLIS đảm bảo tính thống nhất và đồng bộ giữa các phân hệ.",
@@ -65,13 +65,13 @@
       ]
     },
     {
-      "image": "./../content/img/ic-operating-app-6.svg",
+      "image": "./../content/img/ic-app-6.svg",
       "title": "Khai thác dữ liệu bản đồ",
       "subtitle": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất,...",
       "description": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất, Thống kê kiểm kê, Giá đất. Hệ thống được tách rời khỏi các phân hệ vận hành và được cấu trúc để hỗ trợ phân tích dữ liệu; cho phép chồng xếp các lớp dữ liệu để khai thác thông tin đa chiều đáp ứng nhu cầu của người dùng."
     },
     {
-      "image": "./../content/img/ic-operating-app-7.svg",
+      "image": "./../content/img/ic-app-7.svg",
       "title": "Cổng thông tin đất đai - VBDLIS Portal",
       "subtitle": "VBDLIS Portal cung cấp thông tin đất đai cho người dân, doanh nghiệp...",
       "description": "VBDLIS PORTAL cung cấp thông tin đất đai cho người dân, doanh nghiệp; cung cấp các dịch vụ cho các hệ thống của sở, ban ngành khác tạo nền tảng cho triển khai Chính phủ điện tử, chính quyền điện tử và đô thị thông minh.",
@@ -84,13 +84,13 @@
       ]
     },
     {
-      "image": "./../content/img/ic-operating-app-8.svg",
+      "image": "./../content/img/ic-app-8.svg",
       "title": "Hệ thống dịch vụ công",
       "subtitle": "VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến...",
       "description": "Hệ thống dịch vụ công đất đai VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến; hỗ trợ cá nhân, doanh nghiệp theo dõi tình trạng hồ sơ; tiếp nhận và xử lý phản ánh kiến nghị của công dân."
     },
     {
-      "image": "./../content/img/ic-operating-app-9.svg",
+      "image": "./../content/img/ic-app-9.svg",
       "title": "Cơ sở dữ liệu quốc gia",
       "subtitle": "Hệ thống đảm bảo dữ liệu luôn được cập nhật mới thường xuyên, phục vụ công tác quản lý và chia sẻ CSDL giữa các ngành ở cấp TW.",
       "description": "Hệ thống Cơ sở dữ liệu đất đai quốc gia được đồng bộ với Hệ thống quản lý đất đai VBLIS tại các tỉnh/Tp đảm bảo dữ liệu luôn được cập nhật mới thường xuyên, phục vụ công tác quản lý và chia sẻ CSDL giữa các ngành ở cấp TW.",
@@ -104,7 +104,7 @@
   ],
   "app-desktop": [
     {
-      "image": "./../content/img/ic-operating-app-10.svg",
+      "image": "./../content/img/ic-app-vbdlis.svg",
       "title": "VBDLIS Desktop",
       "subtitle": "Ứng dụng hỗ trợ chuyên biệt về công tác quản lý, biên tập, chỉnh lý dữ liệu không gian địa chính. Dữ liệu được lưu trữ trên Cloud đảm bảo tính kết nối, đồng bộ với hệ thống web.",
       "description": "Ứng dụng hỗ trợ chuyên biệt về công tác quản lý, biên tập, chỉnh lý dữ liệu không gian địa chính. Dữ liệu được lưu trữ trên Cloud đảm bảo tính kết nối, đồng bộ với hệ thống web.",
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "image": "./../content/img/ic-operating-app-11.svg",
+      "image": "./../content/img/ic-app-vbdlis.svg",
       "title": "LISEditor VPDK",
       "subtitle": "Ứng dụng hỗ trợ kiểm tra, tích hợp gói sản phẩm của 4 phân hệ Địa chính, Giá đất, TKKK, QHKHSD vào hệ thống vận hành của VPDK và Sở TNMT.",
       "description": "Ứng dụng hỗ trợ kiểm tra, tích hợp gói sản phẩm của 4 phân hệ Địa chính, Giá đất, TKKK, QHKHSD vào hệ thống vận hành của VPDK và Sở TNMT.",

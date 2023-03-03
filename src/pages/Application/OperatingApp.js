@@ -77,6 +77,7 @@ const OperatingApp = () => {
       <div className='app-page operating-app'>
 
         <div className='app-page--banner'>
+          <div className="flare"></div>
           <div className='container'>
             {/* <img width={'80px'} height={'80px'} src={IconDefault} alt="" /> */}
             {/* <h4>{'Hệ thống'}</h4> */}
@@ -99,7 +100,7 @@ const OperatingApp = () => {
                 </Button>            
               </Link>             
             </div>
-            <img className='app-hero-image' width={'1200px'} height={'auto'} src={'./../content/img/Hero Image-p-2000.webp'} alt="aaa" />
+            <img className='app-hero-image' width={'1200px'} height={'auto'} src={'./../content/img/app-hero-images.png'} alt="aaa" />
           </div>
         </div>
 

@@ -19,7 +19,9 @@
             background-color: $blue;
             border-radius: 48px;
             padding: 80px;
-            background-size: cover;
+            background-size: auto;
+            background-position: right;
+            background-position-x: 430px;
             background-repeat: no-repeat;
             
             .card-content {                
