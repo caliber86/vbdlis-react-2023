@@ -100,7 +100,7 @@ const ConstructorApp = () => {
                 </Button>            
               </Link>             
             </div>
-            <img className='app-hero-image' width={'1200px'} height={'auto'} src={'./../content/img/app-hero-images.png'} alt="aaa" />
+            <img className='app-hero-image' width={'1200px'} height={'auto'} src={'./../content/img/app-hero-images-1.png'} alt="aaa" />
           </div>
         </div>
 

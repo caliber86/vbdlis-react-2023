@@ -16,7 +16,7 @@
       "id": "features2",
       "ico": "features2",
       "title": "Đăng nhập một lần (SSO)",
-      "description": "Người dùng chỉ cần đăng nhập một lần để sử dụng tất cả dịch vụ",
+      "description": "Cải thiện khả năng bảo mật và trải nghiệm. Người dùng chỉ cần đăng nhập một lần để sử dụng tất cả dịch vụ",
       "image": "./../content/img/features-2.svg",
       "action": "Chi tiết",
       "detai": {}
@@ -43,7 +43,7 @@
       "id": "features5",
       "ico": "features5",
       "title": "Hiệu năng hệ thống lớn",
-      "description": "Tăng tốc độ sử lý, thân thiện với người dùng",
+      "description": "Tăng tốc độ sử lý, cung cấp trải nghiệm thân thiện và mượt mà, đem lại sự hài lòng của người dùng đối với hệ thống",
       "image": "./../content/img/features-5.svg",
       "action": "Chi tiết",
       "detai": {}
