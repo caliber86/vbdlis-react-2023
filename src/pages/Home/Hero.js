@@ -57,12 +57,12 @@ const Hero = () => {
                 <div className="hero-globe-img">
                   {
                     data?.useImage ? <img src={data?.image} alt="" /> : (
-                      <div className='haohao'>
-                        <img className='anh1' width={'auto'} height={'450px'} src={'./../content/img/map-vietnam-globe-450px.png'} alt="aaa" />
-                        <img className='anh2' src={'./../content/img/hero-vue.png'} alt="aaa" />
-                        <img className='anh3' src={'./../content/img/hero-laravel.png'} alt="aaa" />
-                        <img className='anh4' src={'./../content/img/here-react.png'} alt="aaa" />
-                        <img className='anh5' src={'./../content/img/hero-figma.png'} alt="aaa" />
+                      <div className='hero-app-img'>
+                        <img className='image0' width={'auto'} height={'450px'} src={'./../content/img/hero-global.png'} alt="aaa" />
+                        <img className='image1' src={'./../content/img/hero-1.svg'} alt="aaa" />                        
+                        <img className='image2' src={'./../content/img/hero-2.svg'} alt="aaa" />
+                        <img className='image3' src={'./../content/img/hero-3.svg'} alt="aaa" />
+                        <img className='image4' src={'./../content/img/hero-4.svg'} alt="aaa" />                        
                       </div>
 
                     )

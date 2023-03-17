@@ -78,33 +78,31 @@
           margin-top: 100px;
 
           .hero-globe-img {
-            .haohao {
+            .hero-app-img {
               position: relative;            
               img {
                 position: absolute;
               }
-              .anh2 {
-                width: 20%;
+              .image1 {
+                // width: 50%;
                 top: 8px;
                 left: -10px; 
                 animation: 1.5s .5s infinite alternate bounce;
               }
-              .anh3 {
-                width: 20%;
-                top: 300px;
-                right: -10px;
+              .image2 {                
+                top: 320px;
+                right: 0;
                 animation: 1s infinite alternate bounce;
               }
-              .anh4 {
+              .image3 {
                 width: 15%;
                 top: 320px;
-                left: 16px;
+                // left: 16px;
                 animation: 1.5s 1.5s infinite alternate bounce;
               }
-              .anh5 {
-                width: 12%;
+              .image4 {                
                 top: 80px;
-                right: -50px;
+                right: -20px;
                 animation: 1.5s 1s infinite alternate bounce;
               }
             }
