@@ -20,7 +20,7 @@ const Header = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === '/help') {
+    if (location.pathname === '/help' || location.pathname === '/contactus' || location.pathname === '/news') {
       setTheme('light-theme');
     }
     else {

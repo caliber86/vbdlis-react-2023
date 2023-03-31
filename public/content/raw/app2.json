@@ -38,7 +38,7 @@
   "app-desktop": [
     {
       "image": "./../content/img/ic-app-vbdlis.svg",
-      "title": "Ứng dụng Convertdata",      
+      "title": "Ứng dụng VBDLISConvertData",      
       "infoDetail": [
         "Hỗ trợ chuyển đổi dữ liệu thuộc tính, HSQ từ vilis, thư mục xml theo đúng cấu trúc",
         "Hỗ trợ ký số sổ địa chính điện tử hàng loạt"

@@ -1,0 +1,51 @@
+@import './../../variables.scss';
+
+.contact-page {
+    // .contact-banner {
+    //     background-color: $bglightgray;
+    //     .container {
+    //         text-align: center;
+    //         padding-top: 96px;
+    //         padding-bottom: 96px;
+
+    //         h1 {
+    //             font-size: 64px;
+    //         }
+    //     }        
+    // }
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 40px;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        .contact-left {
+            h2 {
+                font-size: 48px;
+                margin-bottom: 16px;
+            }
+            p {
+                font-size: 18px;
+            }
+            .contact-col {
+                padding-top: 16px;
+                padding-bottom: 16px;
+                h5 {
+                    font-size: 20px;
+                    margin-bottom: 16px;
+                }
+                p {
+                    a {
+                        color: $blue;
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+        .contact-card {
+            background-color: $bglightgray;
+            padding: 40px;
+            border-radius: 24px;
+        }
+    }
+}

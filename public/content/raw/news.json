@@ -1,0 +1,12 @@
+{
+    "id": "news",
+    "children": [
+        {
+            "id": "news",
+            "image": "./../content/img/news-cong-tac-cap-so-hong-2.jpg",
+            "date": "05/01/2023",
+            "title": "Sẽ triển khai liên thông thuế điện tử để đẩy nhanh công tác cấp sổ",
+            "description": "Trong quý I/2023 Sở TN&MT TP.HCM sẽ đánh giá kết quả thực hiện thí điểm ứng dụng phần mềm VBDLIS trong công tác giải quyết hồ sơ làm cơ sở dữ liệu liên thông thuế điện tử."
+        }
+    ]
+}
