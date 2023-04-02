@@ -3,9 +3,11 @@ import React, { useEffect, useState } from 'react';
 import DataHelper, { isEmpty } from '../../helper/data.helper';
 import Button from '../../components/Button';
 import { Link } from 'react-router-dom';
+import Popup from '../../components/Modal/Popup';
 
 const Hero = () => {
   const [data, setData] = useState();
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     let url = './../content/raw/hero.json';
@@ -28,17 +30,29 @@ const Hero = () => {
             <h1>{data?.title}</h1>
             <p>{data?.description}</p>
             <div className='home-hero-button'>
-              <Link to="" spy={true} smooth={true} duration={500} >
-                {/* <Button buttonStyle="vbt-blue-solid" buttonSize="vbt-larger">Video demo</Button> */}
-                <Button buttonStyle="vbt-blue-solid" buttonSize="vbt-larger-icon">
-                  <span className='ic-btn'>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24px" height="24px">
-                      <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path>
-                    </svg>
-                  </span>
-                  <span className='btn-text'>Video demo</span>
-                </Button>
-              </Link>
+
+              <Button
+                buttonStyle="vbt-blue-solid"
+                buttonSize="vbt-larger-icon"
+                onClick={() =>
+                  setIsOpen(true)
+                }
+              >
+                <span className='ic-btn'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24px" height="24px">
+                    <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path>
+                  </svg>
+                </span>
+                <span className='btn-text'>Video demo</span>
+              </Button>
+              {isOpen && (
+                <Popup setIsOpen={setIsOpen} className='hero-videodemo'>
+                  <video width="750" height='auto' controls >
+                    <source src="/videos/videodemo.mp4" type="video/mp4" />
+                  </video>
+                </Popup>
+              )}
+
               <Link to="" spy={true} smooth={true} duration={500} >
                 <Button buttonStyle="vbt-white-outline" buttonSize="vbt-larger-icon">
                   <span className='ic-btn'>
@@ -47,9 +61,9 @@ const Hero = () => {
                     </svg>
                   </span>
                   <span className='btn-text'>Brochure</span>
-                </Button>            
-              </Link>             
-            </div>                        
+                </Button>
+              </Link>
+            </div>
           </div>
           <div className="hero-globe">
             <div className="hero-globe-wrapper">
@@ -59,17 +73,17 @@ const Hero = () => {
                     data?.useImage ? <img src={data?.image} alt="" /> : (
                       <div className='hero-app-img'>
                         <img className='image0' width={'auto'} height={'450px'} src={'./../content/img/hero-global.png'} alt="aaa" />
-                        <img className='image1' src={'./../content/img/hero-1.svg'} alt="aaa" />                        
+                        <img className='image1' src={'./../content/img/hero-1.svg'} alt="aaa" />
                         <img className='image2' src={'./../content/img/hero-2.svg'} alt="aaa" />
                         <img className='image3' src={'./../content/img/hero-3.svg'} alt="aaa" />
-                        <img className='image4' src={'./../content/img/hero-4.svg'} alt="aaa" />                        
+                        <img className='image4' src={'./../content/img/hero-4.svg'} alt="aaa" />
                       </div>
 
                     )
-                  }               
+                  }
                 </div>
               </div>
-             
+
             </div>
           </div>
           {/* <div className="home-hero-images">

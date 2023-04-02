@@ -3,9 +3,10 @@
 .hero {
   padding: 0;
 }
+
 .hero-home {
   // background-color: #f8f8f8;
-  background: transparent radial-gradient(closest-side at 36% 26%,#102257 0,#07174a 38%,#071235 65%,#00092D 100%) 0 0 no-repeat padding-box;
+  background: transparent radial-gradient(closest-side at 36% 26%, #102257 0, #07174a 38%, #071235 65%, #00092D 100%) 0 0 no-repeat padding-box;
   height: 650px;
 
   h1 {
@@ -30,18 +31,22 @@
       a {
         margin-right: 16px;
       }
+
       p {
         font-size: 20px;
         color: $grey-400;
         margin-bottom: 48px;
       }
+
       max-width: 500px;
       margin-top: 120px;
+
       .ic-btn {
         position: absolute;
         margin-top: -2px;
         // margin-right: 18px;
       }
+
       .btn-text {
         margin-left: 32px;
         font-size: 18px;
@@ -57,16 +62,17 @@
       img {
         width: 100%;
         height: 100%;
-      }     
+      }
     }
+
     .hero-globe {
       display: block;
 
-      .hero-globe-wrapper{
+      .hero-globe-wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
         .hero-globe-animation {
           background: $blue;
           // position: absolute;
@@ -79,46 +85,69 @@
 
           .hero-globe-img {
             .hero-app-img {
-              position: relative;            
+              position: relative;
+
               img {
                 position: absolute;
               }
+
               .image1 {
                 // width: 50%;
                 top: 8px;
-                left: -10px; 
+                left: -10px;
                 animation: 1.5s .5s infinite alternate bounce;
               }
-              .image2 {                
+
+              .image2 {
                 top: 320px;
                 right: 0;
                 animation: 1s infinite alternate bounce;
               }
+
               .image3 {
                 width: 15%;
                 top: 320px;
                 // left: 16px;
                 animation: 1.5s 1.5s infinite alternate bounce;
               }
-              .image4 {                
+
+              .image4 {
                 top: 80px;
                 right: -20px;
                 animation: 1.5s 1s infinite alternate bounce;
               }
             }
+
             @keyframes bounce {
-              0% {transform: translateY(0);}
-              100% {transform: translateY(-12px);}
+              0% {
+                transform: translateY(0);
+              }
+
+              100% {
+                transform: translateY(-12px);
+              }
             }
           }
         }
       }
     }
+
+    .hero-videodemo {
+      padding: 5px;
+      background-color: white;
+    }
+
     @keyframes hero-globe-animation {
-      0% {box-shadow: 0 0 0 0 rgb(39 63 134 / 30%), 0 0 0 1px rgb(39 63 134 / 30%), 0 0 0 3px rgb(39 63 134 / 30%), 0 0 0 5px rgb(39 63 134 / 30%);}
-      100% {box-shadow: 0 0 0 2px rgb(39 63 134 / 30%), 0 0 0 4px rgb(39 63 134 / 30%), 0 0 0 50px rgb(39 63 134 / 0%), 0 0 0 80px rgb(39 63 134 / 0%);}
+      0% {
+        box-shadow: 0 0 0 0 rgb(39 63 134 / 30%), 0 0 0 1px rgb(39 63 134 / 30%), 0 0 0 3px rgb(39 63 134 / 30%), 0 0 0 5px rgb(39 63 134 / 30%);
+      }
+
+      100% {
+        box-shadow: 0 0 0 2px rgb(39 63 134 / 30%), 0 0 0 4px rgb(39 63 134 / 30%), 0 0 0 50px rgb(39 63 134 / 0%), 0 0 0 80px rgb(39 63 134 / 0%);
+      }
     }
   }
+
   // .flare {
   //   position: absolute;
   //   background-color: $blue;
@@ -158,6 +187,7 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+
           a {
             margin-bottom: 16px;
             margin-right: 0;
