@@ -2,18 +2,64 @@
     "id": "news",
     "children": [
         {
-            "id": "cong-tac-cap-so-hong-2",
+            "id": "se-trien-khai-lien-thong-thue-dien-tu-de-day-nhanh-cong-tac-cap-so",
             "image": "./../content/img/news-cong-tac-cap-so-hong-2.jpg",
+            "imageDescription": "Năm 2023, TP.HCM sẽ triển khai liên thông thuế điện tử để đẩy nhanh công tác cấp sổ. (Ảnh minh họa)",
+            "posting": "Admin",
+            "author": "kinhtemoitruong.vn",
             "date": "05/01/2023",
             "title": "Sẽ triển khai liên thông thuế điện tử để đẩy nhanh công tác cấp sổ",
             "description": "Trong quý I/2023 Sở TN&MT TP.HCM sẽ đánh giá kết quả thực hiện thí điểm ứng dụng phần mềm VBDLIS trong công tác giải quyết hồ sơ làm cơ sở dữ liệu liên thông thuế điện tử."
         },
-		{
-            "id": "giai-quyet-ho-so-lam-co-so-du-lieu",
-            "image": "./../content/img/news-cong-tac-cap-so-hong-2.jpg",
-            "date": "05/01/2023",
-            "title": "Giải quyết hồ sơ làm cơ sở dữ liệu",
-            "description": "Trong quý I/2023 Sở TN&MT TP.HCM sẽ đánh giá kết quả thực hiện thí điểm ứng dụng phần mềm VBDLIS trong công tác giải quyết hồ sơ làm cơ sở dữ liệu liên thông thuế điện tử."
+        {
+            "id": "tap-huan-cap-nhat-van-hanh-phan-mem-he-thong-thong-tin-dat-dai-vbdlis",
+            "image": "./../content/img/news-vpdk-05091.jpg",
+            "imageDescription": "",
+            "posting": "Admin",
+            "author": "sotnmt.sonla.gov.vn",
+            "date": "06/09/2022",
+            "title": "Tập huấn cập nhật, vận hành phần mềm Hệ thống thông tin đất đai VBDLIS",
+            "description": "Trong 2 ngày 27-28/8, Văn phòng Đăng ký đất đai tỉnh đã phối hợp với Ban quản lý dự án VILG cấp Trung ương tổ chức Lớp tập huấn cập nhật, vận hành phần mềm Hệ thống thông tin đất đai VBDLIS cho viên chức và người lao động của hệ thống Văn phòng Đăng ký đất đai."
+        },
+        {
+            "id": "ra-mat-trang-thong-tin-dat-dai-tp-thu-duc",
+            "image": "./../content/img/news-ra-mat-trang-thong-tin-dat-dai-tp-thu-duc-245A5F5B-details.jpg",
+            "imageDescription": "",
+            "posting": "Admin",
+            "author": "hcmcpv.org.vn",
+            "date": "29/08/2022",
+            "title": "Ra mắt Trang thông tin đất đai TP Thủ Đức",
+            "description": "Sáng 29.8, UBND TP.Thủ Đức (TP.HCM) đã làm lễ công bố trang thông tin đất đai TP và thí điểm 25 dịch vụ công thiết yếu theo Đề án 06 của Chính phủ."
+        },
+        {
+            "id": "hai-phong-so-hoa-co-so-du-lieu-dat-dai",
+            "image": "./../content/img/news-a2-bai-cds-tnmt-3586.jpg",
+            "imageDescription": "",
+            "posting": "Admin",
+            "author": "diendandoanhnghiep.vn",
+            "date": "22/11/2022",
+            "title": "Hải Phòng số hoá cơ sở dữ liệu đất đai",
+            "description": "Hải Phòng vừa khai trương Cổng thông tin đất đai với mục tiêu quản lý và vận hành hệ thống dữ liệu thông tin bằng phần mềm điện tử."
+        },
+        {
+            "id": "trien-khai-phan-mem-vbdlis-xay-dung-van-hanh-csdl-dat-dai",
+            "image": "./../content/img/news-nht00051.jpg",
+            "imageDescription": "",
+            "posting": "Admin",
+            "author": "sotnmt.tayninh.gov.vn",
+            "date": "28/01/2021",
+            "title": "Tây Ninh: Triển khai phần mềm VBDLIS xây dựng và vận hành cơ sở dữ liệu đất đai",
+            "description": "TNO - Ngày 25.1, Sở Tài nguyên và Môi trường phối hợp Chi nhánh Viettel Tây Ninh tổ chức tập huấn triển khai phần mềm VBDLIS (Hệ thống thông tin đất đai) để xây dựng và vận hành cơ sở dữ liệu đất đai cho hơn 50 cán bộ, viên chức các phòng chuyên môn thuộc Sở và Văn phòng đăng ký đất đai 9 huyện, thị xã, thành phố."
+        },
+        {
+            "id": "thua-thien-hue-tap-huan-vbdlis",
+            "image": "./../content/img/news-TTKT.png",
+            "imageDescription": "",
+            "posting": "Admin",
+            "author": "stnmt.thuathienhue.gov.vn",
+            "date": "22/03/2021",
+            "title": "Thừa Thiên Huế: Tập huấn phần mềm VDBLIS để xây dựng, vận hành và khai thác dữ liệu đất đai.",
+            "description": " Ngày 4 tháng 3 năm 2021 Sở Tài nguyên và Môi trường phối hợp với Tập đoàn Công nghiệp - Viễn thông Quân đội Viettel (Đơn vị cung cấp phần mềm) triển khai tập huấn phần mềm VBDLIS để xây dựng, vận hành và khai thác cơ sở dữ liệu đất đai tại tỉnh Thừa Thiên Huế. Để triển khai phân hệ liên thông cơ sở dữ liệu đất đai giữa Văn phòng Đăng ký đất đai với cơ quan tiếp nhận Hồ sơ (Trung tâm phục vụ Hành chính công cấp huyện và tỉnh) và liên thông thuế để xác định nghĩa vụ tài chính về đất đai của người sử dụng đất."
         }
     ]
 }

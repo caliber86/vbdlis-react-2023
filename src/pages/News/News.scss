@@ -17,7 +17,7 @@
         width: 100%;
         max-width: 1248px;
         display: grid;
-        padding: 80px 0;
+        padding-bottom: 96px;
         justify-content: space-between;
         flex-wrap: nowrap;
         grid-gap: 24px;
@@ -31,7 +31,9 @@
             flex-direction: column;            
             border-radius: 24px;
             overflow: hidden;
+            cursor: pointer;
             transition: box-shadow 0.15s ease, transform 0.15s ease;
+            box-shadow: 0 100px 80px rgb(153 164 184 / 4%), 0 41.7776px 33.4221px rgb(153 164 184 / 6%), 0 22.3363px 17.869px rgb(153 164 184 / 7%), 0 12.5216px 10.0172px rgb(153 164 184 / 8%), 0 6.6501px 5.32008px rgb(153 164 184 / 10%), 0 2.76726px 2.21381px rgb(153 164 184 / 14%);
 
             &:hover {
                 transform: translateY(-8px);
@@ -50,21 +52,21 @@
 
             .news-info {
                 padding: 40px;
-                background-color: $blue;
+                // background-color: $bglightgray;
 
                 .news-date {
-                    color: $bglightgray;
+                    color: $grey-800;
                 }
                 .news-title {
                     font-size: 24px;
                     font-weight: 400;
-                    color: $white;
+                    color: $grey-800;
                     margin-bottom: 16px;
                 }
                 .news-link {
                     font-size: 16px;
-                    font-weight: 400;
-                    color: $white;
+                    font-weight: 500;
+                    color: $blue;
                     position: relative;
                     padding-right: 32px;
             
@@ -74,7 +76,7 @@
                       right: 0;
                       width: 24px;
                       height: 24px;
-                      background: url(./../../images/ic-arow-white.svg);
+                      background: url(./../../images/ic-arow.svg);
                       transition: right .1s ease-out;
                     }
                     &:hover::after {

@@ -3,6 +3,7 @@ import './News.scss';
 import DataHelper, { isEmpty } from '../../helper/data.helper';
 import { Link, useSearchParams } from 'react-router-dom';
 import NewDetail from './NewDetail';
+import Cta from '../Home/Cta';
 
 const News = () => {
 
@@ -44,15 +45,13 @@ const News = () => {
                 <div className='news-info'>
                   <p className="news-date">{item?.date}</p>
                   <h3 className='news-title'>{item?.title}</h3>
-                  <Link className='news-link'>
-                    Đọc thêm
-                  </Link>
+                  <Link className='news-link'>Đọc thêm</Link>
                 </div>
               </div>
 
             )
           })}
-        </div>
+        </div>        
       </>
     )
   }
