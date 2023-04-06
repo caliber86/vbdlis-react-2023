@@ -44,8 +44,37 @@
         }
         .contact-card {
             background-color: $bglightgray;
-            padding: 40px;
+            padding: 40px 40px 80px 40px;
             border-radius: 24px;
+            height: fit-content;
+            
+            h5 {
+                margin-bottom: 24px;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                margin-top: 32px;
+                margin-bottom: 32px;
+
+                input, textarea {
+                    font-family: Roboto, Helvetica, Arial, sans-serif;
+                    font-size: 18px;
+                    color: $grey-800;
+                    padding: 16px;
+                    border-radius: 8px;
+                    border: 1px solid $bglightgray;
+                    margin-bottom: 16px;
+
+                    &:focus {
+                        // border-color: $blue;
+                        // border: 2px solid $blue !important;
+                    }
+                }
+                textarea {
+                    height: 160px;
+                }
+            }
         }
     }
 }

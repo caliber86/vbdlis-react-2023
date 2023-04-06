@@ -48,7 +48,7 @@ const Hero = () => {
               {isOpen && (
                 <Popup setIsOpen={setIsOpen} className='hero-videodemo'>
                   <video width="1080px" height='auto' controls >
-                    <source src="/videos/file_example.mp4" type="video/mp4" />
+                    <source src="/guides/file_example.mp4" type="video/mp4" />
                   </video>
                 </Popup>
               )}

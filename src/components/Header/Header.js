@@ -20,7 +20,7 @@ const Header = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === '/help' || location.pathname === '/contactus' || location.pathname === '/news') {
+    if (location.pathname === '/guides' || location.pathname === '/contactus' || location.pathname === '/news') {
       setTheme('light-theme');
     }
     else {
@@ -83,7 +83,7 @@ const Header = () => {
                 </div>
               ) : null}
             </li>
-            <li className={getClassNameMenu('/help')}><Link to='/help'>Hướng dẫn</Link></li>
+            <li className={getClassNameMenu('/guides')}><Link to='/guides'>Hướng dẫn</Link></li>
             <li className={getClassNameMenu('/news')}><Link to='/news'>Tin tức</Link></li>
             <li className={getClassNameMenu('/contactus')}><Link to='/contactus'>Liên hệ</Link></li>
           </ul>

@@ -1,0 +1,89 @@
+@import './../../variables.scss';
+
+.guides-page {
+    .guides-banner {
+        text-align: center;
+        .container {
+            padding-top: 96px;
+            padding-bottom: 96px;
+        }
+        h1 {
+            font-size: 64px;
+            max-width: 800px;
+            margin: auto;
+            margin-bottom: 24px;
+        }
+        p {
+            font-size: 20px;
+            max-width: 900px;
+            margin: auto;
+            margin-bottom: 24px;
+        }
+    }
+    .guides-content {
+        width: 100%;
+        background-color: $bglightgray;
+
+        .guides-download {
+            display: flex;
+            flex-direction: column;
+            padding: 96px 0;
+
+            table {
+                font-size: 16px;   
+
+                .download-thead_fist {                                    
+                    th ,td {
+                        background-color: $grey-800;
+                        color: $white;
+                        font-weight: 500;
+                    }
+                }
+
+                tr {
+                    th ,td {
+                        padding: 0 24px;
+                        background-color: $white;
+                        height: 48px;
+                        
+                        &.download {
+                            text-align: center;
+                        }
+
+                        a {
+                            &:hover {
+                                span {
+                                    &:first-child {
+                                        display: inline-block;
+                                    }
+                                    &:last-child {
+                                        display: none;
+                                    }
+                                }
+                            }
+                            span {
+                                display: inline-block;
+                                background-color: $blue;
+                                border-radius: 6px;
+                                color: $white;
+                                font-size: 12px;
+                                font-weight: 600;
+                                padding: 6px 24px;
+                                text-transform: uppercase;
+                                margin: auto;
+
+                                img {
+                                    margin-right: 8px;
+                                }
+                                
+                                &:first-child {
+                                    display: none;
+                                }
+                            }
+                        }                      
+                    }                    
+                }
+            }
+        }
+    }
+}

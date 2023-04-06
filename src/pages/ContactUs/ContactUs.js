@@ -1,5 +1,6 @@
-import './Contact.scss'
-import React from 'react'
+import './Contact.scss';
+import React from 'react';
+import Button from '../../components/Button';
 
 const ContactUs = () => {
   // return (
@@ -37,12 +38,34 @@ const ContactUs = () => {
             <p>Email:<a href="mailto:phanthanhtung@vietbando.vn">phanthanhtung@vietbando.vn</a></p>
           </div>
         </div>
-        {/* <div className='contact-card'>
+        <div className='contact-card'>
           <h5>Chi tiết liên lạc</h5>
-          <div className='contact-field'>
-            <input></input>
-          </div>
-        </div> */}
+          <form className='contact-field'>
+            <input
+              type="text"
+              className="contact-input"
+              name="name"
+              placeholder="Họ tên"
+            />
+            <input
+              type="text"
+              className="contact-input"
+              name="name"
+              placeholder="Email"
+            />
+            <input
+              type="text"
+              className="contact-input"
+              name="name"
+              placeholder="Tiêu đề"
+            />            
+            <textarea
+              name="message"
+              placeholder="Chúng tôi có thể giúp gì cho bạn?"
+            />
+          </form>
+          <Button buttonSize="vbt-larger" buttonStyle="vbt-blue-solid">Gửi tin nhắn</Button>
+        </div>
       </div>     
     </div>
   )

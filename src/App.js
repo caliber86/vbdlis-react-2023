@@ -9,7 +9,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer';
 
 import AboutUs from './pages/About/AboutUs';
-import Help from './pages/Help/Help';
+import Guides from './pages/Guides/Guides';
 import News from './pages/News/News';
 import OperatingApp from './pages/Application/OperatingApp';
 import ConstructorApp from './pages/Application/ConstructorApp';
@@ -51,7 +51,7 @@ function App() {
         { path: "operating-app", element: <OperatingApp /> },
         { path: "constructor-app", element: <ConstructorApp /> },
         { path: "about", element: <AboutUs /> },
-        { path: "help", element: <Help /> },
+        { path: "guides", element: <Guides /> },
         { path: "contactus", element: <ContactUs /> },
         { path: "news", element: <News /> },
       ]

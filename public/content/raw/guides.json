@@ -1,0 +1,39 @@
+{
+    "id": "guides1",
+    "title": "Tài liệu hướng dẫn sử dụng",
+    "description": "",
+    "children": [
+      {
+        "stt": "1",
+        "document": "Phân hệ địa chính"
+      },
+      {
+        "stt": "2",
+        "document": "Phân hệ quản lý Thống kê kiểm kê đất đai"
+      },
+      {
+        "stt": "2",
+        "document": "Phân hệ quản lý giá đất"
+      },
+      {
+        "stt": "4",
+        "document": "Phân hệ Quy hoạch, kế hoạch sử dụng đất"
+      },
+      {
+        "stt": "5",
+        "document": "Hệ thống khai thác dữ liệu bản đồ LIS - BI"
+      },
+      {
+        "stt": "6",
+        "document": "Cổng thông tin đất đai"
+      },
+      {
+        "stt": "7",
+        "document": "Hệ thống dịch vụ công"
+      },
+      {
+        "stt": "8",
+        "document": "LISEeditor VPDK"
+      }
+    ]
+  }
