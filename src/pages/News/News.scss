@@ -20,20 +20,21 @@
         padding-bottom: 96px;
         justify-content: space-between;
         flex-wrap: nowrap;
-        grid-gap: 24px;
+        grid-column-gap: 24px;
+        grid-row-gap: 48px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
         text-align: left;
 
         .news-card {
-            background-color: $white;
+            background-color: $bglightgray;
             display: flex;
             flex-direction: column;            
             border-radius: 24px;
             overflow: hidden;
             cursor: pointer;
             transition: box-shadow 0.15s ease, transform 0.15s ease;
-            box-shadow: 0 100px 80px rgb(153 164 184 / 4%), 0 41.7776px 33.4221px rgb(153 164 184 / 6%), 0 22.3363px 17.869px rgb(153 164 184 / 7%), 0 12.5216px 10.0172px rgb(153 164 184 / 8%), 0 6.6501px 5.32008px rgb(153 164 184 / 10%), 0 2.76726px 2.21381px rgb(153 164 184 / 14%);
+            // box-shadow: 0 100px 80px rgb(153 164 184 / 4%), 0 41.7776px 33.4221px rgb(153 164 184 / 6%), 0 22.3363px 17.869px rgb(153 164 184 / 7%), 0 12.5216px 10.0172px rgb(153 164 184 / 8%), 0 6.6501px 5.32008px rgb(153 164 184 / 10%), 0 2.76726px 2.21381px rgb(153 164 184 / 14%);
 
             &:hover {
                 transform: translateY(-8px);
