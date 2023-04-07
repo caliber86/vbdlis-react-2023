@@ -7,14 +7,14 @@ import AdminPage from './admin/AdminPage';
 import PageNotFound from './components/PageNotFound';
 import Header from './components/Header/Header';
 import Footer from './components/Footer';
-
 import AboutUs from './pages/About/AboutUs';
 import Guides from './pages/Guides/Guides';
 import News from './pages/News/News';
 import OperatingApp from './pages/Application/OperatingApp';
 import ConstructorApp from './pages/Application/ConstructorApp';
-
 import ContactUs from './pages/ContactUs/ContactUs';
+import Terms from './pages/Legal/Terms';
+import Security from './pages/Legal/Security';
 import ScrollToTop from './components/ScrollToTop';
 // import NewDetail from './pages/News/NewDetail';
 
@@ -54,6 +54,8 @@ function App() {
         { path: "guides", element: <Guides /> },
         { path: "contactus", element: <ContactUs /> },
         { path: "news", element: <News /> },
+        { path: "terms", element: <Terms /> },
+        { path: "security", element: <Security /> },
       ]
     },
     {

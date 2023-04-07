@@ -36,9 +36,9 @@ export default function Footer() {
             <div className='text-cols'>
               <div className='footer-title'>Giới thiệu</div>
               <Link to="">Trang chủ</Link>
-              <Link to="">Hướng dẫn</Link>
-              <Link to="">Tin tức</Link>
-              <Link to="">Liên hệ</Link>
+              <Link to='/guides'>Hướng dẫn</Link>
+              <Link to='/news'>Tin tức</Link>
+              <Link to='/contactus'>Liên hệ</Link>
             </div>
           </div>
         </div>
@@ -46,9 +46,9 @@ export default function Footer() {
           <div className='left-footer'>
             <p>© 2023 Vietbando. Giữ toàn quyền</p>
             <div className='dot'>•</div>
-            <Link>Điều khoản</Link>
+            <Link to='/terms'>Điều khoản</Link>
             <div className='dot'>•</div>
-            <Link>Bảo mật</Link>
+            <Link to='/security'>Bảo mật</Link>
           </div>
           <div className='right-footer'>
             <Link className='social-icon'><img width={'20px'} height={'20px'} src={FacebookIcon}></img></Link>
