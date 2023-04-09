@@ -51,7 +51,7 @@ function App() {
         { path: "operating-app", element: <OperatingApp /> },
         { path: "constructor-app", element: <ConstructorApp /> },
         { path: "about", element: <AboutUs /> },
-        { path: "guides", element: <Guides /> },
+        { path: "guides/*", element: <Guides /> },
         { path: "contactus", element: <ContactUs /> },
         { path: "news", element: <News /> },
         { path: "terms", element: <Terms /> },

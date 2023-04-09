@@ -1,91 +1,96 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import './Guides.scss';
-import DOWNLOAD_ICON from './../../images/ic-download.svg';
 
-// const TABS = [
-//   {
-//     id: 'hethongvanhanh',
-//     name: 'Hệ thống vận hành'
-//   },
-//   {
-//     id: 'hethongxaydung',
-//     name: 'Hệ thống xây dựng'
-//   }
-// ]
+import './Guides.scss'
+import React, { useEffect, useState } from 'react'
+import { Routes, Route, useParams, Link, useLocation } from 'react-router-dom';
+import { getMenus, getMenu } from "./menudata";
+import GuideApp1Document from './Guides/GuideApp1Document';
+import GuideApp1Video from './Guides/GuideApp1Video';
+import GuideApp2Document from './Guides/GuideApp2Document';
+import GuideApp2Video from './Guides/GuideApp2Video';
+import DataHelper from '../../helper/data.helper';
 
-// const Guides = () => {
-//   useEffect (() => {
-//     let url ='./../../content/raw/guides.json';
-//     (async () => {
-//       const rs = await DataHelper.getDataJson(url);
-//       if (rs) {
-//         const _data = TABS.map(item => {
-//           return {
-//             ...item,
-//             children: rs[item.id] || []
-//           }
-//         })
-//         setData(_data);
-//         setCurrent(_data[0])
-//       }
-//     })();
-//   }, []);
+const GuideMenu = (props) => {
 
-//   useEffect(() => {
-//     document.body.style.overflow = isOpen ? "hidden" : 'auto';
-//   }, [isOpen]);
+  // const { menuId } = useParams();
+  const location = useLocation();
 
+  switch (location.pathname) {
+    case '/guides/app1':
+      return (
+        <>
+          {"All"}
+          <GuideApp1Document />
+          <GuideApp1Video />
+        </>
+      )
+    case '/guides/app1/document':
+      return (
+        <GuideApp1Document />
+      )
+    case '/guides/app1/video':
+      return (
+        <GuideApp1Video />
+      )
+    case '/guides/app2':
+      return (
+        <>
+          {"All"}
+          <GuideApp2Document />
+          <GuideApp2Video />
+        </>
+      )
+    case '/guides/app2/document':
+      return (
+        <GuideApp2Document />
+      )
+    case '/guides/app2/video':
+      return (
+        <GuideApp2Video />
+      )
+    default:
+      return null;
+  }
+}
 
-// }
+const Guides = () => {
 
-export default function Guides() {
+  // useEffect(() => {
+  //   let url = './../../content/raw/guides.json';
+  //   (async () => {
+  //     const rs = await DataHelper.getDataJson(url);
+  //     console.log(rs)
+  //   })();
+  // }, []);
+
+  const menus = getMenus();
+
   return (
-    <div className='guides-page'>
-      <div className='guides-banner'>
-        <div className='container'>
-          <h1>Hướng dẫn và tài nguyên</h1>
-          <p>Một bộ sưu tập các hướng dẫn và tài nguyên dành riêng cho việc xây dựng, triển khai các ứng dụng trong hệ thống</p>
-        </div>
+    <div className='container' style={{ display: 'grid', gridTemplateColumns: '1fr 4fr' }}>
+
+      <div>
+        <ul>
+          {menus.map(({ name, id, subtabs }) => (
+            <li key={id}>
+              <Link to={id}>{name}</Link>
+              <ul>
+                {subtabs.map((sub) => (
+                  <li key={sub.id}>
+                    <Link to={`${id}/${sub.id}`}>{sub.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ))}
+        </ul>
       </div>
-      <div className='guides-content'>
-        <div className='container'>
-          <div className='guides-download'>
-            <table>
-              <thead>
-                <tr className='download-thead_fist'>
-                  <th width="5%">Stt</th>
-                  <th width="80%">Tên tài liệu</th>
-                  <th width="15%" className='download'>Tải tài liệu</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th>1</th>
-                  <th>Phân hệ địa chính</th>
-                  <th className='download'>
-                    <Link to="/public/guides/VHCSDL-1-phan-he-dia-chinh.pdf">
-                      {/* <span><img width={'24px'} height={'24px'} src={DOWNLOAD_ICON}/>Tải về</span> */}
-                      <span>Tải về</span>
-                      <span>PDF</span>                      
-                    </Link>
-                  </th>
-                </tr>
-                <tr>
-                  <th>2</th>
-                  <th>Phân hệ quản lý Thống kê kiểm kê đất đai</th>
-                  <th className='download'>
-                    <Link to="/public/guides/VHCSDL-1-phan-he-dia-chinh.pdf">                      
-                      <span>Tải về</span>
-                      <span>PDF</span>                      
-                    </Link>
-                  </th>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+
+      <div>
+        <Routes>
+          <Route path=":menuId/*" element={<GuideMenu />} />
+        </Routes>
       </div>
+
     </div>
   )
 }
+export default Guides;
