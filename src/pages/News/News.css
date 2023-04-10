@@ -1,0 +1,81 @@
+/**
+COLOR
+*/
+.news-page .news-banner {
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.news-page .news-banner h1 {
+  font-size: 64px;
+}
+.news-page .news-banner p {
+  font-size: 20px;
+}
+.news-page .news-card-item {
+  width: 100%;
+  max-width: 1248px;
+  display: grid;
+  padding-bottom: 96px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  grid-column-gap: 24px;
+  grid-row-gap: 48px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  text-align: left;
+}
+.news-page .news-card-item .news-card {
+  background-color: #f5f6fa;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.news-page .news-card-item .news-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 100px 80px rgba(153, 164, 184, 0.14), 0 42px 32px rgba(153, 164, 184, 0.16), 0 22px 18px rgba(153, 164, 184, 0.17), 0 12px 10px rgba(153, 164, 184, 0.18), 0 6px 6px rgba(153, 164, 184, 0.2), 0 2px 2px rgba(153, 164, 184, 0.14);
+}
+.news-page .news-card-item .news-card .news-image {
+  overflow: hidden;
+  height: 250px;
+}
+.news-page .news-card-item .news-card .news-image img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.news-page .news-card-item .news-card .news-info {
+  padding: 40px;
+}
+.news-page .news-card-item .news-card .news-info .news-date {
+  color: #050C38;
+}
+.news-page .news-card-item .news-card .news-info .news-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #050C38;
+  margin-bottom: 16px;
+}
+.news-page .news-card-item .news-card .news-info .news-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0086ff;
+  position: relative;
+  padding-right: 32px;
+}
+.news-page .news-card-item .news-card .news-info .news-link::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background: url(./../../images/ic-arow.svg);
+  transition: right 0.1s ease-out;
+}
+.news-page .news-card-item .news-card .news-info .news-link:hover::after {
+  right: -2px;
+}/*# sourceMappingURL=News.css.map */

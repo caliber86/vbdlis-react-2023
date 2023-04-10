@@ -1,14 +1,24 @@
 /**
 COLOR
 */
-.app-page {
-  position: relative;
-}
 .app-page .app-page--banner {
   z-index: 1;
   height: 100%;
   width: 100%;
   background: #00092D;
+  position: relative;
+}
+.app-page .app-page--banner .flare {
+  position: absolute;
+  background-color: #004FB8;
+  width: 29vw;
+  height: 29vw;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  filter: blur(8.12vw);
+  margin: -14.5vw 0 0 -14.5vw;
+  z-index: -1;
 }
 .app-page .app-page--banner .container {
   height: 100%;
@@ -20,7 +30,7 @@ COLOR
   padding-top: 60px;
 }
 .app-page .app-page--banner .container .app-hero-button {
-  margin-bottom: 80px;
+  margin-bottom: 48px;
 }
 .app-page .app-page--banner .container .app-hero-button a {
   margin: 0 8px;
@@ -40,10 +50,17 @@ COLOR
   margin-bottom: 8px;
   margin-top: 40px;
 }
-.app-page .app-page--banner h2 {
-  font-size: 52px;
+.app-page .app-page--banner h1 {
+  font-size: 64px;
   color: #fff;
-  margin-bottom: 40px;
+  margin: 0 auto 24px auto;
+  max-width: 800px;
+}
+.app-page .app-page--banner p {
+  font-size: 20px;
+  color: #C9CEEB;
+  margin: 0 auto 48px auto;
+  max-width: 480px;
 }
 .app-page .app-page--tabs {
   background-color: #f5f6fa;
@@ -197,6 +214,9 @@ COLOR
   }
   .app-page .app-hero-button a {
     margin-bottom: 16px !important;
+  }
+  .app-page .app-page--banner h1 {
+    font-size: 48px;
   }
   .app-page .app-page--banner .app-hero-image {
     width: 100%;

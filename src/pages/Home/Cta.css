@@ -1,0 +1,37 @@
+/**
+COLOR
+*/
+.cta {
+  background: linear-gradient(to top, #050C38 0%, #050C38 35%, #f5f6fa 35%, #f5f6fa 100%);
+  padding-bottom: 40px;
+}
+.cta .container .cta-card {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+  height: auto;
+  height: 450px;
+  background-color: #0086ff;
+  border-radius: 48px;
+  padding: 80px;
+  background-size: auto;
+  background-position: right;
+  background-position-x: 430px;
+  background-repeat: no-repeat;
+}
+.cta .container .cta-card .card-content {
+  position: absolute;
+  color: #fff;
+  max-width: 480px;
+}
+.cta .container .cta-card .card-content h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.cta .container .cta-card .card-content .card-description {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.cta .container .cta-card .card-content button {
+  margin-top: 16px;
+}/*# sourceMappingURL=Cta.css.map */

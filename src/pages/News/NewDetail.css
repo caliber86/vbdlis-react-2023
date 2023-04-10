@@ -1,0 +1,61 @@
+/**
+COLOR
+*/
+.news-post {
+  max-width: 60%;
+  margin: auto;
+  padding-top: 48px;
+  padding-bottom: 96px;
+}
+.news-post .news-link {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #0086ff;
+}
+.news-post .news-detail {
+  margin-top: 1rem;
+}
+.news-post .news-detail .news-detail-item {
+  display: flex;
+  flex-direction: column;
+}
+.news-post .news-detail .news-detail-item h2 {
+  margin-bottom: 16px;
+}
+.news-post .news-detail .news-detail-item .news-status {
+  margin-bottom: 32px;
+}
+.news-post .news-detail .news-detail-item .news-status span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #41497B;
+}
+.news-post .news-detail .news-detail-item .news-status .posting {
+  margin-right: 16px;
+  font-weight: 600;
+  color: #050C38;
+}
+.news-post .news-detail .news-detail-item img {
+  border-radius: 16px;
+  max-width: 900px;
+}
+.news-post .news-detail .news-detail-item span {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.news-post .news-detail .news-detail-item span.description {
+  font-weight: 500;
+}
+.news-post .news-detail .news-detail-item span.image-description {
+  margin-top: 16px;
+  padding: 0 16px;
+  font-size: 16px;
+  font-style: italic;
+}
+.news-post .news-detail .news-detail-item span.author {
+  margin-top: 16px;
+  font-weight: 500;
+  text-align: end;
+  font-style: italic;
+}/*# sourceMappingURL=NewDetail.css.map */

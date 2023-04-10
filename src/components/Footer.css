@@ -1,3 +1,103 @@
 /**
 COLOR
-*//*# sourceMappingURL=Footer.css.map */
+*/
+.footer {
+  background-color: #050C38;
+  padding-bottom: 0;
+}
+.footer .flare {
+  position: absolute;
+  background-color: #0086ff;
+  width: 29vw;
+  height: 29vw;
+  left: 25%;
+  border-radius: 50%;
+  filter: blur(8.12vw);
+  margin: -14.5vw 0 0 -14.5vw;
+}
+.footer .container .footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .container .footer-top .left-footer {
+  width: 30%;
+}
+.footer .container .footer-top .left-footer .vbd-description {
+  font-size: 16px;
+  font-weight: normal;
+  color: #C9CEEB;
+  margin: 24px 0;
+}
+.footer .container .footer-top .right-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 70%;
+  justify-content: flex-end;
+}
+.footer .container .footer-top .right-footer .text-cols {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  margin-left: 80px;
+}
+.footer .container .footer-top .right-footer .text-cols .footer-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.footer .container .footer-top .right-footer .text-cols a {
+  font-size: 16px;
+  color: #C9CEEB;
+  margin-bottom: 16px;
+}
+.footer .container .footer-top .right-footer .text-cols a:hover {
+  color: #fff;
+}
+.footer .container .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #41497B;
+  margin-top: 48px;
+  padding: 48px 0;
+}
+.footer .container .footer-bottom .left-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .container .footer-bottom .left-footer p {
+  font-size: 16px;
+  color: #C9CEEB;
+  margin: 0;
+}
+.footer .container .footer-bottom .left-footer .dot {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #C9CEEB;
+  margin: 0 16px;
+}
+.footer .container .footer-bottom .left-footer a {
+  color: #C9CEEB;
+}
+.footer .container .footer-bottom .left-footer a:hover {
+  color: #fff;
+}
+.footer .container .footer-bottom .right-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .container .footer-bottom .right-footer a {
+  margin-left: 16px;
+}
+.footer .container .footer-bottom .right-footer .social-icon {
+  position: relative;
+  top: 3px;
+}
+.footer .container .footer-bottom .right-footer .social-icon:hover {
+  filter: brightness(130%);
+}/*# sourceMappingURL=Footer.css.map */

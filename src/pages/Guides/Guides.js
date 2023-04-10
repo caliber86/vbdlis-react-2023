@@ -1,6 +1,6 @@
 
-import './Guides.scss'
-import React, { useEffect, useState } from 'react'
+import './Guides.scss';
+import React, { useEffect, useState } from 'react';
 import { Routes, Route, useParams, Link, useLocation } from 'react-router-dom';
 import { getMenus, getMenu } from "./menudata";
 import GuideApp1Document from './Guides/GuideApp1Document';

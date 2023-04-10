@@ -1,6 +1,7 @@
 /**
 COLOR
 */
+@import './style/animate.min.css';
 * {
   margin: 0;
   padding: 0;

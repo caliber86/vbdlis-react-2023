@@ -6,7 +6,7 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  margin: 30px 0;
+  margin: 32px 0;
 }
 .MarqueeContent:hover {
   animation-play-state: paused;

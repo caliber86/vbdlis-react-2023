@@ -1,0 +1,70 @@
+/**
+COLOR
+*/
+.guides-page .guides-banner {
+  text-align: center;
+}
+.guides-page .guides-banner .container {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.guides-page .guides-banner h1 {
+  font-size: 64px;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+.guides-page .guides-banner p {
+  font-size: 20px;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+.guides-page .guides-content {
+  width: 100%;
+  background-color: #f5f6fa;
+}
+.guides-page .guides-content .guides-download {
+  display: flex;
+  flex-direction: column;
+  padding: 96px 0;
+}
+.guides-page .guides-content .guides-download table {
+  font-size: 16px;
+}
+.guides-page .guides-content .guides-download table .download-thead_fist th, .guides-page .guides-content .guides-download table .download-thead_fist td {
+  background-color: #050C38;
+  color: #fff;
+  font-weight: 500;
+}
+.guides-page .guides-content .guides-download table tr th, .guides-page .guides-content .guides-download table tr td {
+  padding: 0 24px;
+  background-color: #fff;
+  height: 48px;
+}
+.guides-page .guides-content .guides-download table tr th.download, .guides-page .guides-content .guides-download table tr td.download {
+  text-align: center;
+}
+.guides-page .guides-content .guides-download table tr th a:hover span:first-child, .guides-page .guides-content .guides-download table tr td a:hover span:first-child {
+  display: inline-block;
+}
+.guides-page .guides-content .guides-download table tr th a:hover span:last-child, .guides-page .guides-content .guides-download table tr td a:hover span:last-child {
+  display: none;
+}
+.guides-page .guides-content .guides-download table tr th a span, .guides-page .guides-content .guides-download table tr td a span {
+  display: inline-block;
+  background-color: #0086ff;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 24px;
+  text-transform: uppercase;
+  margin: auto;
+}
+.guides-page .guides-content .guides-download table tr th a span img, .guides-page .guides-content .guides-download table tr td a span img {
+  margin-right: 8px;
+}
+.guides-page .guides-content .guides-download table tr th a span:first-child, .guides-page .guides-content .guides-download table tr td a span:first-child {
+  display: none;
+}/*# sourceMappingURL=Guides.css.map */

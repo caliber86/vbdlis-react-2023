@@ -24,23 +24,29 @@ COLOR
   justify-content: flex-end;
 }
 
+.overview .container {
+  padding-right: 0;
+  padding-left: 0;
+}
 .overview .title {
-  font-size: 48px;
-  margin: 0 96px 0 96px;
+  font-size: 56px;
+  margin: 0 auto 32px auto;
+  max-width: 800px;
 }
 .overview .overview-text {
   max-width: 960px;
   text-align: center;
   font-size: 18px;
   line-height: 26px;
-  margin: 24px auto 96px auto;
+  margin: 0 auto 96px auto;
+  max-width: 800px;
 }
 .overview .section-content {
   display: flex;
   align-items: center;
 }
 .overview .section-content .product-img {
-  flex: 0 0 55%;
+  flex: 0 0 60%;
   display: flex;
 }
 .overview .section-content .product-img img {
@@ -48,14 +54,14 @@ COLOR
   height: 100%;
 }
 .overview .section-content .product-highlight {
-  flex: 1 1 45%;
+  flex: 1 1 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
 }
 .overview .section-content .product-highlight h1 {
-  font-size: 36px;
+  font-size: 48px;
   margin-bottom: 0;
 }
 .overview .section-content .product-highlight .service-heading-title {
@@ -86,7 +92,7 @@ COLOR
   font-size: 18px;
   line-height: 26px;
   color: #050C38;
-  margin: 20px 0 20px 0;
+  margin: 24px 0 24px 0;
 }
 .overview .section-content .product-highlight .product-detail {
   margin-top: 40px;
@@ -128,6 +134,7 @@ COLOR
     max-width: 100%;
   }
   #overview .container .title {
+    font-size: 48px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -135,5 +142,10 @@ COLOR
     max-width: 100%;
     min-width: auto;
     margin-top: 48px;
+    text-align: center;
+    align-items: center;
+  }
+  #overview .container .product-highlight h1 {
+    font-size: 36px;
   }
 }/*# sourceMappingURL=OverView.css.map */

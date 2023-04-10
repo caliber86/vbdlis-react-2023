@@ -10,6 +10,7 @@ COLOR
   transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: auto;
+  z-index: 9999;
 }
 .modal-popup .dark-bg {
   background-color: rgba(0, 0, 0, 0.1);
@@ -65,7 +66,7 @@ COLOR
   align-items: center;
 }
 .modal-popup .centered .modal .close-btn:hover {
-  background-color: #C9CEEB;
+  background-color: rgba(5, 12, 56, 0.05);
   color: #0060DF;
 }
 

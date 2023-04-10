@@ -10,7 +10,7 @@ COLOR
   height: 650px;
 }
 .hero-home h1 {
-  font-size: 57px;
+  font-size: 64px;
   margin: 0 0 20px;
   color: #fff;
 }
@@ -32,6 +32,11 @@ COLOR
 .hero-home .container .home-hero-left a {
   margin-right: 16px;
 }
+.hero-home .container .home-hero-left p {
+  font-size: 20px;
+  color: #C9CEEB;
+  margin-bottom: 48px;
+}
 .hero-home .container .home-hero-left .ic-btn {
   position: absolute;
   margin-top: -2px;
@@ -40,6 +45,9 @@ COLOR
   margin-left: 32px;
   font-size: 18px;
   font-weight: 600;
+}
+.hero-home .container .home-hero-left button {
+  margin-right: 16px;
 }
 .hero-home .container .home-hero-images {
   width: 100%;
@@ -67,34 +75,30 @@ COLOR
   transition: all 0.7s ease;
   margin-top: 100px;
 }
-.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao {
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .hero-app-img {
   position: relative;
 }
-.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao img {
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .hero-app-img img {
   position: absolute;
 }
-.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao .anh2 {
-  width: 20%;
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .hero-app-img .image1 {
   top: 8px;
   left: -10px;
   animation: 1.5s 0.5s infinite alternate bounce;
 }
-.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao .anh3 {
-  width: 20%;
-  top: 300px;
-  right: -10px;
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .hero-app-img .image2 {
+  top: 320px;
+  right: 0;
   animation: 1s infinite alternate bounce;
 }
-.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao .anh4 {
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .hero-app-img .image3 {
   width: 15%;
   top: 320px;
-  left: 16px;
   animation: 1.5s 1.5s infinite alternate bounce;
 }
-.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .haohao .anh5 {
-  width: 12%;
+.hero-home .container .hero-globe .hero-globe-wrapper .hero-globe-animation .hero-globe-img .hero-app-img .image4 {
   top: 80px;
-  right: -50px;
+  right: -20px;
   animation: 1.5s 1s infinite alternate bounce;
 }
 @keyframes bounce {
@@ -104,6 +108,10 @@ COLOR
   100% {
     transform: translateY(-12px);
   }
+}
+.hero-home .container .hero-videodemo {
+  padding: 5px;
+  background-color: white;
 }
 @keyframes hero-globe-animation {
   0% {

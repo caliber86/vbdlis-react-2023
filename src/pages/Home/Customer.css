@@ -2,7 +2,8 @@
 COLOR
 */
 h1.title {
-  margin-bottom: 80px;
+  margin-bottom: 96px;
+  font-size: 56px;
 }
 
 @media (max-width: 425px) {
