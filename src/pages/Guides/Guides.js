@@ -1,4 +1,3 @@
-
 import './Guides.scss';
 import React, { useEffect, useState } from 'react';
 import { Routes, Route, useParams, Link, useLocation } from 'react-router-dom';
@@ -18,7 +17,7 @@ const GuideMenu = (props) => {
     case '/guides/app1':
       return (
         <>
-          {"All"}
+          {"Tất cả tài liệu"}
           <GuideApp1Document />
           <GuideApp1Video />
         </>
@@ -65,32 +64,64 @@ const Guides = () => {
   const menus = getMenus();
 
   return (
-    <div className='container' style={{ display: 'grid', gridTemplateColumns: '1fr 4fr' }}>
-
-      <div>
-        <ul>
-          {menus.map(({ name, id, subtabs }) => (
-            <li key={id}>
-              <Link to={id}>{name}</Link>
-              <ul>
-                {subtabs.map((sub) => (
-                  <li key={sub.id}>
-                    <Link to={`${id}/${sub.id}`}>{sub.name}</Link>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
+    <div className='guides-content'>
+      <div className='guides-banner container'>
+        <h1>Hướng dẫn và tài nguyên</h1>
+        <p>Một bộ sưu tập các hướng dẫn và tài nguyên dành riêng cho việc xây dựng, triển khai các ứng dụng trong hệ thống</p>
       </div>
-
-      <div>
-        <Routes>
-          <Route path=":menuId/*" element={<GuideMenu />} />
-        </Routes>
+      <div className='container' style={{ display: 'grid', gridTemplateColumns: '1fr 3fr' }}>
+        <div className='guides-left-content'>
+          <ul>
+            {menus.map(({ name, id, subtabs }) => (
+              <li key={id}>
+                <Link to={id}>{name}</Link>
+                <ul>
+                  {subtabs.map((sub) => (
+                    <li key={sub.id}>
+                      <Link to={`${id}/${sub.id}`}>{sub.name}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className='guides-right-content'>
+          <Routes>
+            <Route path=":menuId/*" element={<GuideMenu />} />
+          </Routes>
+        </div>
       </div>
-
     </div>
   )
+
+  // return (
+  //   <div className='container' style={{ display: 'grid', gridTemplateColumns: '1fr 4fr' }}>
+
+  //     <div>
+  //       <ul>
+  //         {menus.map(({ name, id, subtabs }) => (
+  //           <li key={id}>
+  //             <Link to={id}>{name}</Link>
+  //             <ul>
+  //               {subtabs.map((sub) => (
+  //                 <li key={sub.id}>
+  //                   <Link to={`${id}/${sub.id}`}>{sub.name}</Link>
+  //                 </li>
+  //               ))}
+  //             </ul>
+  //           </li>
+  //         ))}
+  //       </ul>
+  //     </div>
+
+  //     <div>
+  //       <Routes>
+  //         <Route path=":menuId/*" element={<GuideMenu />} />
+  //       </Routes>
+  //     </div>
+
+  //   </div>
+  // )
 }
 export default Guides;

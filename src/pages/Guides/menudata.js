@@ -1,28 +1,28 @@
 const menus = [
   {
-    name: "App 1",
+    name: "I. Hệ thống vận hành cơ sở dữ liệu đất đai",
     id: "app1",
     subtabs: [
       {
-        name: "Document",
+        name: "1. Tài liệu hướng dẫn",
         id: "document",
       },
       {
-        name: "Video",
+        name: "2. Video hướng dẫn",
         id: "video",
       }
     ]
   },
   {
-    name: "App 2",
+    name: "II. Hệ thống xây dựng cơ sở dữ liệu đất đai",
     id: "app2",
     subtabs: [
       {
-        name: "Document",
+        name: "1. Tài liệu hướng dẫn",
         id: "document",
       },
       {
-        name: "Video",
+        name: "2. Video hướng dẫn",
         id: "video",
       }
     ]

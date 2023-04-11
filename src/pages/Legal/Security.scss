@@ -1,0 +1,58 @@
+@import './../../variables.scss';
+
+.security-page {
+    .security-banner {
+        text-align: center;
+        padding-top: 96px;
+        padding-bottom: 96px;
+
+        h1 {
+            font-size: 64px;
+            margin-bottom: 24px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+    }
+
+    .security-document {
+        max-width: 80%;
+        margin: auto;
+        padding-bottom: 96px;
+
+        h3 {
+            padding-top: 32px;
+            margin-bottom: 32px;
+        }
+        h5 {
+            font-size: 24px;
+            padding-top: 16px;
+            margin-bottom: 16px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+        a {
+            color: $blue;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        ul {
+            padding-left: 48px;
+            margin-bottom: 24px;
+
+            li {
+                font-size: 18px;
+                margin-bottom: 4px;
+
+                &::marker {
+                    color: $grey-500;
+                }
+            }
+        }
+    }
+}

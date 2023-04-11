@@ -11,7 +11,7 @@ export default function Cta() {
                 <div className='card-content'>
                     <h1 className='card-title'>Bắt đầu thử nghiệm với VBDLis</h1>
                     <div className='card-description'>Chúng tôi sẵn sàng gặp gỡ trực tiếp để tư vấn và mong muốn có cơ hội được hợp tác cùng Doanh nghiệp của bạn</div>
-                    <Link to="" spy={true} smooth={true} duration={500} >
+                    <Link to="/contactus" spy={true} smooth={true} duration={500} >
                         <Button className='btn-cta' buttonStyle="vbt-white" buttonSize="vbt-larger">Đăng ký</Button>
                     </Link>
                 </div>

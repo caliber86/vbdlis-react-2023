@@ -1,12 +1,11 @@
 @import './../../variables.scss';
 
-.guides-page {
+.guides-content {
     .guides-banner {
+        padding-top: 96px;
+        padding-bottom: 96px;
         text-align: center;
-        .container {
-            padding-top: 96px;
-            padding-bottom: 96px;
-        }
+
         h1 {
             font-size: 64px;
             max-width: 800px;
@@ -15,73 +14,103 @@
         }
         p {
             font-size: 20px;
-            max-width: 900px;
+            max-width: 800px;
             margin: auto;
             margin-bottom: 24px;
         }
     }
-    .guides-content {
-        width: 100%;
-        background-color: $bglightgray;
 
-        .guides-download {
-            display: flex;
-            flex-direction: column;
-            padding: 96px 0;
+    .guides-left-content {
+        font-size: 16px;
+        ul {
+            padding-left: 16px;
+            padding-right: 48px;
+            margin-bottom: 24px;
 
-            table {
-                font-size: 16px;   
+            li {
+                font-size: 15px;
+                margin-bottom: 4px;
+                list-style-type: none;
 
-                .download-thead_fist {                                    
-                    th ,td {
-                        background-color: $grey-800;
-                        color: $white;
-                        font-weight: 500;
-                    }
+                a {
+                    color: $grey-800;
+                    font-weight: 500;
                 }
 
-                tr {
-                    th ,td {
-                        padding: 0 24px;
-                        background-color: $white;
-                        height: 48px;
-                        
-                        &.download {
-                            text-align: center;
-                        }
+                &::marker {
+                    color: $grey-500;
+                }
+                
+                &:active {
+                    color: $blue;
+                }
+            }
+        }
+    }
+    .guides-right-content {
+        .guides-document {
+            .guides-title {
+                // padding-top: 16px;
+                margin-bottom: 0;
+            }
+            .document-download {
+                display: flex;
+                flex-direction: column;
+                padding: 48px 0;
 
-                        a {
-                            &:hover {
-                                span {
-                                    &:first-child {
-                                        display: inline-block;
+                table {
+                    font-size: 16px;
+                    
+                    .download-thead_fist {                                    
+                        th ,td {
+                            background-color: $grey-800;
+                            color: $white;
+                            font-weight: 500;
+                        }
+                    }
+                    tr {
+                        th ,td {
+                            padding: 0 24px;
+                            background-color: $bglightgray;
+                            height: 48px;
+                            
+                            &.download {
+                                text-align: center;
+                            }
+    
+                            a {
+                                &:hover {
+                                    span {
+                                        &:first-child {
+                                            display: inline-block;
+                                        }
+                                        &:last-child {
+                                            display: none;
+                                        }
                                     }
-                                    &:last-child {
+                                }
+                                span {
+                                    display: inline-block;
+                                    background-color: $blue;
+                                    border-radius: 6px;
+                                    color: $white;
+                                    font-size: 12px;
+                                    font-weight: 600;
+                                    padding: 6px 24px;
+                                    text-transform: uppercase;
+                                    margin: auto;
+    
+                                    img {
+                                        margin-right: 8px;
+                                    }
+                                    
+                                    &:first-child {
                                         display: none;
                                     }
                                 }
-                            }
-                            span {
-                                display: inline-block;
-                                background-color: $blue;
-                                border-radius: 6px;
-                                color: $white;
-                                font-size: 12px;
-                                font-weight: 600;
-                                padding: 6px 24px;
-                                text-transform: uppercase;
-                                margin: auto;
-
-                                img {
-                                    margin-right: 8px;
-                                }
-                                
-                                &:first-child {
-                                    display: none;
-                                }
-                            }
-                        }                      
-                    }                    
+                            }                      
+                        }                    
+                    }
                 }
             }
         }

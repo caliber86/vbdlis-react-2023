@@ -91,7 +91,7 @@ const Header = () => {
         <nav className={mobile ? "menu menu-right open" : "menu menu-right"}>
           <ul>
             <li className={getClassNameMenu('/login')}><Link to='/login'>Đăng nhập</Link></li>
-            <li className={getClassNameMenu('/register')}><Link to='/register' className="redBtn"><Button buttonSize="vbt-medium" buttonStyle="vbt-blue-solid">Đăng ký</Button></Link></li>
+            <li className={getClassNameMenu('/register')}><Link to='/contactus' className="redBtn"><Button buttonSize="vbt-medium" buttonStyle="vbt-blue-solid">Đăng ký</Button></Link></li>
           </ul>
         </nav>
       </>
