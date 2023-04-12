@@ -1,7 +1,7 @@
 const menus = [
   {
     name: "I. Hệ thống vận hành cơ sở dữ liệu đất đai",
-    id: "app1",
+    id: "operating-app",
     subtabs: [
       {
         name: "1. Tài liệu hướng dẫn",
@@ -15,7 +15,7 @@ const menus = [
   },
   {
     name: "II. Hệ thống xây dựng cơ sở dữ liệu đất đai",
-    id: "app2",
+    id: "constructor-app",
     subtabs: [
       {
         name: "1. Tài liệu hướng dẫn",

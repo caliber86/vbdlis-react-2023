@@ -14,7 +14,7 @@ const GuideMenu = (props) => {
   const location = useLocation();
 
   switch (location.pathname) {
-    case '/guides/app1':
+    case '/guides/operating-app':
       return (
         <>
           {"Tất cả tài liệu"}
@@ -22,15 +22,15 @@ const GuideMenu = (props) => {
           <GuideApp1Video />
         </>
       )
-    case '/guides/app1/document':
+    case '/guides/operating-app/document':
       return (
         <GuideApp1Document />
       )
-    case '/guides/app1/video':
+    case '/guides/operating-app/video':
       return (
         <GuideApp1Video />
       )
-    case '/guides/app2':
+    case '/guides/constructor-app':
       return (
         <>
           {"All"}
@@ -38,11 +38,11 @@ const GuideMenu = (props) => {
           <GuideApp2Video />
         </>
       )
-    case '/guides/app2/document':
+    case '/guides/constructor-app/document':
       return (
         <GuideApp2Document />
       )
-    case '/guides/app2/video':
+    case '/guides/constructor-app/video':
       return (
         <GuideApp2Video />
       )
@@ -52,14 +52,6 @@ const GuideMenu = (props) => {
 }
 
 const Guides = () => {
-
-  // useEffect(() => {
-  //   let url = './../../content/raw/guides.json';
-  //   (async () => {
-  //     const rs = await DataHelper.getDataJson(url);
-  //     console.log(rs)
-  //   })();
-  // }, []);
 
   const menus = getMenus();
 
@@ -94,34 +86,5 @@ const Guides = () => {
       </div>
     </div>
   )
-
-  // return (
-  //   <div className='container' style={{ display: 'grid', gridTemplateColumns: '1fr 4fr' }}>
-
-  //     <div>
-  //       <ul>
-  //         {menus.map(({ name, id, subtabs }) => (
-  //           <li key={id}>
-  //             <Link to={id}>{name}</Link>
-  //             <ul>
-  //               {subtabs.map((sub) => (
-  //                 <li key={sub.id}>
-  //                   <Link to={`${id}/${sub.id}`}>{sub.name}</Link>
-  //                 </li>
-  //               ))}
-  //             </ul>
-  //           </li>
-  //         ))}
-  //       </ul>
-  //     </div>
-
-  //     <div>
-  //       <Routes>
-  //         <Route path=":menuId/*" element={<GuideMenu />} />
-  //       </Routes>
-  //     </div>
-
-  //   </div>
-  // )
 }
 export default Guides;
