@@ -7,10 +7,11 @@ const STYLES = [
     "vbt-white-solid",
     "vbt-white-outline",
     "vbt-white",
+    "button-video",
     "vbt-blue-action"
 ];
 
-const SIZE = ["vbt-small", "vbt-medium", "vbt-larger", "vbt-larger-icon"];
+const SIZE = ["vbt-small", "vbt-medium", "vbt-larger", "vbt-icon-only", "vbt-larger-icon"];
 
 const Button = ({
     children,

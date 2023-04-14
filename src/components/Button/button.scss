@@ -105,6 +105,16 @@
     }
 }
 
+.button-video {
+    background: $blue;
+    box-shadow: none;
+    border-radius: 100px;
+    &:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
 
 // .vbt-blue-solid{
 //     color: $white;
@@ -156,4 +166,8 @@
     height: 50px;
     padding-left: 24px;
     padding-right: 32px;
+}
+.vbt-icon-only {
+    width: 48px;
+    height: 48px;
 }

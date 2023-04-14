@@ -6,30 +6,37 @@
     {
       "customerId": "1",
       "avatar": "./../content/img/customer-1.png",
-      "name": "Mr. Trường",
-      "info": "Văn phòng đăng ký đất đai tỉnh Tây Ninh",
-      "description": "Phần mềm hỗ trợ tốt cho công tác quản lý, cấp giấy chứng nhận sử dụng đất"
+      "name": "Nguyễn Hoài Nam",
+      "info": "Văn phòng đăng ký đất đai tỉnh Hà Tĩnh",
+      "description": "Phần mềm VBDLIS hỗ trợ tốt việc quản lý CSDL hồ sơ địa chính gắn với quá trình giải quyết thủ tục hành chính thuộc lĩnh vực đất đai."
     },
     {
       "customerId": "2",
       "avatar": "./../content/img/customer-2.png",
-      "name": "Mrs. Trang",
-      "info": "Văn phòng Sở TNMT tỉnh Điện Biên",
-      "description": "Phần mềm VBDLis đã giúp ích rất nhiều cho các Phòng, Ban chức năng của Huyện, trong công tác Quản lý địa chính với hầu hết các quy trình, nghiệm vụ như: quản lý sổ đỏ, giấy chứng nhận quyền SDD, hồ sơ quét...."
+      "name": "Chu Thị Bắc",
+      "info": "Văn phòng đăng ký đất đai tỉnh Bắc Giang",
+      "description": "Hệ thống VBDLIS hỗ trợ giao diện thân thiện, có tính linh hoạt cao, có thể tùy biến để phù với quy trình nghiệp vụ thuộc lĩnh vực đất đai. Hệ thống có khả năng lưu trữ và quản lý CSDL lớn, cho phép tra cứu, cung cấp thông tin thửa đất một cách nhanh chóng, chính xác."
     },
     {
       "customerId": "3",
-      "avatar": "",
-      "name": "Customer Name CCC",
-      "info": "Customer Name CCC",
-      "description": "Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc Ccc"
+      "avatar": "./../content/img/customer-3.png",
+      "name": "Nguyễn Xuân Tiến",
+      "info": "Văn phòng đăng ký đất đai TP.HCM",
+      "description": "Phần mềm VBDLIS đã hỗ trợ xử lý hồ sơ đất đai theo bộ thủ tục hành chính, cho phép tùy biến quy trình theo đặc thù quản lý và cơ cấu tổ chức của mỗi đơn vị nhưng vẫn đảm bảo đúng thời gian xử lý hồ sơ theo quy định; Quản lý số hồ sơ thủ tục đăng ký các hồ sơ đất đai biến động đồng thời, quản lý hồ sơ địa chính thống nhất ở 03 cấp theo đúng quy định."
     },
     {
       "customerId": "444",
       "avatar": "./../content/img/customer-4.png",
-      "name": "Customer Name DDD",
-      "info": "Customer Name DDD",
-      "description": "Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd Ddd "
+      "name": "Lê Thành Phương",
+      "info": "Chi nhánh văn phòng đăng ký đất đai TP. Thủ Đức",
+      "description": "Hệ thống VBDLIS hỗ trợ tốt công tác xử lý nghiệp vụ cho Chi nhánh với hơn 160 người dùng và trên 300 hồ sơ mỗi ngày; cung cấp các giải pháp xử lý dữ liệu, báo cáo thống kê trực quan từ đó Ban Giám đốc có thể quản lý, giám sát chặt chẽ và  triển khai các giải pháp cải cách hành chính, giảm hồ sơ trễ hẹn."
+    },
+    {
+      "customerId": "444",
+      "avatar": "./../content/img/customer-4.png",
+      "name": "Lê Thành Phương",
+      "info": "Chi nhánh văn phòng đăng ký đất đai TP. Thủ Đức",
+      "description": " Hệ thống VBDLIS được liên thông với hệ thống ngân hàng, kho bạc trong thanh toán thuế, phí, lệ phí; đăng ký hồ sơ giao dịch bảo đảm trực tuyến tạo thuận lợi cho người dân, doanh nghiệp."
     }
   ]
 }

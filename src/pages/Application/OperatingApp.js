@@ -84,7 +84,7 @@ const OperatingApp = () => {
             <h1>{'Hệ thống vận hành cơ sở dữ liệu đất đai'}</h1>
             <p>Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai</p>
             <div className='app-hero-button'>
-              <Link to="" spy={true} smooth={true} duration={500} >                
+              <Link to="/contactus" spy={true} smooth={true} duration={500} >                
                 <Button buttonStyle="vbt-blue-solid" buttonSize="vbt-larger">
                   <span>Đăng ký</span>
                 </Button>

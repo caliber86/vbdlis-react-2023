@@ -84,7 +84,7 @@ const ConstructorApp = () => {
             <h1>{'Hệ thống xây dựng cơ sở dữ liệu đất đai'}</h1>
             <p> Cung cấp các giải pháp xây dựng, chuyển đổi, tích hợp, chuẩn hóa cơ sở dữ liệu đất đai.</p>
             <div className='app-hero-button'>
-              <Link to="" spy={true} smooth={true} duration={500} >                
+              <Link to="/contactus" spy={true} smooth={true} duration={500} >                
                 <Button buttonStyle="vbt-blue-solid" buttonSize="vbt-larger">
                   <span>Đăng ký</span>
                 </Button>
