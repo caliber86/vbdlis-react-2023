@@ -13,7 +13,10 @@
         "Kết nối, liên thông với hệ thống Lệ phí trước bạ của cơ quan Thuế.",
         "Đồng bộ CSDL với hệ thống Cơ sở dữ liệu đất đai quốc gia.",
         "Quản lý công văn, đơn thư ngăn chặn tập trung."
-      ]
+      ],
+      "type": "download",
+      "linkTitle": "Brochure",
+      "source": "/guides/tccsdl-2-co-so-du-lieu-gia-dat.pdf"
     },
     {
       "image": "./../content/img/ic-app-2.svg",
@@ -25,7 +28,10 @@
         "Hỗ trợ biên tập, xây dựng dữ liệu TKKK cho cấp xã",
         "Tổng hợp khái quát bản đồ hiện trạng cho cấp huyện, tỉnh, cấp vùng và cả nước",
         "Quản lý hiện trạng sử dụng đất các cấp"
-      ]
+      ],
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/tccsdl-2-co-so-du-lieu-gia-dat.pdf"
     },
     {
       "image": "./../content/img/ic-app-3.svg",

@@ -5,6 +5,7 @@
         padding-bottom: 96px;
         grid-column-gap: 48px;
     }
+
     .guides-banner {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -16,6 +17,7 @@
             margin: auto;
             margin-bottom: 24px;
         }
+
         p {
             font-size: 20px;
             max-width: 800px;
@@ -26,6 +28,15 @@
 
     .guides-left-content {
         font-size: 16px;
+
+        &.sticky {
+            position: fixed;
+            top: 0;
+            max-width: 18%;
+            background-color: white;
+            border-radius: 10px;
+        }
+
         ul {
             padding-left: 16px;
             padding-right: 24px;
@@ -36,27 +47,40 @@
                 margin-bottom: 4px;
                 list-style-type: none;
 
-                a {
-                    color: $grey-800;
-                    font-weight: 500;
-                }
+                // a {
+                //     color: $grey-800;
+                //     font-weight: 500;
+                // }
 
                 &::marker {
                     color: $grey-500;
                 }
-                
-                &:active {
-                    color: $blue;
+
+                // &:active {
+                //     color: $blue;
+                // }
+                &.left-menu-item.active {
+                    a {
+                        color: $blue;
+                    }
+
+                    ul li.left-menu-item a {
+                        color: $grey-800;
+                    }
                 }
             }
         }
     }
+
     .guides-right-content {
+        min-height: 500px;
+
         .guides-document {
             .guides-title {
                 // padding-top: 16px;
                 margin-bottom: 16px;
             }
+
             .document-download {
                 display: flex;
                 flex-direction: column;
@@ -65,41 +89,50 @@
 
                 table {
                     font-size: 16px;
-                    
-                    .download-thead_fist {                                    
-                        th ,td {
+
+                    .download-thead_fist {
+
+                        th,
+                        td {
                             background-color: $grey-800;
                             color: $white;
                             font-weight: 500 !important;
                         }
                     }
+
                     tr {
-                        th ,td {
+
+                        th,
+                        td {
                             padding: 0 24px;
                             background-color: $bglightgray;
                             height: 48px;
-                            
+
                             &.download {
                                 text-align: center;
                             }
-                            &:first-child {                               
+
+                            &:first-child {
                                 // font-weight: 400;
                             }
+
                             &:last-child {
                                 padding: 0;
                             }
-    
+
                             a {
                                 &:hover {
                                     span {
                                         &:first-child {
-                                            display: inline-block;                                            
+                                            display: inline-block;
                                         }
+
                                         &:last-child {
                                             display: none;
                                         }
                                     }
                                 }
+
                                 span {
                                     display: inline-block;
                                     background-color: $blue;
@@ -110,21 +143,22 @@
                                     padding: 6px 24px;
                                     text-transform: uppercase;
                                     margin: auto;
-    
+
                                     img {
                                         margin-right: 8px;
                                     }
-                                    
+
                                     &:first-child {
                                         display: none;
                                     }
                                 }
-                            }                      
-                        }                    
+                            }
+                        }
                     }
                 }
             }
         }
+
         .guides-video {
             .video-guides-item {
                 width: auto;
@@ -138,17 +172,19 @@
                 .video-card {
                     background-color: $bglightgray;
                     display: flex;
-                    flex-direction: column; 
+                    flex-direction: column;
                     position: relative;
 
                     .video-thumbnail {
-                        overflow: hidden;                       
+                        overflow: hidden;
+
                         img {
                             width: 100%;
                             // height: 250px;
                             object-fit: cover;
-                        }                
+                        }
                     }
+
                     // .video-button {
                     //     position: relative;
                     //     top: 0;

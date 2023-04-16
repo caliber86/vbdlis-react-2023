@@ -6,22 +6,22 @@ export default function GuideApp1Document() {
   return (
     <div className='guides-document' >
       <div>
-        <h3 className='guides-title'>Tài liệu hướng dẫn sử dụng</h3>          
+        <h3 className='guides-title'>Tài liệu hướng dẫn sử dụng</h3>
         <div className='document-download'>
           <table>
             <thead>
-                <tr className='download-thead_fist'>
-                  <th width="5%">Stt</th>
-                  <th width="75%">Tên tài liệu</th>
-                  <th width="20%" className='download'>Tải tài liệu</th>
-                </tr>
+              <tr className='download-thead_fist'>
+                <th width="5%">Stt</th>
+                <th width="75%">Tên tài liệu</th>
+                <th width="20%" className='download'>Tải tài liệu</th>
+              </tr>
             </thead>
             <tbody>
               <tr>
                 <th>1</th>
                 <th>Phân hệ địa chính</th>
                 <th className='download'>
-                  <Link to="/guides/vhcsdl-1-phan-he-dia-chinh.pdf" target="_blank" download>                   
+                  <Link to="/guides/vhcsdl-1-phan-he-dia-chinh.pdf" target="_blank">
                     <span>Tải về</span>
                     <span>PDF</span>
                     {/* <span><img width={'24px'} height={'24px'} src={DOWNLOAD_ICON}/>PDF</span> */}

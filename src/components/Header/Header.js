@@ -83,7 +83,7 @@ const Header = () => {
                 </div>
               ) : null}
             </li>
-            <li className={getClassNameMenu('/guides')}><Link to='/guides'>Hướng dẫn</Link></li>
+            <li className={getClassNameMenu('/guides')}><Link to='/guides/operating-app'>Hướng dẫn</Link></li>
             <li className={getClassNameMenu('/news')}><Link to='/news'>Tin tức</Link></li>
             <li className={getClassNameMenu('/contactus')}><Link to='/contactus'>Liên hệ</Link></li>
           </ul>
@@ -104,7 +104,7 @@ const Header = () => {
       string = 'menu-item active';
     }
     else {
-      if (path === location?.pathname) {
+      if (path === location?.pathname || (path === '/guides' && location.pathname.includes('/guides'))) {
         string = 'menu-item active'
       }
       else {
