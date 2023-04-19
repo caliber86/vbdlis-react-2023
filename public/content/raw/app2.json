@@ -8,7 +8,10 @@
         "Quản lý các đợt chuyển đổi, đợt thi công CSDL địa chính",
         "Kiểm tra, đánh giá chất lượng dữ liệu (không gian, thuộc tính, HSQ); tiến hành duyệt sản phẩm",
         "Theo dõi tiến độ dự án, khối lượng thi công"
-      ]
+      ],
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/tccsdl-1-co-so-du-lieu-dia-chinh.pdf"
     },
     {
       "image": "./../content/img/ic-app-3.svg",
@@ -16,7 +19,10 @@
       "infoDetail": [
         "Hỗ trợ xây dựng dữ liệu thuộc tính của các lớp dữ liệu giá đất",
         "Kiểm tra, đánh giá chất lượng dữ liệu thi công"
-      ]
+      ],
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/tccsdl-2-co-so-du-lieu-gia-dat.pdf"
     },
     {
       "image": "./../content/img/ic-app-2.svg",
@@ -24,7 +30,10 @@
       "infoDetail": [
         "Hỗ trợ xây dựng dữ liệu thuộc tính của các lớp dữ liệu TKKK",
         "Kiểm tra, đánh giá chất lượng dữ liệu thi công"
-      ]
+      ],
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/tccsdl-3-co-so-du-lieu-thong-ke-kiem-ke.pdf"
     },
     {
       "image": "./../content/img/ic-app-4.svg",
@@ -32,7 +41,10 @@
       "infoDetail": [
         "Hỗ trợ xây dựng dữ liệu thuộc tính của các lớp dữ liệu Quy hoạch kế hoạch sử dụng đât",
         "Kiểm tra, đánh giá chất lượng dữ liệu thi công"
-      ]
+      ],
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/tccsdl-4-co-so-du-lieu-quy-hoach-ke-hoach-su-dung-dat.pdf"
     }
   ],
   "app-desktop": [

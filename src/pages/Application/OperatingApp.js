@@ -81,7 +81,7 @@ const OperatingApp = () => {
           <div className='container'>
             {/* <img width={'80px'} height={'80px'} src={IconDefault} alt="" /> */}
             {/* <h4>{'Hệ thống'}</h4> */}
-            <h1>{'Hệ thống vận hành cơ sở dữ liệu đất đai'}</h1>
+            <h1>{'Hệ thống vận hành Cơ sở dữ liệu Đất đai'}</h1>
             <p>Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai</p>
             <div className='app-hero-button'>
               <Link to="/contactus" spy={true} smooth={true} duration={500} >                

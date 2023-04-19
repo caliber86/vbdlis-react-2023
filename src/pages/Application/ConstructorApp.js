@@ -81,7 +81,7 @@ const ConstructorApp = () => {
           <div className='container'>
             {/* <img className='ic-banner-app' width={'80px'} height={'80px'} src={ICON} alt="" /> */}
             {/* <h4>{'Hệ thống'}</h4> */}
-            <h1>{'Hệ thống xây dựng cơ sở dữ liệu đất đai'}</h1>
+            <h1>{'Hệ thống xây dựng Cơ sở dữ liệu Đất đai'}</h1>
             <p> Cung cấp các giải pháp xây dựng, chuyển đổi, tích hợp, chuẩn hóa cơ sở dữ liệu đất đai.</p>
             <div className='app-hero-button'>
               <Link to="/contactus" spy={true} smooth={true} duration={500} >                

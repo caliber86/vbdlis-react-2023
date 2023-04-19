@@ -69,14 +69,14 @@ const Header = () => {
                           <div className='dropdown-icon'>
                             <img width={'24px'} height={'24px'} src={DD_ICON1} alt="" />
                           </div>
-                          Hệ thống vận hành cơ sở dữ liệu đất đai
+                          Hệ thống vận hành Cơ sở dữ liệu Đất đai
                         </Link></li>
                       <li className={getClassNameMenu('/constructor-app')} onClick={() => setShow(false)}>
                         <Link to='/constructor-app'>
                           <div className='dropdown-icon'>
                             <img width={'24px'} height={'24px'} src={DD_ICON2} alt="" />
                           </div>
-                          Hệ thống xây dựng cơ sở dữ liệu đất đai
+                          Hệ thống xây dựng Cơ sở dữ liệu Đất đai
                         </Link></li>
                     </ul>
                   </div>

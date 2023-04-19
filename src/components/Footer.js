@@ -36,7 +36,7 @@ export default function Footer() {
             <div className='text-cols'>
               <div className='footer-title'>Giới thiệu</div>
               <Link to="">Trang chủ</Link>
-              <Link to='/guides'>Hướng dẫn</Link>
+              <Link to='/guides/operating-app'>Hướng dẫn</Link>
               <Link to='/news'>Tin tức</Link>
               <Link to='/contactus'>Liên hệ</Link>
             </div>

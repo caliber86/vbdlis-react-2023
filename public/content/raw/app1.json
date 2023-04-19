@@ -2,7 +2,7 @@
   "app-web": [
     {
       "image": "./../content/img/ic-app-1.svg",
-      "title": "Phân hệ địa chính",
+      "title": "Phân hệ Địa chính",
       "subtitle": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương.",
       "description": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương. Kết nối, chia sẻ dữ liệu với Cơ sở dữ liệu đất đai quốc gia, các hệ thống thông tin, cơ sở dữ liệu của các bộ, ngành, địa phương...",
       "infoDetail": [
@@ -14,13 +14,13 @@
         "Đồng bộ CSDL với hệ thống Cơ sở dữ liệu đất đai quốc gia.",
         "Quản lý công văn, đơn thư ngăn chặn tập trung."
       ],
-      "type": "download",
+      "type": "link",
       "linkTitle": "Brochure",
-      "source": "/guides/tccsdl-2-co-so-du-lieu-gia-dat.pdf"
+      "source": "/guides/vhcsdl-1-phan-he-dia-chinh.pdf"
     },
     {
       "image": "./../content/img/ic-app-2.svg",
-      "title": "Phân hệ thống kê, kiểm kê đất đai",
+      "title": "Phân hệ Thống kê, Kiểm kê đất đai",
       "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL thống kê, kiểm kê đất đai.",
       "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL thống kê, kiểm kê đất đai.",
       "infoDetail": [
@@ -31,11 +31,11 @@
       ],
       "type": "link",
       "linkTitle": "Brochure",
-      "source": "/guides/tccsdl-2-co-so-du-lieu-gia-dat.pdf"
+      "source": "/guides/vhcsdl-2-Phan-he-quan-ly-thong-ke-kiem-ke-dat-dai.pdf"
     },
     {
       "image": "./../content/img/ic-app-3.svg",
-      "title": "Phân hệ quản lý giá đất",
+      "title": "Phân hệ quản lý Giá đất",
       "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL giá đất.",
       "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL giá đất.",
       "infoDetail": [
@@ -43,11 +43,14 @@
         "Quản lý dữ liệu về giá thị trường, giá đất xác định đến từng thửa đất và các hệ số điều chỉnh hàng năm",
         "Xây dựng bảng giá tự động",
         "Tra cứu, khai thác thông tin"
-      ]
+      ],
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/vhcsdl-3-phan-he-quan-ly-gia-dat.pdf"
     },
     {
       "image": "./../content/img/ic-app-4.svg",
-      "title": "Phân hệ quản lý quy hoạch, kế hoạch sử dụng đất",
+      "title": "Phân hệ quản lý Quy hoạch, Kế hoạch sử dụng đất",
       "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL.",
       "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL quy hoạch kế hoạch sử dụng đất.",
       "infoDetail": [
@@ -55,7 +58,10 @@
         "Quản lý dữ liệu về Khu chức năng cấp huyện, cấp tỉnh",
         "Quản lý dữ liệu về các công trình, dự án",
         "Tra cứu, khai thác thông tin"
-      ]
+      ],
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/vhcsdl-4-phan-he-quy-hoach-ke-hoach-su-dung-dat.pdf"
     },
     {
       "image": "./../content/img/ic-app-5.svg",
@@ -72,13 +78,16 @@
     },
     {
       "image": "./../content/img/ic-app-6.svg",
-      "title": "Khai thác dữ liệu bản đồ",
+      "title": "Khai thác dữ liệu Bản đồ",
       "subtitle": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất,...",
-      "description": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất, Thống kê kiểm kê, Giá đất. Hệ thống được tách rời khỏi các phân hệ vận hành và được cấu trúc để hỗ trợ phân tích dữ liệu; cho phép chồng xếp các lớp dữ liệu để khai thác thông tin đa chiều đáp ứng nhu cầu của người dùng."
+      "description": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất, Thống kê kiểm kê, Giá đất. Hệ thống được tách rời khỏi các phân hệ vận hành và được cấu trúc để hỗ trợ phân tích dữ liệu; cho phép chồng xếp các lớp dữ liệu để khai thác thông tin đa chiều đáp ứng nhu cầu của người dùng.",
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
     },
     {
       "image": "./../content/img/ic-app-7.svg",
-      "title": "Cổng thông tin đất đai - VBDLIS Portal",
+      "title": "Cổng thông tin Đất đai - VBDLIS Portal",
       "subtitle": "VBDLIS Portal cung cấp thông tin đất đai cho người dân, doanh nghiệp...",
       "description": "VBDLIS PORTAL cung cấp thông tin đất đai cho người dân, doanh nghiệp; cung cấp các dịch vụ cho các hệ thống của sở, ban ngành khác tạo nền tảng cho triển khai Chính phủ điện tử, chính quyền điện tử và đô thị thông minh.",
       "infoDetail": [
@@ -87,17 +96,23 @@
         "Cho phép khai thác thông tin hồ sơ địa chính, quy hoạch sử dụng đất, TKKK, giá đất",
         "Cung cấp thông tin thuộc lĩnh vực đất đai",
         "Tiếp nhận và giải quyết kiến nghị của cá nhân, tổ chức"
-      ]
+      ],
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/vhcsdl-7-cong-thong-tin-dat-dai.pdf"
     },
     {
       "image": "./../content/img/ic-app-8.svg",
-      "title": "Hệ thống dịch vụ công",
+      "title": "Hệ thống Dịch vụ công",
       "subtitle": "VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến...",
-      "description": "Hệ thống dịch vụ công đất đai VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến; hỗ trợ cá nhân, doanh nghiệp theo dõi tình trạng hồ sơ; tiếp nhận và xử lý phản ánh kiến nghị của công dân."
+      "description": "Hệ thống dịch vụ công đất đai VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến; hỗ trợ cá nhân, doanh nghiệp theo dõi tình trạng hồ sơ; tiếp nhận và xử lý phản ánh kiến nghị của công dân.",
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/vhcsdl-8-he-thong-dich-vu-cong.pdf"
     },
     {
       "image": "./../content/img/ic-app-9.svg",
-      "title": "Cơ sở dữ liệu đất đai quốc gia",
+      "title": "Cơ sở dữ liệu Đất đai Quốc gia",
       "subtitle": "Hệ thống đảm bảo dữ liệu luôn được cập nhật mới thường xuyên, phục vụ công tác quản lý và chia sẻ CSDL giữa các ngành ở cấp TW.",
       "description": "Hệ thống Cơ sở dữ liệu đất đai quốc gia được đồng bộ với Hệ thống quản lý đất đai VBLIS tại các tỉnh/Tp đảm bảo dữ liệu luôn được cập nhật mới thường xuyên, phục vụ công tác quản lý và chia sẻ CSDL giữa các ngành ở cấp TW.",
       "infoDetail": [
@@ -132,7 +147,10 @@
         "Hỗ trợ công cụ kiểm lỗi về cấu trúc, thuộc tính, không gian, kiểm tra cấu trúc gói sản phẩm giao nộp",
         "Tích hợp gói sản phẩm lên hệ thống vận hành (web) để tiến hành kiểm tra, đối soát và đồng bộ vào vận hành",
         "Tải dữ liệu đã vận hành bao gồm Thuộc tính, Không gian, HSQ, SĐC phụ vụ công tác quản lý, lưu trữ tại đơn vị"
-      ]
+      ],
+      "type": "link",
+      "linkTitle": "Brochure",
+      "source": "/guides/vhcsdl-11-LISEeditor-VPDK.pdf"
     }
   ]
 }

@@ -9,6 +9,7 @@ const GuideApp1Video = () => {
   return (
     <div className='guides-video'>
       <h3 className='guides-title'>Video hướng dẫn sử dụng</h3>
+      <p>Update...</p>
       {/* <div className='video-guides-item'>
         <div className='video-card'>
           <div className='video-button'>

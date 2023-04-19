@@ -28,8 +28,8 @@ const Customer = () => {
           <Slideshow
             visibility={2}
             current={1}
-            slideWidth={'860px'}
-            slideHeight={'550px'}
+            slideWidth={'950px'}
+            slideHeight={'600px'}
           >
             {data?.children.length && data?.children.map((c, idx) =>
               <TalkBox data={c} key={idx} />

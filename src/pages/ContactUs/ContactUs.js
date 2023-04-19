@@ -64,7 +64,7 @@ const ContactUs = () => {
               placeholder="Chúng tôi có thể giúp gì cho bạn?"
             />
           </form>
-          <Button buttonSize="vbt-larger" buttonStyle="vbt-blue-solid">Gửi tin nhắn</Button>
+          <Button buttonSize="vbt-larger" buttonStyle="vbt-blue-solid">Gửi tin</Button>
         </div>
       </div>     
     </div>

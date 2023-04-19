@@ -22,21 +22,56 @@
       "avatar": "./../content/img/customer-3.png",
       "name": "Nguyễn Xuân Tiến",
       "info": "Văn phòng đăng ký đất đai TP.HCM",
-      "description": "Phần mềm VBDLIS đã hỗ trợ xử lý hồ sơ đất đai theo bộ thủ tục hành chính, cho phép tùy biến quy trình theo đặc thù quản lý và cơ cấu tổ chức của mỗi đơn vị nhưng vẫn đảm bảo đúng thời gian xử lý hồ sơ theo quy định; Quản lý số hồ sơ thủ tục đăng ký các hồ sơ đất đai biến động đồng thời, quản lý hồ sơ địa chính thống nhất ở 03 cấp theo đúng quy định."
+      "description": "Phần mềm VBDLIS đã hỗ trợ xử lý hồ sơ đất đai theo bộ thủ tục hành chính, cho phép tùy biến quy trình theo đặc thù quản lý và cơ cấu tổ chức của mỗi đơn vị nhưng vẫn đảm bảo đúng thời gian xử lý hồ sơ theo quy định; Quản lý số hồ sơ thủ tục đăng ký các hồ sơ đất đai biến động đồng thời, quản lý hồ sơ địa chính thống nhất ở 03 cấp theo đúng quy định. Theo dõi, thống kê báo cáo được tiến độ xử lý hồ sơ đất đai tại các đơn vị, thực hiện chữ ký số liên thông thuế điện tử ngay trên phần mềm."
     },
     {
-      "customerId": "444",
+      "customerId": "4",
       "avatar": "./../content/img/customer-4.png",
       "name": "Lê Thành Phương",
       "info": "Chi nhánh văn phòng đăng ký đất đai TP. Thủ Đức",
       "description": "Hệ thống VBDLIS hỗ trợ tốt công tác xử lý nghiệp vụ cho Chi nhánh với hơn 160 người dùng và trên 300 hồ sơ mỗi ngày; cung cấp các giải pháp xử lý dữ liệu, báo cáo thống kê trực quan từ đó Ban Giám đốc có thể quản lý, giám sát chặt chẽ và  triển khai các giải pháp cải cách hành chính, giảm hồ sơ trễ hẹn."
     },
     {
-      "customerId": "444",
+      "customerId": "5",
       "avatar": "./../content/img/customer-4.png",
       "name": "Lê Thành Phương",
       "info": "Chi nhánh văn phòng đăng ký đất đai TP. Thủ Đức",
-      "description": " Hệ thống VBDLIS được liên thông với hệ thống ngân hàng, kho bạc trong thanh toán thuế, phí, lệ phí; đăng ký hồ sơ giao dịch bảo đảm trực tuyến tạo thuận lợi cho người dân, doanh nghiệp."
+      "description": "Hệ thống VBDLIS được liên thông với hệ thống ngân hàng, kho bạc trong thanh toán thuế, phí, lệ phí; đăng ký hồ sơ giao dịch bảo đảm trực tuyến tạo thuận lợi cho người dân, doanh nghiệp."
+    },
+    {
+      "customerId": "6",
+      "avatar": "./../content/img/customer-5.jpg",
+      "name": "Nguyễn Minh Cường",
+      "info": "Chi nhánh văn phòng đăng ký đất đai tại huyện Châu Thành",
+      "description": "Phần mềm VBDLIS hỗ trợ tốt việc quản lý CSDL hồ sơ địa chính gắn với quá trình giải quyết thủ tục hành chính thuộc lĩnh vực đất đai."
+    },
+    {
+      "customerId": "7",
+      "avatar": "./../content/img/customer-6.jpg",
+      "name": "Hoàng Văn Hưng",
+      "info": "Chi nhánh Văn phòng Đăng ký đất đai huyện Ea Kar, tỉnh Đắk Lắk",
+      "description": "Phần mềm VBDLIS là giải pháp phần mềm quản lý đất đai tối ưu, có nhiều tính năng hữu ích giúp tăng tính chủ động trong công việc, đáp ứng yêu cầu về địa chính, đảm bảo chuẩn cơ sở dữ liệu, dữ liệu không gian, dữ liệu liên thông thuế...là tiền đề để phát triển ứng dụng dữ liệu về dân cư, xác thực điển tử phục vụ chuyển đổi số hóa quốc gia."
+    },
+    {
+      "customerId": "8",
+      "avatar": "./../content/img/customer-7.jpg",
+      "name": "Huỳnh Châu Âu",
+      "info": "Văn Phòng Đăng ký đất đai tỉnh Tiền Giang",
+      "description": "Phần mềm VBDLIS thay thế phần mềm VILIS cũ có tích hợp liên thông với phần mềm 1 cửa của tỉnh và phần mềm liên thông thuế nên rất tiện lợi cho việc xử lý công việc chuyên môn, đồng thời do chạy trên môi trường WEB nên có thể làm bất cứ nơi nào miễn có mạng Internet. Bản thân đánh giá cao vì sự thuận tiện các ưu điểm trên."
+    },
+    {
+      "customerId": "9",
+      "avatar": "./../content/img/customer-8.jpg",
+      "name": "Lê Văn Hào",
+      "info": "Văn Phòng Đăng ký đất đai Tỉnh Nghệ An",
+      "description": "Phần mềm VBDLIS có giao diện dễ sử dụng, phù hợp với quy định hiện hành, hỗ trợ tốt việc quản lý CSDL hồ sơ địa chính. Hỗ trợ tổng hợp báo cáo, theo dõi và cập nhật theo từng loại biến động rất tối ưu. Chức năng quản trị hệ thống hỗ trợ cho chức năng quản lý một cách chặt chẽ về cấu hình người dùng, quản trị quy trình... cũng như các chức năng trong quá trình xử lý thủ tục hành chính về lĩnh vực đất đai"
+    },
+    {
+      "customerId": "10",
+      "avatar": "./../content/img/customer-9.jpg",
+      "name": "Lê Văn Tý",
+      "info": "Phòng Đo đạc Bản đồ và Viễn thám (Sở Tài nguyên và Môi trường Quảng Trị)",
+      "description": "VBDLISDesktop thực sự là bộ công cụ đồ họa mạnh, thuần việt, đáp ứng đầy đủ các yêu càu về xử lý dữ liệu không gian, hỗ trợ đắc lực cho hệ thống web VBDLIS. - Đội ngũ cán bộ kỹ thuật có trình độ, am hiểu về quản lý đất đai và công nghệ, hỗ trợ nhiệt tình và luôn lắng nghe, cập nhật những phản ánh từ hoạt động thực tế của các địa phương, nhờ vậy đã giải quyết rất tốt vấn đề quản lý đất đai trên môi trường số."
     }
   ]
 }

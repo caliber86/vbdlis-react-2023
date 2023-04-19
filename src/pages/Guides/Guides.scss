@@ -28,44 +28,51 @@
 
     .guides-left-content {
         font-size: 16px;
+        height: fit-content;
+        border-bottom: 2px solid $bglightgray;
 
         &.sticky {
             position: fixed;
-            top: 0;
-            max-width: 18%;
-            background-color: white;
-            border-radius: 10px;
+            top: 16px;
+            max-width: 224px;            
         }
 
         ul {
-            padding-left: 16px;
-            padding-right: 24px;
             margin-bottom: 24px;
 
             li {
-                font-size: 15px;
+                font-size: 16px;
+                font-weight: 500;
                 margin-bottom: 4px;
-                list-style-type: none;
-
-                // a {
-                //     color: $grey-800;
-                //     font-weight: 500;
-                // }
+                list-style-type: none;                
 
                 &::marker {
-                    color: $grey-500;
+                    color: $grey-600;
                 }
+               
+                &.left-menu-item {
+                    a {
+                        color: $grey-500;
 
-                // &:active {
-                //     color: $blue;
-                // }
+                        &.menu-guides-title {
+                            display: block;
+                            text-transform: uppercase;
+                            font-weight: 600;
+                            margin-bottom: 4px;
+                        }
+                        // &.guides-sub-menu {
+                        //     padding-left: 12px;
+                        // }
+                    }
+                }
+                
                 &.left-menu-item.active {
                     a {
                         color: $blue;
                     }
 
                     ul li.left-menu-item a {
-                        color: $grey-800;
+                        color: $grey-500;
                     }
                 }
             }
@@ -142,7 +149,7 @@
                                     font-weight: 600;
                                     padding: 6px 24px;
                                     text-transform: uppercase;
-                                    margin: auto;
+                                    margin: auto;                                    
 
                                     img {
                                         margin-right: 8px;
