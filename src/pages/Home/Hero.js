@@ -45,11 +45,18 @@ const Hero = () => {
                 </span>
                 <span className='btn-text'>Video demo</span>
               </Button>
-              {isOpen && (
+              {/* {isOpen && (
                 <Popup setIsOpen={setIsOpen} className='hero-videodemo'>
                   <video width="1080px" height='auto' controls >                  
                     <source src="/guides/gioi-thieu-he-thong-thong-tin-dat-dai-vbdlis.mp4" type="video/mp4" />
                   </video>
+                </Popup>
+              )} */}
+              {isOpen && (
+                <Popup setIsOpen={setIsOpen} className='hero-videodemo'>
+                  <div className='video-popup'>
+                    <iframe width="800" height="500" src="https://www.youtube.com/embed/HufLcgPsMgE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
                 </Popup>
               )}
 
