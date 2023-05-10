@@ -53,10 +53,8 @@ const Hero = () => {
                 </Popup>
               )} */}
               {isOpen && (
-                <Popup setIsOpen={setIsOpen} className='hero-videodemo'>
-                  <div className='video-popup'>
-                    <iframe width="800" height="500" src="https://www.youtube.com/embed/HufLcgPsMgE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
+                <Popup setIsOpen={setIsOpen} className='hero-video-demo'>
+                  <iframe width="640" height="390" src="https://www.youtube.com/embed/HufLcgPsMgE?mute=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                  
                 </Popup>
               )}
 
