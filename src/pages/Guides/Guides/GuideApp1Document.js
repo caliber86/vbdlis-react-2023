@@ -6,7 +6,7 @@ export default function GuideApp1Document() {
   return (
     <div className='guides-document' >
       <div>
-        <h3 className='guides-title'>Tài liệu hướng dẫn sử dụng</h3>
+        <h2 className='guides-title'>Tài liệu hướng dẫn sử dụng</h2>
         <div className='document-download'>
           <table>
             <thead>

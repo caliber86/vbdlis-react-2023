@@ -106,10 +106,12 @@
 }
 
 .button-video {
-    background: $blue;
+    background: rgba($color: $blue, $alpha: 0.5);
     box-shadow: none;
     border-radius: 100px;
+    transition: all .3s ease-out;
     &:hover {
+        background: rgba($color: $blue, $alpha: 0.9);
         transform: none;
         box-shadow: none;
     }
@@ -168,6 +170,6 @@
     padding-right: 32px;
 }
 .vbt-icon-only {
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
 }
