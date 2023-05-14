@@ -1,0 +1,30 @@
+{
+  "tab1": {
+    "id": "tab1",
+    "name": "App2 tab 1",
+    "data": [
+      {
+        "title": "tab 1 aaa",
+        "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+      }
+    ]
+  },
+  "tab2": {
+    "id": "tab2",
+    "name": "App2 tab 2",
+    "data": [
+      {
+        "title": "tab 2 aaa",
+        "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+      },
+      {
+        "title": "tab 2 bbb",
+        "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+      },
+      {
+        "title": "tab 3 ccc",
+        "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+      }
+    ]
+  }
+}
