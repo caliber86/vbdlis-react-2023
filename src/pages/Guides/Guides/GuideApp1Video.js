@@ -38,7 +38,23 @@ const GuideApp1Video = () => {
           <div className='video-info'>
             <h5 className='video-title'>Giới thiệu tác vụ cấp giấy lần đầu</h5>
           </div>
-        </div>        
+        </div> 
+        <div className='video-guides-card'>
+          <div className='video-thumbnail' style={{ backgroundImage: "url(" + "/guides/video-thumbnail-1.jpg" + ")" }}>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sf58kFCRqYg?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" poster="/guides/video-thumbnail-1.jpg"></iframe>            
+          </div>
+          <div className='video-info'>
+            <h5 className='video-title'>Giới thiệu tác vụ cấp giấy lần đầu</h5>
+          </div>
+        </div>   
+        {/* <div className='video-guides-card'>
+          <div className='video-thumbnail'>
+            <video src="https://www.youtube.com/embed/sf58kFCRqYg?mute=1" poster="/guides/video-thumbnail-1.jpg"></video>           
+          </div>
+          <div className='video-info'>
+            <h5 className='video-title'>Giới thiệu tác vụ cấp giấy lần đầu</h5>
+          </div>
+        </div>     */}
       </div>      
     </div>
   )
