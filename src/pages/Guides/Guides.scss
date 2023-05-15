@@ -170,7 +170,8 @@
             .video-guides-item {                                
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                grid-gap: 24px;
+                grid-row-gap: 48px;
+                grid-column-gap: 24px;
                 justify-content: space-between;
                 flex-wrap: nowrap;
                 grid-template-rows: auto;
@@ -179,11 +180,11 @@
                 .video-guides-card {
                     position: relative;
                     width: 100%;
-                    height: 280px;
+                    height: 100%;
                     
                     .video-thumbnail {
                         width: 100%;
-                        height: 100%;
+                        height: 280px;
                         background-size: cover;
                         background-repeat: no-repeat;
                         // object-fit: cover;
@@ -205,10 +206,52 @@
                         margin-top: 24px;
 
                         .video-title {
-                            // font-weight: 500;
+                            font-size: 22px;
+                            font-weight: 500;                            
                         }
                     }
                 }                
+            }
+            .guides-video-tabs {
+                padding-top: 32px;
+
+                .tabs-header-wrap {
+                    padding: 0;                    
+                    width: auto;
+                    height: 60px;
+                    border-radius: 0;
+                    border-bottom: 2px solid $bglightgray;
+
+                    .tab-item {
+                        width: auto;
+                        padding: 0 48px;
+                        position: relative;
+                        background-color: transparent;
+                        color: $grey-800;
+                        border-radius: 0;
+                        top: 2px;
+                        transition: none;
+
+                        &:hover {                                                
+                            span {
+                                color: $blue;
+                            }
+                          }
+
+                        &.active {
+                            background-color: $white;
+                            border-bottom: 3px solid $grey-500;                                                
+                            span {
+                              color: $blue;
+                            }
+                          }
+                    }
+                    button {
+                        span {
+                          font-size: 18px;
+                        }
+                      }
+                }
             }
         }
     }

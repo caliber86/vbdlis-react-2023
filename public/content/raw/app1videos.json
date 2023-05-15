@@ -1,25 +1,77 @@
 {
   "tab1": {
     "id": "tab1",
-    "name": "App1 tab 1",
+    "name": "Vận hành",
     "data": [
       {
-        "title": "tab 1 aaa",
+        "title": "Giới thiệu tác vụ cấp giấy lần đầu",
         "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+      },
+      {
+        "title": "Giới thiệu tác vụ chuyển quyền trọn giấy",
+        "source": "https://www.youtube.com/embed/0Jplpp0nkOs?mute=1"
+      },
+      {
+        "title": "Giới thiệu về Liên thông thuế điện tử",
+        "source": "https://www.youtube.com/embed/W5vboXpRp0E?mute=1"
       }
     ]
   },
   "tab2": {
     "id": "tab2",
-    "name": "App1 tab 2",
+    "name": "Xử lý tác vụ",
     "data": [
       {
-        "title": "tab 2 aaa",
-        "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+        "title": "Tách thửa chuyển quyền cho 1 chủ (1 biên nhận)",
+        "source": "https://www.youtube.com/embed/yCuDEXGfsSw?mute=1"
       },
       {
-        "title": "tab 2 bbb",
-        "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+        "title": "Chuyển hình thức giao thuê",
+        "source": "https://www.youtube.com/embed/_H54kQT-rDU?mute=1"
+      },
+      {
+        "title": "Cho thuê nhà nước",
+        "source": "https://www.youtube.com/embed/vPMsQ052Zuk?mute=1"
+      },
+      {
+        "title": "Thế chấp",
+        "source": "https://www.youtube.com/embed/X1pJ4AxvcBc?mute=1"
+      },
+      {
+        "title": "Xóa thế chấp",
+        "source": "https://www.youtube.com/embed/RQoDNE7ZP9g?mute=1"
+      },
+      {
+        "title": "Thế chấp bổ sung",
+        "source": "https://www.youtube.com/embed/LhxgKvcU6O4?mute=1"
+      },
+      {
+        "title": "Thay đổi diện tích do sạt lở",
+        "source": "https://www.youtube.com/embed/kZQxexFiU0I?mute=1"
+      },
+      {
+        "title": "Thu hồi Giấy chứng nhận",
+        "source": "https://www.youtube.com/embed/fqUqWCAo-ho?mute=1"
+      },
+      {
+        "title": "Chuyển mục đích sử dụng",
+        "source": "https://www.youtube.com/embed/LtoGukH6J7Y?mute=1"
+      },
+      {
+        "title": "Thay đổi thông tin tài sản",
+        "source": "https://www.youtube.com/embed/2zjA6YmsYfc?mute=1"
+      },
+      {
+        "title": "Cấp đổi cấp lại",
+        "source": "https://www.youtube.com/embed/D5JzqHVYnuo?mute=1"
+      },
+      {
+        "title": "Bổ sung tài sản",
+        "source": "https://www.youtube.com/embed/3Qm2PxMnSE8?mute=1"
+      },
+      {
+        "title": "Tách thửa chuyển quyền",
+        "source": "https://www.youtube.com/embed/KQr_Ku4d4iw?mute=1"
       }
     ]
   }

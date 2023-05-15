@@ -1,29 +1,37 @@
 {
   "tab1": {
     "id": "tab1",
-    "name": "App2 tab 1",
+    "name": "Vận hành",
     "data": [
       {
-        "title": "tab 1 aaa",
-        "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+        "title": "Thống kê kiểm kê",
+        "source": "https://www.youtube.com/embed/TON06MD_Glo?mute=1"
+      },
+      {
+        "title": "Quy hoạch kế hoạch sử dụng đất",
+        "source": "https://www.youtube.com/embed/Pwo5IVBm_fY?mute=1"
       }
     ]
   },
   "tab2": {
     "id": "tab2",
-    "name": "App2 tab 2",
+    "name": "Địa chính",
     "data": [
       {
-        "title": "tab 2 aaa",
-        "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+        "title": "LIS | Chuyển đổi không gian từ Vilis 2.0",
+        "source": "https://www.youtube.com/embed/HXLVLdjePW8?mute=1"
       },
       {
-        "title": "tab 2 bbb",
-        "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+        "title": "LIS | Chuyển đổi tờ BĐĐC theo Thông tư 25",
+        "source": "https://www.youtube.com/embed/PLa9Q7DB7s8?mute=1"
       },
       {
-        "title": "tab 3 ccc",
-        "source": "https://www.youtube.com/embed/sf58kFCRqYg?mute=1"
+        "title": "LIS | Kiểm lỗi không gian và thuộc tính",
+        "source": "https://www.youtube.com/embed/2RcvYJkJPqo?mute=1"
+      },
+      {
+        "title": "LIS | Gửi và Nhận dữ liệu từ máy chủ",
+        "source": "https://www.youtube.com/embed/01R8l3LA4T4?mute=1"
       }
     ]
   }

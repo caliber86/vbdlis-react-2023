@@ -55,7 +55,7 @@ const GuideApp1Video = () => {
               className='video-guides-card'
             >
               <div className='video-thumbnail'>
-                <iframe width="100%" height="100%" src={vid.source} title={vid.title} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" poster="/guides/video-thumbnail-1.jpg"></iframe>
+                <iframe width="100%" height="100%" src={vid.source} title={vid.title} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
               <div className='video-info'>
                 <h5 className='video-title'>{vid.title}</h5>
