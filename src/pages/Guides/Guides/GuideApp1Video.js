@@ -7,6 +7,7 @@ const GuideApp1Video = () => {
   const [tabs, setTabs] = useState();
   const [tabActive, setTabActive] = useState();
   const [videos, setVideos] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     let url = './../../content/raw/app1videos.json';
@@ -26,6 +27,7 @@ const GuideApp1Video = () => {
     if (!isEmpty(tabActive)) {
       const res = tabs.find((t) => t.id === tabActive)
       setVideos(res?.data || []);
+      setLoading(false);
     }
   }, [tabActive]);
 
@@ -41,30 +43,33 @@ const GuideApp1Video = () => {
               return;
             }
             else {
+              setLoading(true)
               setTabActive(val)
             }
           }}
         />
       </div>
-
-      <div className='video-guides-item'>
-        {Array.isArray(videos) && videos?.length && videos.map((vid, index) => {
-          return (
-            <div
-              key={index}
-              className='video-guides-card'
-            >
-              <div className='video-thumbnail'>
-                <iframe width="100%" height="100%" src={vid.source} title={vid.title} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-              </div>
-              <div className='video-info'>
-                <h5 className='video-title'>{vid.title}</h5>
-              </div>
-            </div>
-          )
-        })}
-
-      </div>
+      {
+        loading ? null : (
+          <div className='video-guides-item'>
+            {Array.isArray(videos) && videos?.length && videos.map((vid, index) => {
+              return (
+                <div
+                  key={index}
+                  className='video-guides-card'
+                >
+                  <div className='video-thumbnail'>
+                    <iframe width="100%" height="100%" src={vid.source} title={vid.title} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                  </div>
+                  <div className='video-info'>
+                    <h5 className='video-title'>{vid.title}</h5>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        )
+      }
     </div>
   )
 }
