@@ -15,5 +15,15 @@ h1.title {
     .customer {
         display: flex;
         flex-direction: column;
+
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+
+            .title {
+                font-size: 48px;
+                margin-bottom: 24px;
+            }
+        }
     }
   }

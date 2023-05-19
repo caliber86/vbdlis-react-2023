@@ -33,7 +33,7 @@ const GuideMenu = (props) => {
     case '/guides/constructor-app':
       return (
         <>
-          {"All"}
+          {"Tất cả tài liệu"}
           <GuideApp2Document />
           <GuideApp2Video />
         </>

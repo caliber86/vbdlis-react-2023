@@ -76,3 +76,29 @@
     margin-left: 740px;
   }
 }
+
+@media (max-width: 425px) {
+  .slide-content {
+    .slide-card {
+      .talk-box {
+        padding: 40px;
+        height: auto;
+        span {
+          font-size: 20px;
+        }
+        .talk-box-info {
+          margin-left: 0;
+        }
+        .talk-box-author {
+          padding: 0;
+        }
+        &::before {
+          margin-bottom: 16px;
+        }
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}

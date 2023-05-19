@@ -8,6 +8,7 @@ import CardModal from './CardModal';
 import Tabs from '../../components/Tabs/Tabs';
 import { Link } from 'react-router-dom';
 import Cta from '../Home/Cta';
+import Popup from '../../components/Modal/Popup';
 
 const TABS = [
   {

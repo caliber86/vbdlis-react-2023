@@ -149,6 +149,7 @@
 }
 
 @media (max-width: 425px) {
+
   .section-content {
 
     &:nth-child(odd),
@@ -158,6 +159,9 @@
   }
 
   #overview .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    
     .product-img {
       width: 100%;
       max-width: 100%;

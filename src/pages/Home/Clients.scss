@@ -43,6 +43,9 @@ section.clients {
 @media (max-width: 425px) {
   .clients {
     .container {
+      padding-left: 20px;
+      padding-right: 20px;
+
       ul {
         display: flex;
         justify-content: center;

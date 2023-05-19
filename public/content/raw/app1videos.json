@@ -1,7 +1,7 @@
 {
   "tab1": {
     "id": "tab1",
-    "name": "Vận hành",
+    "name": "Demo chức năng",
     "data": [
       {
         "title": "Giới thiệu tác vụ cấp giấy lần đầu",
@@ -72,6 +72,56 @@
       {
         "title": "Tách thửa chuyển quyền",
         "source": "https://www.youtube.com/embed/KQr_Ku4d4iw?mute=1"
+      }
+    ]
+  },
+  "tab3": {
+    "id": "tab3",
+    "name": "Biên tập dữ liệu không gian",
+    "data": [
+      {
+        "title": "Chỉnh lý biến động | Tách thửa theo Giao hội cạnh",
+        "source": "https://www.youtube.com/embed/CTsST_eS4k0?mute=1"
+      },
+      {
+        "title": "Chỉnh lý biến động | Thêm thửa mới từ ảnh toạ độ VN2000, Kiểm tra chồng lấn.",
+        "source": "https://www.youtube.com/embed/lNboFh8PM6o?mute=1"
+      },
+      {
+        "title": "[VBDLIS DESKTOP] Tạo sơ đồ thửa, trang 3",
+        "source": "https://www.youtube.com/embed/0Ne3YvleAVE?mute=1"
+      },
+      {
+        "title": "[VBDLIS DESKTOP] Gộp thửa đất",
+        "source": "https://www.youtube.com/embed/uhCZdV91GwU?mute=1"
+      },
+      {
+        "title": "[VBDLIS DESKTOP] Xử lý tách thửa lọt lòng",
+        "source": "https://www.youtube.com/embed/Wp44zBVPNko?mute=1"
+      },
+      {
+        "title": "[VBDLIS DESKTOP] Tách thửa theo ranh",
+        "source": "https://www.youtube.com/embed/IyulA40J10I?mute=1"
+      },
+      {
+        "title": "[VBDLIS DESKTOP Gộp thửa kèm chỉnh ranh]",
+        "source": "https://www.youtube.com/embed/Bu4k_epc30Q?mute=1"
+      },
+      {
+        "title": "[VBDLIS DESKTOP] Tách thửa theo giao hội cạnh",
+        "source": "https://www.youtube.com/embed/USnqzly4hlQ?mute=1"
+      },
+      {
+        "title": "[VBDLIS DESKTOP] Gộp Tách Thửa kèm chỉnh ranh",
+        "source": "https://www.youtube.com/embed/V5jgqJ0FuOI?mute=1"
+      },
+      {
+        "title": "[VBDLIS DESKTOP] Chỉnh ranh bằng phương pháp Dịch chuyển đỉnh",
+        "source": "https://www.youtube.com/embed/8l_2xxKSPCY?mute=1"
+      },
+      {
+        "title": "[VBDLIS DESKTOP] Hướng dẫn Cập nhật dữ liệu không gian đối với trường hợp đo đạc bổ sung",
+        "source": "https://www.youtube.com/embed/7MxZJhAQNqU?mute=1"
       }
     ]
   }

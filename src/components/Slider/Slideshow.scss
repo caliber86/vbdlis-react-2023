@@ -77,3 +77,24 @@ $DEFAULT-SIZE: 23rem;
   }
 
 }
+
+
+@media (max-width: 425px) {
+  .slide-show {
+      // transform-style: none;
+
+      .slide-control {
+        &.left {
+          transform: translateX(-30%) translatey(-50%);
+        }
+        &.right {
+          transform: translateX(30%) translatey(-50%);
+        }        
+      }
+
+      .slide-content {
+        // transform: none;
+        // filter: none;
+      }
+  }
+}

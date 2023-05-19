@@ -115,17 +115,7 @@
                 right: -20px;
                 animation: 1.5s 1s infinite alternate bounce;
               }
-            }
-
-            @keyframes bounce {
-              0% {
-                transform: translateY(0);
-              }
-
-              100% {
-                transform: translateY(-12px);
-              }
-            }
+            }           
           }
         }
       }
@@ -149,16 +139,6 @@
         }
       }
     }
-
-    @keyframes hero-globe-animation {
-      0% {
-        box-shadow: 0 0 0 0 rgb(39 63 134 / 30%), 0 0 0 1px rgb(39 63 134 / 30%), 0 0 0 3px rgb(39 63 134 / 30%), 0 0 0 5px rgb(39 63 134 / 30%);
-      }
-
-      100% {
-        box-shadow: 0 0 0 2px rgb(39 63 134 / 30%), 0 0 0 4px rgb(39 63 134 / 30%), 0 0 0 50px rgb(39 63 134 / 0%), 0 0 0 80px rgb(39 63 134 / 0%);
-      }
-    }
   }
 
   // .flare {
@@ -175,6 +155,26 @@
   // }
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes hero-globe-animation {
+  0% {
+    box-shadow: 0 0 0 0 rgb(39 63 134 / 30%), 0 0 0 1px rgb(39 63 134 / 30%), 0 0 0 3px rgb(39 63 134 / 30%), 0 0 0 5px rgb(39 63 134 / 30%);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgb(39 63 134 / 30%), 0 0 0 4px rgb(39 63 134 / 30%), 0 0 0 50px rgb(39 63 134 / 0%), 0 0 0 80px rgb(39 63 134 / 0%);
+  }
+}
+
 @media (max-width: 767px) {
   .hero-home {
     h1 {
@@ -189,6 +189,8 @@
 
 @media (max-width: 425px) {
   .hero-home {
+    height: auto;
+    
     .container {
       flex-direction: column;
 
@@ -204,6 +206,13 @@
           a {
             margin-bottom: 16px;
             margin-right: 0;
+            width: 100%;
+          }
+
+          button {
+            margin: 0;
+            margin-bottom: 24px;  
+            width: 100%;          
           }
         }
       }

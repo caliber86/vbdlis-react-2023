@@ -119,3 +119,29 @@
     }    
 } 
 
+@media (max-width: 425px) {
+    #footer {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+
+            .footer-top {
+                display: block;
+
+                .left-footer {
+                    width: 100%;
+                }
+                .right-footer {
+                    flex-direction: column;
+                    width: 100%;
+                    .text-cols {
+                        width: 100%;
+                        margin-left: 0;
+                        margin-bottom: 24px;
+                    }
+                }
+            }
+        }
+    }
+  }
+
