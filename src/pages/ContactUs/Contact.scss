@@ -78,3 +78,28 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+
+    .contact-page {
+        &.container {
+            padding-left: 20px;
+            padding-right: 20px;
+
+            .contact-grid {
+                display: flex !important;
+                flex-direction: column !important;
+
+                .contact-card {
+                    padding: 40px 20px;
+                    margin-top: 40px;
+
+                    button {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+        
+}

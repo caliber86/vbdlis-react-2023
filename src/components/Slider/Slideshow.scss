@@ -82,6 +82,7 @@ $DEFAULT-SIZE: 23rem;
 @media (max-width: 425px) {
   .slide-show {
       // transform-style: none;
+      // height: auto !important;
 
       .slide-control {
         &.left {
@@ -93,8 +94,12 @@ $DEFAULT-SIZE: 23rem;
       }
 
       .slide-content {
-        // transform: none;
-        // filter: none;
+        transform: rotateY(calc(var(--offset) * 0deg)) scaleY(calc(1 + var(--abs-offset) * 0)) translateZ(calc(var(--abs-offset) * -100rem)) translateX(calc(var(--direction) * -5rem));
+
+        &:active {
+          offset: none !important;
+          direction: none !important;
+        }
       }
   }
 }

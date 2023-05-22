@@ -8,6 +8,7 @@ import CardModal from './CardModal';
 import Tabs from '../../components/Tabs/Tabs';
 import { Link } from 'react-router-dom';
 import Cta from '../Home/Cta';
+import Popup from '../../components/Modal/Popup';
 
 const TABS = [
   {
@@ -26,6 +27,7 @@ const ConstructorApp = () => {
   const [current, setCurrent] = useState();
   const [isOpen, setIsOpen] = useState(false);
   const [dataModal, setDataModal] = useState();
+  const [openVideo, setOpenVideo] = useState(false);
 
   useEffect(() => {
     let url = './../content/raw/app2.json';
@@ -90,7 +92,9 @@ const ConstructorApp = () => {
                 </Button>
               </Link>
               <Link to="" spy={true} smooth={true} duration={500} >
-                <Button buttonStyle="vbt-white-outline" buttonSize="vbt-larger-icon">
+                <Button buttonStyle="vbt-white-outline" buttonSize="vbt-larger-icon" onClick={() =>
+                  setOpenVideo(true)
+                }>
                   <span className='ic-btn'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24px" height="24px">
                       <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path>
@@ -133,6 +137,11 @@ const ConstructorApp = () => {
       </div>
 
       {isOpen && <Modal setIsOpen={setIsOpen}> <CardModal className={'cardModal'} data={dataModal} /> </Modal>}
+      {openVideo && (
+        <Popup setIsOpen={setOpenVideo} className='hero-video-demo'>
+          <iframe width="640" height="390" src="https://www.youtube.com/embed/XALOPIXsgxw?mute=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        </Popup>
+      )}
 
     </>
   )

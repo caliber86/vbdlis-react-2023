@@ -88,3 +88,21 @@
         }
     }   
 }
+
+@media (max-width: 425px) {
+    .news-page {
+        &.container {
+            padding-left: 20px;
+            padding-right: 20px;
+
+            .news-card-item {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .news-post {
+                max-width: 100%;
+            }
+        }
+    }
+}

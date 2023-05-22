@@ -11,7 +11,7 @@ const Tabs = ({ menu, selected, onSelect }) => {
               className={selected === tab.id ? 'tab-item active' : 'tab-item'}
               onClick={() => onSelect(tab.id)}
             >
-              <span>{tab.name}</span>
+              <span className='tabs-name'>{tab.name}</span>
             </button>
           )
         })}

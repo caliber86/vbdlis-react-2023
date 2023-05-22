@@ -141,6 +141,31 @@
                     }
                 }
             }
+            .footer-bottom {
+                flex-direction: column-reverse;
+                align-items: flex-start;
+                margin-top: 0;
+
+                .left-footer {
+                    flex-direction: column-reverse;
+                    align-items: flex-start;
+
+                    .dot {
+                        display: none;
+                    }
+                    a {
+                        margin-bottom: 16px;
+                    }
+                }
+                .right-footer {
+                    margin-bottom: 16px;
+                    
+                    a {
+                        margin-left: 0;
+                        margin-right: 16px;
+                    }
+                }
+            }
         }
     }
   }
