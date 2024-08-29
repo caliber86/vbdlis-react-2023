@@ -1,0 +1,51 @@
+/**
+COLOR
+*/
+.security-page .security-banner {
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.security-page .security-banner h1 {
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+.security-page .security-banner p {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.security-page .security-document {
+  max-width: 80%;
+  margin: auto;
+  padding-bottom: 96px;
+}
+.security-page .security-document h3 {
+  padding-top: 32px;
+  margin-bottom: 32px;
+}
+.security-page .security-document h5 {
+  font-size: 24px;
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+.security-page .security-document p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.security-page .security-document a {
+  color: #0086ff;
+}
+.security-page .security-document a:hover {
+  text-decoration: underline;
+}
+.security-page .security-document ul {
+  padding-left: 48px;
+  margin-bottom: 24px;
+}
+.security-page .security-document ul li {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.security-page .security-document ul li::marker {
+  color: #41497B;
+}/*# sourceMappingURL=Security.css.map */

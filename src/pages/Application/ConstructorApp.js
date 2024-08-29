@@ -63,7 +63,7 @@ const ConstructorApp = () => {
                   setDataModal(item)
                 }}
               >
-                <img width={'80px'} height={'80px'} src={item?.image || IconDefault} alt="" />
+                <img width={'64px'} height={'64px'} src={item?.image || IconDefault} alt="" />
                 <h5 className="ac-title">{item?.title || ''}</h5>
                 <p className="ac-description">{item?.subtitle || ''}</p>
               </div>

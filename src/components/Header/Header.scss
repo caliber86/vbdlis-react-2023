@@ -8,17 +8,17 @@ header.light-theme {
     ul {
       .menu-item {
         a {
-          color: $grey-800 !important;
+          color: $black !important;
 
           &:hover {
-            color: $blue !important;
+            color: $red !important;
           }
         }
       }
 
       .menu-item.active {
         a {
-          color: $blue !important;
+          color: $red !important;
         }
       }
     }

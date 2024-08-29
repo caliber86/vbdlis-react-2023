@@ -20,6 +20,7 @@ COLOR
   padding-bottom: 96px;
 }
 .terms-page .terms-document h3 {
+  padding-top: 32px;
   margin-bottom: 32px;
 }
 .terms-page .terms-document h5 {
@@ -36,4 +37,15 @@ COLOR
 }
 .terms-page .terms-document a:hover {
   text-decoration: underline;
+}
+.terms-page .terms-document ul {
+  padding-left: 48px;
+  margin-bottom: 24px;
+}
+.terms-page .terms-document ul li {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.terms-page .terms-document ul li::marker {
+  color: #41497B;
 }/*# sourceMappingURL=Terms.css.map */

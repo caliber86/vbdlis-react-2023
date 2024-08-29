@@ -1,156 +1,467 @@
 {
-  "app-web": [
+  "application-software": [
     {
-      "image": "./../content/img/ic-app-1.svg",
-      "title": "Phân hệ Địa chính",
-      "subtitle": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương.",
-      "description": "Hệ thống quản lý đất đai VBDLIS hỗ trợ công tác quản lý, vận hành, khai thác cơ sở dữ liệu Địa chính tại địa phương. Kết nối, chia sẻ dữ liệu với Cơ sở dữ liệu đất đai quốc gia, các hệ thống thông tin, cơ sở dữ liệu của các bộ, ngành, địa phương...",
+      "Id": "app1",
+      "image": "./../content/img/ic-app-14.svg",
+      "title": "Vietbando Maps API",
+      "subtitle": "Công cụ lập trình giúp bạn tích hợp bản đồ và các chức năng tìm kiếm, tìm đường vào website và ứng dụng của bạn.",
+      "description": "Cung cấp các API cho phép tích hợp bản đồ vào các ứng dụng và trang web với các dịch vụ API chính:",
       "infoDetail": [
-        "Vận hành xử lý TTHC gắn liền với việc đăng ký, cập nhật, chỉnh lý biến động.",
-        "Tra cứu, cung cấp thông tin về Hồ sơ địa chính, GCN.",
-        "Tổng hợp, thống kê báo cáo theo nghiệp vụ đất đai.",
-        "Kết nối, liên thông với hệ thống Một cửa điện tử.",
-        "Kết nối, liên thông với hệ thống Lệ phí trước bạ của cơ quan Thuế.",
-        "Đồng bộ CSDL với hệ thống Cơ sở dữ liệu đất đai quốc gia.",
-        "Quản lý công văn, đơn thư ngăn chặn tập trung."
+        "Map API",
+        "Geocoding API",
+        "Directions API",
+        "Distance Matrix API",
+        "Places API",
+        "Traffic API",
+        "Static Map API"
       ],
       "type": "link",
-      "linkTitle": "Brochure",
-      "source": "/guides/vhcsdl-1-phan-he-dia-chinh.pdf"
-    },
-    {
-      "image": "./../content/img/ic-app-2.svg",
-      "title": "Phân hệ Thống kê, Kiểm kê đất đai",
-      "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL thống kê, kiểm kê đất đai.",
-      "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL thống kê, kiểm kê đất đai.",
-      "infoDetail": [
-        "Tổng hợp số liệu TKKK các cấp",
-        "Hỗ trợ biên tập, xây dựng dữ liệu TKKK cho cấp xã",
-        "Tổng hợp khái quát bản đồ hiện trạng cho cấp huyện, tỉnh, cấp vùng và cả nước",
-        "Quản lý hiện trạng sử dụng đất các cấp"
-      ],
-      "type": "link",
-      "linkTitle": "Brochure",
+      "linkTitle": "Xem chi tiết",
       "source": "/guides/vhcsdl-2-Phan-he-quan-ly-thong-ke-kiem-ke-dat-dai.pdf"
     },
     {
-      "image": "./../content/img/ic-app-3.svg",
-      "title": "Phân hệ quản lý Giá đất",
-      "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL giá đất.",
-      "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL giá đất.",
+      "Id": "app2",
+      "image": "./../content/img/ic-app-vbd-desktop.svg",
+      "title": "Vietbando Desktop",
+      "subtitle": "Là một công cụ để hiển thị, xây dựng, biên tập và chỉnh sửa dữ liệu bản đồ một cách hoàn thiện trên máy tính cá nhân.",
+      "description": "Là một công cụ để hiển thị, xây dựng, biên tập và chỉnh sửa dữ liệu bản đồ một cách hoàn thiện trên máy tính cá nhân.",
       "infoDetail": [
-        "Quản lý lý dữ liệu khung giá đất, bảng giá đất",
-        "Quản lý dữ liệu về giá thị trường, giá đất xác định đến từng thửa đất và các hệ số điều chỉnh hàng năm",
-        "Xây dựng bảng giá tự động",
-        "Tra cứu, khai thác thông tin"
+        "Giao diện người dùng hiện đại",
+        "2D/3D visualization",
+        "Phân tích không gian",
+        "Biên tập dữ liệu",
+        "In ấn",
+        "Tương thích với các dạng dữ liệu đa dạng",
+        "Kết nối với VDMS, MISS, và Vietbando Online"
       ],
       "type": "link",
-      "linkTitle": "Brochure",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-2-Phan-he-quan-ly-thong-ke-kiem-ke-dat-dai.pdf"
+    },
+    {
+      "Id": "app3",
+      "image": "./../content/img/ic-app-15.svg",
+      "title": "Hệ thống quản lý tài sản không gian - VDMS",
+      "subtitle": "Quản lý tài sản trên nền Hệ Thống Thông Tin Địa Lý (GIS).",
+      "description": "Quản lý tài sản trên nền Hệ Thống Thông Tin Địa Lý (GIS) là một giải pháp hiệu quả giúp các tổ chức, doanh nghiệp theo dõi, quản lý và tối ưu hóa tài sản của mình, cụ thể như sau:",
+      "infoDetail": [
+        "Quản lý cơ sở hạ tầng",
+        "Quản lý tài sản bất động sản",
+        "Quản lý tài sản di động",
+        "Quản lý tài sản công cộng",
+        "Phân tích và lập kế hoạch",
+        "Tích hợp với các hệ thống khác",
+        "Cung cấp thông tin thời gian thực"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-2-Phan-he-quan-ly-thong-ke-kiem-ke-dat-dai.pdf"
+    },
+    {
+      "Id": "app4",
+      "image": "./../content/img/ic-app-vbd.svg",
+      "title": "Vietbando Tracking Application",
+      "subtitle": "Cung cấp chức năng quản lý và giám sát phương tiện theo thời gian thực.",
+      "description": "Phần mềm Vietbando Tracking Application bao gồm các nhóm chức năng chính:",
+      "infoDetail": [
+        "Quản lý & giám sát tất cả phương tiện theo thời gian thực",
+        "Theo dấu phương tiện đường bộ",
+        "Phân loại các loại phương tiện đường bộ",
+        "Quản lý thông tin doanh nghiệp, thông tin phương tiện đường bộ, thông tin tài xế, thông tin bến xe, điểm dừng đỗ",
+        "Khai thác thông tin giám sát hành trình đường bộ",
+        "Hậu kiểm hành trình các phương tiện đường bộ",
+        "Quản lý lịch sử phương tiện đường bộ di chuyển vào một vùng bất kỳ",
+        "Quản lý tình trạng giao thông theo thời gian thực",
+        "Báo cáo thống kê",
+        "Trang tổng quan (Dashboard)",
+        "Cảnh báo hệ thống",
+        "Quản lý nhóm người dùng",
+        "Phân quyền hệ thống",
+        "Quản lý ngưỡng tốc độ bản đồ tình trạng giao thông",
+        "Quản trị hệ thống",
+        "Xác thực người dùng sử dụng hệ thống"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
       "source": "/guides/vhcsdl-3-phan-he-quan-ly-gia-dat.pdf"
     },
     {
-      "image": "./../content/img/ic-app-4.svg",
-      "title": "Phân hệ quản lý Quy hoạch, Kế hoạch sử dụng đất",
-      "subtitle": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL.",
-      "description": "Hệ thống hỗ trợ công tác quản lý, khai thác CSDL quy hoạch kế hoạch sử dụng đất.",
+      "Id": "app5",
+      "image": "./../content/img/ic-app-vbd.svg",
+      "title": "Phần mềm Vietbando Tracking Web Services",
+      "subtitle": "Cung cấp một giải pháp tích hợp cho các ứng dụng doanh nghiệp.",
+      "description": "Phần mềm Vietbando Tracking Web Services được phát triển dựa trên nền tảng Kiến trúc hướng dịch vụ (SOA). Nó cung cấp một giải pháp tích hợp cho các ứng dụng doanh nghiệp, bao gồm cả dịch vụ tùy biến, tích hợp dịch vụ cá nhân, tập hợp liền mạch với các dịch vụ bên thứ ba, và sự phát triển  / cấu hình / triển khai và quản lý về web.",
       "infoDetail": [
-        "Quản lý dữ liệu về Quy hoạch, kế hoạch sử dụng đất cấp huyện, cấp tỉnh",
-        "Quản lý dữ liệu về Khu chức năng cấp huyện, cấp tỉnh",
-        "Quản lý dữ liệu về các công trình, dự án",
-        "Tra cứu, khai thác thông tin"
+        "Lấy tối đa lợi ích từ việc triển khai web và dịch vụ GIS cho doanh nghiệp",
+        "Cho phép truy cập rộng từ các quản lý dịch vụ tập trung và chia sẻ dữ liệu không gian",
+        "Có khả năng xây dựng hệ thống SOA với dịch vụ Vietbando GIS",
+        "Cho phép truy cập vào tài nguyên dữ liệu khác được xuất bản với các công nghệ khác nhau và được phân phối tại các địa điểm khác nhau",
+        "Truy cập các tiêu chuẩn OGC dữ liệu dễ dàng",
+        "Cung cấp nhiều chức năng GIS thông qua dịch vụ GIS cho người dùng lựa chọn",
+        "Hỗ trợ các loại ứng dụng của khách hàng, bao gồm cả thiết bị di động, các ứng dụng máy tính để bàn, và các trình duyệt Internet",
+        "Hỗ trợ các tuỳ chỉnh các mức độ khác nhau, bao gồm cả phía khách hàng đang phát triển, phía máy chủ phát triển và phát triển công cụ GIS"
       ],
       "type": "link",
-      "linkTitle": "Brochure",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-3-phan-he-quan-ly-gia-dat.pdf"
+    },
+    {
+      "Id": "app6",
+      "image": "./../content/img/ic-app-14.svg",
+      "title": "Data Collector 1.0",
+      "subtitle": "Cho phép thu thập dữ liệu ngoài thực địa với sự trợ giúp của Bản đồ và Hệ thống định vị GPS.",
+      "description": "DataCollector là ứng dụng trên SmartPhone, cho phép thu thập dữ liệu ngoài thực địa với sự trợ giúp của Bản đồ và Hệ thống định vị GPS. Phần mềm bao gồm các chức năng chính sau:",
+      "infoDetail": [
+        "Hệ thống quản trị người dùng trên Web",
+        "Đăng nhập với tài khoản được cấp",
+        "Nhập dữ liệu ngoài thực địa",
+        "Cập nhật dữ liệu mới từ server",
+        "Cài đặt cấu hình cho ứng dụng",
+        "Tải các bản đồ nền xuống SmartPhone để hoạt động ở chế độ offline",
+        "Đăng tải dữ liệu thu thập lên server"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-3-phan-he-quan-ly-gia-dat.pdf"
+    },
+    {
+      "Id": "app8",
+      "image": "./../content/img/ic-app-4.svg",
+      "title": "Vietbando BI",
+      "subtitle": "Phần mềm báo cáo thông minh (BI).",
+      "description": "Báo cáo thông minh BI là một dạng báo cáo có khả năng truy xuất, tổng hợp, phân tích dữ liệu để đưa ra thông tin hữu ích và có giá trị trong việc ra quyết định.",
+      "infoDetail": [
+        "Hỗ trợ ra quyết định",
+        "Truy vấn và báo cáo",
+        "Phân tích, thống kê",
+        "Dự đoán xu hướng"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
       "source": "/guides/vhcsdl-4-phan-he-quy-hoach-ke-hoach-su-dung-dat.pdf"
     },
     {
-      "image": "./../content/img/ic-app-5.svg",
-      "title": "Phân hệ quản trị hệ thống",
-      "subtitle": "Là nền tảng hỗ trợ việc quản trị hệ thống cho các phân hệ khác trong hệ sinh thái VBDLIS...",
-      "description": "Phân hệ quản trị hệ thống là nền tảng hỗ trợ việc quản trị hệ thống cho các phân hệ khác trong hệ sinh thái VBDLIS đảm bảo tính thống nhất và đồng bộ giữa các phân hệ.",
+      "Id": "app9",
+      "image": "./../content/img/ic-app-6.svg",
+      "title": "Vietbando ETL",
+      "subtitle": "Là một công cụ ETL không gian (Extract, Transform và Load) mạnh mẽ.",
+      "description": "Vietbando ETL là một công cụ ETL không gian (Extract, Transform và Load) mạnh mẽ dành riêng cho việc tích hợp các nguồn dữ liệu khác nhau để xây dựng và cập nhật cơ sở dữ liệu không gian địa lý, kho dữ liệu và các dịch vụ web với các biến đổi thực hiện trực tiếp.",
       "infoDetail": [
-        "Quản trị và phân quyền người dùng linh hoạt theo chức năng, nhiệm vụ",
-        "Sử dụng dịch vụ SSO - đăng nhập một lần với nhiều phân hệ",
-        "Công nghệ Workflow cho phép thiết lập quy trình xử lý Thủ tục hành chính động, linh hoạt với từng địa phương",
-        "Quản lý tập trung danh mục dữ liệu dùng chung",
-        "Kết nối, chia sẻ thông tin với các hệ thống khác (Một cửa điện tử, Cổng thông tin, Thuế..)"
-      ]
+        "Trích xuất dữ liệu (Extract)",
+        "Chuyển đổi dữ liệu (Transform)",
+        "Tải dữ liệu (Load)"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-4-phan-he-quy-hoach-ke-hoach-su-dung-dat.pdf"
     },
     {
-      "image": "./../content/img/ic-app-6.svg",
-      "title": "Khai thác dữ liệu Bản đồ",
-      "subtitle": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất,...",
-      "description": "LIS BI là hệ thống được tích hợp các lớp dữ liệu từ các phân hệ Địa chính, Quy hoạch kế hoạch sử dụng đất, Thống kê kiểm kê, Giá đất. Hệ thống được tách rời khỏi các phân hệ vận hành và được cấu trúc để hỗ trợ phân tích dữ liệu; cho phép chồng xếp các lớp dữ liệu để khai thác thông tin đa chiều đáp ứng nhu cầu của người dùng.",
+      "Id": "app11",
+      "image": "./../content/img/ic-app-t4ch.svg",
+      "title": "VBD T4CH.MOB",
+      "subtitle": "Phần mềm trung tâm chỉ huy dành cho lực lượng ngoài hiện trường trên thiết bị di động.",
+      "description": "Phần mềm trung tâm chỉ huy dành cho lực lượng ngoài hiện trường trên thiết bị di động - VBD T4CH.MOB (VBD T4CH.MOB) là ứng dụng cung cấp thông tin theo thời gian thực về vị trí, tuyến đường, môi trường xung quanh, tình trạng giao thông v.v. cho các thiết bị di động. Phần mềm được sử dụng bởi các lực lượng tại chỗ để trao đổi thông tin, nhận lệnh từ hệ thống thông tin chỉ huy thông qua mạng truyền thông không dây.",
+      "infoDetail": [
+        "Khai thác thông tin được tích hợp trên bản đồ",
+        "Tiếp nhận và xử lý các sự cố khẩn cấp",
+        "Thu thập thông tin hiện trường",
+        "Nhận dạng gương mặt",
+        "Liên lạc, phản hồi các tình huống khẩn cấp"
+      ],
       "type": "link",
-      "linkTitle": "Brochure",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-4-phan-he-quy-hoach-ke-hoach-su-dung-dat.pdf"
+    },
+    {
+      "Id": "app12",
+      "image": "./../content/img/ic-app-2.svg",
+      "title": "VBD-Data Warehouse",
+      "subtitle": "Phần mềm quản lý tổng kho dữ liệu VBD-Data Warehouse.",
+      "description": "Hệ thống quản lý Tổng kho dữ liệu VBD-DATA WAREHOUSE là một kho dữ liệu (Data Warehouse), đóng vai trò một kho chứa tất cả dữ liệu được hợp nhất từ nhiều nguồn, được chuẩn hóa để có thể khai thác tốt, có thể hỗ trợ trong việc đưa ra các quyết định mang tính chiến lược và chiến thuật. Các chức năng chính của Hệ thống quản lý Tổng kho dữ liệu:",
+      "infoDetail": [
+        "Tổng hợp, thu thập dữ liệu",
+        "Biên tập, Xử lý, Chuẩn hoá dữ liệu",
+        "Đồng bộ dữ liệu",
+        "Thông báo đồng bộ dữ liệu cho các Kho dữ liệu chuyên đề",
+        "Trích xuất dữ liệu",
+        "Quản lý nhật ký",
+        "Quản lý dữ liệu",
+        "Quản trị hệ thống",
+        "Tra cứu truy vấn dữ liệu",
+        "Giao tiếp với Hệ thống quản lý và khai thác các Kho dữ liệu chuyên đề"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-2-Phan-he-quan-ly-thong-ke-kiem-ke-dat-dai.pdf"
+    },
+    {
+      "Id": "app13",
+      "image": "./../content/img/ic-app-5.svg",
+      "title": "Phần mềm Vietbando IOT Hub",
+      "subtitle": "Dịch vụ quản lý và lưu trữ trên đám mây trong mô hình Internet of Things (IoT).",
+      "description": "IoT hub là một dịch vụ quản lý và lưu trữ trên đám mây trong mô hình Internet of Things (IoT). Vai trò chính của nó trong IoT là tạo ra một cơ sở hạ tầng tin cậy và an toàn để kết nối, quản lý và giao tiếp giữa các thiết bị IoT và ứng dụng IoT. Các chức năng chính của phần mềm IoT Hub:",
+      "infoDetail": [
+        "Kết nối và Quản lý Thiết bị",
+        "Truyền và Nhận Dữ liệu",
+        "Quản lý Trạng thái và Cập nhật Phần mềm",
+        "Bảo mật và Xác thực",
+        "Quản lý Thông báo và Sự kiện",
+        "Quản lý Quy mô lớn"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
       "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
     },
     {
-      "image": "./../content/img/ic-app-7.svg",
-      "title": "Cổng thông tin Đất đai - VBDLIS Portal",
-      "subtitle": "VBDLIS Portal cung cấp thông tin đất đai cho người dân, doanh nghiệp...",
-      "description": "VBDLIS PORTAL cung cấp thông tin đất đai cho người dân, doanh nghiệp; cung cấp các dịch vụ cho các hệ thống của sở, ban ngành khác tạo nền tảng cho triển khai Chính phủ điện tử, chính quyền điện tử và đô thị thông minh.",
+      "Id": "app14",
+      "image": "./../content/img/ic-app-5.svg",
+      "title": "Phần mềm Vietbando IOT Hub Lite",
+      "subtitle": "Phiên bản rút gọn của phần mềm Vietbando IoT Hub.",
+      "description": "Vietbando IoT Hub Lite hỗ trợ kết nối các thiết bị một cách dễ dàng và an toàn thông qua các giao thức khác nhau với các ứng dụng IoT. Hệ thống đảm bảo kết nối thiết bị an toàn, từ bảo mật lớp truyền tải cho giao tiếp đến xác thực trên mỗi thiết bị bao gồm quản lý thông tin đăng nhập thiết bị. Vietbando IoT Hub Lite bao gồm các nhóm chức năng chính:",
       "infoDetail": [
-        "Hỗ trợ người dân, doanh nghiệp nộp hồ sơ trực tuyến qua cổng thông tin đất đai",
-        "Tra cứu tình trạng giải quyết hồ sơ đang được xử lý, nhận kết quả qua mail, SMS",
-        "Cho phép khai thác thông tin hồ sơ địa chính, quy hoạch sử dụng đất, TKKK, giá đất",
-        "Cung cấp thông tin thuộc lĩnh vực đất đai",
-        "Tiếp nhận và giải quyết kiến nghị của cá nhân, tổ chức"
+        "Quản lý Thiết bị",
+        "Giao tiếp và kết nối",
+        "Bảo mật và mã hóa",
+        "Báo cáo và giám sát"
       ],
       "type": "link",
-      "linkTitle": "Brochure",
-      "source": "/guides/vhcsdl-7-cong-thong-tin-dat-dai.pdf"
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
     },
     {
-      "image": "./../content/img/ic-app-8.svg",
-      "title": "Hệ thống Dịch vụ công",
-      "subtitle": "VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến...",
-      "description": "Hệ thống dịch vụ công đất đai VBDLIS là hệ thống giao dịch điện tử, cung cấp thông tin về thủ tục hành chính và dịch vụ công trực tuyến; hỗ trợ cá nhân, doanh nghiệp theo dõi tình trạng hồ sơ; tiếp nhận và xử lý phản ánh kiến nghị của công dân.",
-      "type": "link",
-      "linkTitle": "Brochure",
-      "source": "/guides/vhcsdl-8-he-thong-dich-vu-cong.pdf"
-    },
-    {
-      "image": "./../content/img/ic-app-9.svg",
-      "title": "Cơ sở dữ liệu Đất đai Quốc gia",
-      "subtitle": "Hệ thống đảm bảo dữ liệu luôn được cập nhật mới thường xuyên, phục vụ công tác quản lý và chia sẻ CSDL giữa các ngành ở cấp TW.",
-      "description": "Hệ thống Cơ sở dữ liệu đất đai quốc gia được đồng bộ với Hệ thống quản lý đất đai VBLIS tại các tỉnh/Tp đảm bảo dữ liệu luôn được cập nhật mới thường xuyên, phục vụ công tác quản lý và chia sẻ CSDL giữa các ngành ở cấp TW.",
+      "Id": "app15",
+      "image": "./../content/img/ic-app-17.svg",
+      "title": "Vietbando Video Management System",
+      "subtitle": "Hệ thống quản lý camera, giám sát video.",
+      "description": "Vietbando Video Management System (VVMS) là Hệ thống quản lý camera, giám sát video dựa trên TCP/IP, hỗ trợ kết nối không giới hạn số lượng IP camera. Vietbando Video Management System bao gồm các nhóm chức năng chính:",
       "infoDetail": [
-        "Dữ liệu tổng hợp về địa chính",
-        "Dữ liệu hiện trạng sử dụng đất",
-        "Dữ liệu giá đất ",
-        "Dữ liệu điều tra cơ bản về đất đai"
-      ]
+        "Xác thực sử dụng hệ thống",
+        "Khai thác hình ảnh camera",
+        "Màn hình ghép (Video wall)",
+        "Quản lý camera PTZ",
+        "Khai thác trên bản vẽ/bản đồ",
+        "Tìm kiếm đối tượng",
+        "Theo dõi đối tượng qua nhiều camera",
+        "Nhận dạng & phân tích (biển số, khuôn mặt, đám đông, khói, lửa…)",
+        "Cảnh báo hệ thống",
+        "Xuất video ra file",
+        "Chat nội bộ",
+        "Nhật ký sự kiện",
+        "Báo cáo thống kê",
+        "Quản lý nhóm người dùng",
+        "Phân quyền hệ thống",
+        "Quản trị hệ thống"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
+    },
+    {
+      "Id": "app16",
+      "image": "./../content/img/ic-app-13.svg",
+      "title": "Vietbando Video Recognition",
+      "subtitle": "Hệ thống xử lý và phân tích dữ liệu từ các nguồn video.",
+      "description": "Vietbando Video Recognition là hệ thống xử lý và phân tích dữ liệu từ các nguồn video. Hệ thống hỗ trợ xử lý hàng ngàn luồng video cùng lúc, phân tích, nhận dạng và hiểu được thông tin trong từng khung hình video. Phần mềm bao gồm các nhóm chức năng chính:",
+      "infoDetail": [
+        "Nhận dạng mặt người",
+        "Nhận dạng biển số xe",
+        "Nhận dạng đám đông",
+        "Tái nhận dạng nhân vật",
+        "Nhận dạng đối tượng",
+        "Nhận dạng đám cháy/khói"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
+    },
+    {
+      "Id": "app18",
+      "image": "./../content/img/ic-app-1.svg",
+      "title": "Phần mềm trung tâm thông tin chỉ huy - VBD T4CH VERSION 2.0",
+      "productCode": "Mã: T4CH.FRK.ER",
+      "subtitle": "Cung cấp các chức năng cho Trung tâm Thông tin Chỉ huy.",
+      "description": "Phần mềm trung tâm thông tin chỉ huy - VBD T4CH VERSION 2.0 bao gồm các nhóm chức năng chính:",
+      "infoDetail": [
+        "VMS.",
+        "Nhận dạng biển số xe.",
+        "Nhận dạng gương mặt.",
+        "Nhận dạng tổng hợp.",
+        "Thống kê hệ thống.",
+        "Quản lý sự kiện.",
+        "Kênh liên lạc.",
+        "Khai thác bản đồ.",
+        "Trực quan hóa dữ liệu.",
+        "Quản trị hệ thống."
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-1-phan-he-dia-chinh.pdf"
+    },
+    {
+      "Id": "app19",
+      "image": "./../content/img/ic-app-12.svg",
+      "title": "Phần mềm nhận dạng biển số xe Vietbando LPR",
+      "subtitle": "Hệ thống sử dụng công nghệ hình ảnh và trí tuệ nhân tạo để tự động nhận dạng và ghi nhận biển số xe trên các phương tiện.",
+      "description": "Vietbando LPR là hệ thống sử dụng công nghệ hình ảnh và trí tuệ nhân tạo để tự động nhận dạng và ghi nhận biển số xe trên các phương tiện. Điều này giúp cải thiện tính hiệu quả và độ chính xác trong việc quản lý lưu thông và giao thông, đồng thời tăng khả năng giám sát và kiểm soát trong các hệ thống an ninh và quản lý bãi đỗ xe.",
+      "infoDetail": [
+        "Quản lí các kết nối camera",
+        "Phát hiện biển số xe",
+        "Nhận dạng biển số xe",
+        "Chuyển tiếp hình ảnh về hệ thống trung tâm",
+        "Gửi dữ liệu biển số thu thập được về hệ thống trung tâm",
+        "HTTP API",
+        "Heartbeat",
+        "Lưu trữ dữ liệu cục bộ (khi mất kết nối)"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
+    },
+    {
+      "Id": "app20",
+      "image": "./../content/img/ic-app-vbd-desktop.svg",
+      "title": "VBDLIS Version 2.0",
+      "subtitle": "Phần mềm thông tin đất đai Vietbando - VBDLIS.",
+      "description": "Phần mềm thông tin đất đai Vietbando - VBDLIS được xây dựng dành cho sở tài nguyên và môi trường, văn phòng đăng ký đất đai, chi nhánh văn phòng đăng ký đất đai, cán bộ địa chính xã/phường, các đơn vị liên quan đến công tác quản lý về đất đai; dành cho công dân và các doanh nghiệp có nhu cầu khai thác thông tin đất đai.  Phần mềm bao gồm các nhóm chức năng chính:",
+      "infoDetail": [
+        "Phân hệ Địa chính",
+        "Phân hệ Giá đất",
+        "Phân hệ Quy hoạch, kế hoạch sử dụng đất",
+        "Phân hệ Thống kê, kiểm kê (TKKK)",
+        "Phân hệ Cổng thông tin đất đai",
+        "Phân hệ Quản trị thông minh (LIS BI)",
+        "Phân hệ Hỗ trợ thi công dữ liệu đất đai",
+        "Phân hệ Kho quản lý dữ liệu Data Warehouse",
+        "Phân hệ Quản trị hệ thống"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
+    },
+    {
+      "Id": "app21",
+      "image": "./../content/img/ic-app-8.svg",
+      "title": "Phần mềm kiểm soát trao đổi dữ liệu Vietbando",
+      "subtitle": "Hỗ trợ quản lý và giám sát quá trình trao đổi dữ liệu.",
+      "description": "Phần mềm hỗ trợ quản lý và giám sát quá trình trao đổi dữ liệu, tự động đồng bộ hóa và cập nhật dữ liệu để đảm bảo sự nhất quán giữa các vùng, sử dụng các phương thức bảo mật cao để đảm bảo tính toàn vẹn và an toàn của dữ liệu. Ngoài ra, phần mềm hỗ trợ ghi log chi tiết và cung cấp khả năng giám sát liên tục về quá trình trao đổi dữ liệu. Phần mềm bao gồm các nhóm chức năng chính:",
+      "infoDetail": [
+        "Xác thực sử dụng phần mềm",
+        "Quản lý tích hợp",
+        "Quản lý đồng bộ hóa dữ liệu",
+        "Quản lý bảo mật và chứng thực",
+        "Quản lý giám sát và báo cáo",
+        "Quản trị hệ thống"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
+    }
+  ],  
+  "core-software": [
+    {
+      "Id": "core1",
+      "image": "./../content/img/ic-app-7.svg",
+      "title": "Vietbando GIS Server",
+      "subtitle": "Xử lý, chia sẻ dữ liệu địa lý và bản đồ qua Internet.",
+      "description": "Vietbando GIS Server là một ứng dụng dịch vụ có khả năng xử lý và chia sẻ dữ liệu địa lý và bản đồ qua Internet. Nó cung cấp một loạt các tính năng mạnh mẽ cho việc quản lý và phân phối dữ liệu địa lý theo các tiêu chuẩn mở và khả năng tương thích với nhiều hệ thống thông tin địa lý (GIS) khác nhau. Dưới đây là một số tính năng nổi bật của Vietbando GIS Server:",
+      "infoDetail": [
+        "Quản lý đối tượng không gian",
+        "Xử lý bản đồ",
+        "Xử lý dữ liệu không gian",
+        "Biểu diễn dữ liệu không gian",
+        "Khai thác dữ liệu không gian",
+        "Dịch vụ GIS"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
+    },
+    {
+      "Id": "core2",
+      "image": "./../content/img/ic-app-18.svg",
+      "title": "Vietbando Workflow Server",
+      "subtitle": "Cho phép thêm quy trình (workflow) vào ứng dụng của người dùng.",
+      "description": "Vietbando Workflow Server cho phép thêm quy trình(workflow) vào ứng dụng của người dùng. Nó có thể được tích hợp đầy đủ vào ứng dụng người dùng hoặc dưới dạng một dịch vụ riêng biệt (như dịch vụ web).",
+      "infoDetail": [
+        "Thiết lập danh mục công việc tham gia vào quy trình",
+        "Tạo và tùy chỉnh quy trình thực hiện công việc",
+        "Thiết lập danh mục giấy tờ mẫu cho một quy trình",
+        "Phân quyền nghiệp vụ và theo dõi trạng thái thực hiện",
+        "Báo cáo và phân tích",
+        "Thông báo và giao tiếp"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-4-phan-he-quy-hoach-ke-hoach-su-dung-dat.pdf"
+    },
+    {
+      "Id": "core3",
+      "image": "./../content/img/ic-app-9.svg",
+      "title": "Vietbando Search Engine Server",
+      "subtitle": "Cung cấp các chức năng tìm kiếm thông tin/tài liệu được xây dựng trên nền tảng mã nguồn mở.",
+      "description": "Vietbando Search Engine Server (VSS) là một dịch vụ cung cấp các chức năng tìm kiếm thông tin/tài liệu được xây dựng trên nền tảng mã nguồn mở Apache Lucene/Solr cùng với các phần mở rộng do Vietbando tự xây dựng.",
+      "infoDetail": [
+        "Thêm/Xóa/Sửa tài liệu",
+        "Sử dụng các đặc trưng của Tiếng Việt trong phân tích truy vấn trên tài liệu Tiếng Việt",
+        "Tìm kiếm toàn văn",
+        "Tìm kiếm không gian",
+        "Phân tích - Thống kê trên dữ liệu",
+        "Phân quyền tài liệu"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-3-phan-he-quan-ly-gia-dat.pdf"
     }
   ],
-  "app-desktop": [
+  "database-software": [
     {
-      "image": "./../content/img/ic-app-vbdlis.svg",
-      "title": "VBDLIS Desktop",
-      "subtitle": "Ứng dụng hỗ trợ chuyên biệt về công tác quản lý, biên tập, chỉnh lý dữ liệu không gian địa chính. Dữ liệu được lưu trữ trên Cloud đảm bảo tính kết nối, đồng bộ với hệ thống web.",
-      "description": "Ứng dụng hỗ trợ chuyên biệt về công tác quản lý, biên tập, chỉnh lý dữ liệu không gian địa chính. Dữ liệu được lưu trữ trên Cloud đảm bảo tính kết nối, đồng bộ với hệ thống web.",
+      "Id": "software1",
+      "image": "./../content/img/ic-app-10.svg",
+      "title": "Vietbando InMemory DB",
+      "subtitle": "CSDL trên bộ nhớ tốc độ cao kết hợp khả năng thiết kế hệ thống phân tán hỗ trợ cú pháp truy vấn SQL chuẩn.",
+      "description": "Vietbando InMEMORY DB là 1 CSDL trên bộ nhớ tốc độ cao kết hợp khả năng thiết kế hệ thống phân tán hỗ trợ cú pháp truy vấn SQL chuẩn. Phần mềm bao gồm các nhóm chức năng chính:",
       "infoDetail": [
-        "Hỗ trợ import dữ liệu từ nhiều định dạng như Mapinfo, Shp, CSV, TXT, DGN, CAD, WFS, GML, Geodatabase, Geojson, Đo đạc file",
-        "Chỉnh lý biến động về thửa đất theo nhiều phương pháp: Tách, gộp thửa theo diện tích, theo ranh, giao hội cạnh, tách gộp thửa kèm chỉnh ranh...",
-        "Tạo, biên tập và quản lý Sơ đồ thửa",
-        "Tạo và quản lý hồ sơ kỹ thuật: Trích lục bản đồ, kết quả đo đạc, Ranh giới mốc giới, Tạo trích đo địa chính...",
-        "Nhận dạng giấy chứng nhận bằng công nghệ OCR"
-      ]
-    },
-    {
-      "image": "./../content/img/ic-app-vbdlis.svg",
-      "title": "LISEditor VPDK",
-      "subtitle": "Ứng dụng hỗ trợ kiểm tra, tích hợp gói sản phẩm của 4 phân hệ Địa chính, Giá đất, TKKK, QHKHSD vào hệ thống vận hành của VPDK và Sở TNMT.",
-      "description": "Ứng dụng hỗ trợ kiểm tra, tích hợp gói sản phẩm của 4 phân hệ Địa chính, Giá đất, TKKK, QHKHSD vào hệ thống vận hành của VPDK và Sở TNMT.",
-      "infoDetail": [
-        "Hỗ trợ các công cụ biên tập dữ liệu địa chính",
-        "Hỗ trợ công cụ kiểm lỗi về cấu trúc, thuộc tính, không gian, kiểm tra cấu trúc gói sản phẩm giao nộp",
-        "Tích hợp gói sản phẩm lên hệ thống vận hành (web) để tiến hành kiểm tra, đối soát và đồng bộ vào vận hành",
-        "Tải dữ liệu đã vận hành bao gồm Thuộc tính, Không gian, HSQ, SĐC phụ vụ công tác quản lý, lưu trữ tại đơn vị"
+        "Lưu trữ trong bộ nhớ",
+        "Mô hình lưu trữ cột",
+        "Lưu trữ dữ liệu không gian",
+        "Xử lý dữ liệu thời gian thực",
+        "Xử lý hiệu suất cao",
+        "Độ bền dữ liệu",
+        "Tối ưu hóa cho khối lượng công việc phân tích",
+        "Khả năng mở rộng",
+        "Giảm dự phòng dữ liệu",
+        "Thông tin chi tiết theo thời gian thực",
+        "Xử lý đồng thời",
+        "Lập chỉ mục nâng cao",
+        "Các loại hình học và địa lý",
+        "Chức năng không gian",
+        "Nối không gian",
+        "Tối ưu hóa truy vấn không gian địa lý"
       ],
       "type": "link",
-      "linkTitle": "Brochure",
-      "source": "/guides/vhcsdl-11-LISEeditor-VPDK.pdf"
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
+    },
+    {
+      "Id": "software2",
+      "image": "./../content/img/ic-app-11.svg",
+      "title": " Vietbando Distributed File System - VDFS",
+      "subtitle": "Cung cấp khả năng lưu trữ, đáp ứng và khai thác dữ liệu với tần suất lớn. VDFS là một hệ thống tập tin phân tán với các đặc tính sau:",
+      "description": "",
+      "infoDetail": [
+        "Xử lý khối lượng lớn dữ liệu dưới hình thức các chunk",
+        "Đưa ra khái niệm “tập tin phẳng” (flat file)",
+        "Hỗ trợ thao tác trực tiếp với các phân vùng dữ liệu",
+        "Mô hình cấp phát dữ liệu xoay vòng",
+        "Hệ thống quản lý metadata phân tán",
+        "Hỗ trợ việc khôi phục dữ liệu thông qua bản sao các chunk",
+        "Hỗ trợ gom nhóm các VDFS Node",
+        "Khả năng mở rộng ngay cả khi hệ thống đang vận hành",
+        "Hệ thống vẫn đảm bảo hoạt động bình thường khi xảy ra sự cố ở các VDFS Node"
+      ],
+      "type": "link",
+      "linkTitle": "Xem chi tiết",
+      "source": "/guides/vhcsdl-6-he-thong-khai-thac-du-lieu-ban-do-LIS-BI.pdf"
     }
   ]
 }

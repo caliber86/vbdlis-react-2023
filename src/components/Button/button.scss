@@ -59,6 +59,22 @@
 //     }
 // }
 
+.vbt-red-solid{
+    color: $white;
+    cursor: pointer;
+    border-radius: 100px;
+    text-shadow: 0 1px 0 $red;
+    background: linear-gradient(180deg,$red,#DA2110) no-repeat;
+    border: none;
+    box-shadow: 0 7px 14px -3px rgb(45 35 66 / 30%), 0 2px 4px rgb(45 35 66 / 20%), inset 0 -2px $darkred;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+
+    &:hover {
+        box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -2px 0px $darkred;
+        transform: translateY(-2px);
+    }
+}
+
 .vbt-white{
     color: $grey-600;
     cursor: pointer;

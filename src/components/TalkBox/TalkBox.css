@@ -2,8 +2,8 @@
 COLOR
 */
 .talk-box {
-  background-color: #f5f6fa;
-  border-radius: 24px;
+  background-color: #F2F2F2;
+  border-radius: 32px;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
@@ -25,7 +25,7 @@ COLOR
   margin-left: 80px;
 }
 .talk-box .talk-box-info .description {
-  margin: 20px 0 40px 0;
+  margin: 24px 0 48px 0;
 }
 .talk-box .talk-box-author {
   display: flex;
@@ -49,7 +49,7 @@ COLOR
 .talk-box .talk-box-author .author-info .name {
   font-size: 20px;
   font-weight: 600;
-  margin: 0;
+  margin-bottom: 4px;
 }
 .talk-box .talk-box-author .author-info .location {
   margin: 0;
@@ -72,5 +72,27 @@ COLOR
   height: 48px;
   background-repeat: no-repeat;
   right: 0;
-  margin-left: 590px;
+  margin-left: 740px;
+}
+
+@media (max-width: 425px) {
+  .slide-content .slide-card .talk-box {
+    padding: 40px;
+    height: auto;
+  }
+  .slide-content .slide-card .talk-box span {
+    font-size: 20px;
+  }
+  .slide-content .slide-card .talk-box .talk-box-info {
+    margin-left: 0;
+  }
+  .slide-content .slide-card .talk-box .talk-box-author {
+    padding: 0;
+  }
+  .slide-content .slide-card .talk-box::before {
+    margin-bottom: 16px;
+  }
+  .slide-content .slide-card .talk-box::after {
+    display: none;
+  }
 }/*# sourceMappingURL=TalkBox.css.map */

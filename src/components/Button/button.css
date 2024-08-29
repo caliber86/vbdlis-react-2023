@@ -16,6 +16,21 @@ COLOR
   transform: translateY(-2px);
 }
 
+.vbt-red-solid {
+  color: #fff;
+  cursor: pointer;
+  border-radius: 100px;
+  text-shadow: 0 1px 0 #E62311;
+  background: linear-gradient(180deg, #E62311, #DA2110) no-repeat;
+  border: none;
+  box-shadow: 0 7px 14px -3px rgba(45, 35, 66, 0.3), 0 2px 4px rgba(45, 35, 66, 0.2), inset 0 -2px #AE180A;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.vbt-red-solid:hover {
+  box-shadow: 0px 4px 8px rgba(45, 35, 66, 0.4), 0px 7px 13px -3px rgba(45, 35, 66, 0.3), inset 0px -2px 0px #AE180A;
+  transform: translateY(-2px);
+}
+
 .vbt-white {
   color: #272F5D;
   cursor: pointer;
@@ -58,6 +73,18 @@ COLOR
   box-shadow: none;
 }
 
+.button-video {
+  background: rgba(0, 134, 255, 0.5);
+  box-shadow: none;
+  border-radius: 100px;
+  transition: all 0.3s ease-out;
+}
+.button-video:hover {
+  background: rgba(0, 134, 255, 0.9);
+  transform: none;
+  box-shadow: none;
+}
+
 .vbt-small {
   font-size: 14px;
   font-weight: 500;
@@ -85,4 +112,9 @@ COLOR
   height: 50px;
   padding-left: 24px;
   padding-right: 32px;
+}
+
+.vbt-icon-only {
+  width: 60px;
+  height: 60px;
 }/*# sourceMappingURL=button.css.map */

@@ -1,57 +1,110 @@
 /**
 COLOR
 */
-.guides-page .guides-banner {
-  text-align: center;
+.guides-content .container {
+  padding-bottom: 96px;
+  grid-column-gap: 48px;
 }
-.guides-page .guides-banner .container {
+.guides-content .guides-banner {
   padding-top: 96px;
   padding-bottom: 96px;
+  text-align: center;
 }
-.guides-page .guides-banner h1 {
+.guides-content .guides-banner h1 {
   font-size: 64px;
   max-width: 800px;
   margin: auto;
   margin-bottom: 24px;
 }
-.guides-page .guides-banner p {
+.guides-content .guides-banner p {
   font-size: 20px;
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
   margin-bottom: 24px;
 }
-.guides-page .guides-content {
-  width: 100%;
-  background-color: #f5f6fa;
+.guides-content .guides-left-content {
+  font-size: 16px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-bottom: 2px solid #F2F2F2;
 }
-.guides-page .guides-content .guides-download {
+.guides-content .guides-left-content.sticky {
+  position: fixed;
+  top: 16px;
+  max-width: 224px;
+}
+.guides-content .guides-left-content ul {
+  margin-bottom: 24px;
+}
+.guides-content .guides-left-content ul li {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  list-style-type: none;
+}
+.guides-content .guides-left-content ul li::marker {
+  color: #272F5D;
+}
+.guides-content .guides-left-content ul li.left-menu-item a {
+  color: #41497B;
+}
+.guides-content .guides-left-content ul li.left-menu-item a.menu-guides-title {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.guides-content .guides-left-content ul li.left-menu-item.active a {
+  color: #0086ff;
+}
+.guides-content .guides-left-content ul li.left-menu-item.active ul li.left-menu-item a {
+  color: #41497B;
+}
+.guides-content .guides-right-content {
+  min-height: 500px;
+}
+.guides-content .guides-right-content .guides-document .guides-title {
+  margin-bottom: 16px;
+}
+.guides-content .guides-right-content .guides-document .document-download {
   display: flex;
   flex-direction: column;
-  padding: 96px 0;
+  padding-top: 48px;
+  padding-bottom: 96PX;
 }
-.guides-page .guides-content .guides-download table {
+.guides-content .guides-right-content .guides-document .document-download table {
   font-size: 16px;
 }
-.guides-page .guides-content .guides-download table .download-thead_fist th, .guides-page .guides-content .guides-download table .download-thead_fist td {
+.guides-content .guides-right-content .guides-document .document-download table .download-thead_fist th,
+.guides-content .guides-right-content .guides-document .document-download table .download-thead_fist td {
   background-color: #050C38;
   color: #fff;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
-.guides-page .guides-content .guides-download table tr th, .guides-page .guides-content .guides-download table tr td {
+.guides-content .guides-right-content .guides-document .document-download table tr th,
+.guides-content .guides-right-content .guides-document .document-download table tr td {
   padding: 0 24px;
-  background-color: #fff;
+  background-color: #F2F2F2;
   height: 48px;
 }
-.guides-page .guides-content .guides-download table tr th.download, .guides-page .guides-content .guides-download table tr td.download {
+.guides-content .guides-right-content .guides-document .document-download table tr th.download,
+.guides-content .guides-right-content .guides-document .document-download table tr td.download {
   text-align: center;
 }
-.guides-page .guides-content .guides-download table tr th a:hover span:first-child, .guides-page .guides-content .guides-download table tr td a:hover span:first-child {
+.guides-content .guides-right-content .guides-document .document-download table tr th:last-child,
+.guides-content .guides-right-content .guides-document .document-download table tr td:last-child {
+  padding: 0;
+}
+.guides-content .guides-right-content .guides-document .document-download table tr th a:hover span:first-child,
+.guides-content .guides-right-content .guides-document .document-download table tr td a:hover span:first-child {
   display: inline-block;
 }
-.guides-page .guides-content .guides-download table tr th a:hover span:last-child, .guides-page .guides-content .guides-download table tr td a:hover span:last-child {
+.guides-content .guides-right-content .guides-document .document-download table tr th a:hover span:last-child,
+.guides-content .guides-right-content .guides-document .document-download table tr td a:hover span:last-child {
   display: none;
 }
-.guides-page .guides-content .guides-download table tr th a span, .guides-page .guides-content .guides-download table tr td a span {
+.guides-content .guides-right-content .guides-document .document-download table tr th a span,
+.guides-content .guides-right-content .guides-document .document-download table tr td a span {
   display: inline-block;
   background-color: #0086ff;
   border-radius: 6px;
@@ -62,9 +115,124 @@ COLOR
   text-transform: uppercase;
   margin: auto;
 }
-.guides-page .guides-content .guides-download table tr th a span img, .guides-page .guides-content .guides-download table tr td a span img {
+.guides-content .guides-right-content .guides-document .document-download table tr th a span img,
+.guides-content .guides-right-content .guides-document .document-download table tr td a span img {
   margin-right: 8px;
 }
-.guides-page .guides-content .guides-download table tr th a span:first-child, .guides-page .guides-content .guides-download table tr td a span:first-child {
+.guides-content .guides-right-content .guides-document .document-download table tr th a span:first-child,
+.guides-content .guides-right-content .guides-document .document-download table tr td a span:first-child {
   display: none;
+}
+.guides-content .guides-right-content .guides-video .video-guides-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 48px;
+  grid-column-gap: 24px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  grid-template-rows: auto;
+  padding-top: 48px;
+}
+.guides-content .guides-right-content .guides-video .video-guides-item .video-guides-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.guides-content .guides-right-content .guides-video .video-guides-item .video-guides-card .video-thumbnail {
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.guides-content .guides-right-content .guides-video .video-guides-item .video-guides-card .video-thumbnail .video-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.guides-content .guides-right-content .guides-video .video-guides-item .video-guides-card .video-thumbnail .video-button .ic-btn {
+  position: relative;
+  top: 3px;
+}
+.guides-content .guides-right-content .guides-video .video-guides-item .video-guides-card .video-info {
+  margin-top: 24px;
+}
+.guides-content .guides-right-content .guides-video .video-guides-item .video-guides-card .video-info .video-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+.guides-content .guides-right-content .guides-video .guides-video-tabs {
+  padding-top: 32px;
+}
+.guides-content .guides-right-content .guides-video .guides-video-tabs .tabs-header-wrap {
+  padding: 0;
+  width: auto;
+  height: 60px;
+  border-radius: 0;
+  border-bottom: 2px solid #F2F2F2;
+}
+.guides-content .guides-right-content .guides-video .guides-video-tabs .tabs-header-wrap .tab-item {
+  width: auto;
+  padding: 0 32px;
+  position: relative;
+  background-color: transparent;
+  color: #050C38;
+  border-radius: 0;
+  top: 2px;
+  transition: none;
+}
+.guides-content .guides-right-content .guides-video .guides-video-tabs .tabs-header-wrap .tab-item:hover span {
+  color: #0086ff;
+}
+.guides-content .guides-right-content .guides-video .guides-video-tabs .tabs-header-wrap .tab-item.active {
+  background-color: #fff;
+  border-bottom: 3px solid #41497B;
+}
+.guides-content .guides-right-content .guides-video .guides-video-tabs .tabs-header-wrap .tab-item.active span {
+  color: #0086ff;
+}
+.guides-content .guides-right-content .guides-video .guides-video-tabs .tabs-header-wrap button span {
+  font-size: 18px;
+}
+
+@media (max-width: 425px) {
+  .guides-content .guides-banner h1 {
+    font-size: 48px;
+  }
+  .guides-content .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .guides-content .container .guides-left-content {
+    margin-bottom: 48px;
+  }
+  .guides-content .container .guides-left-content.sticky {
+    position: absolute;
+    top: 16px;
+    max-width: 100%;
+  }
+  .guides-content .container .guides-right-content .tabs-header-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 24px;
+    height: auto !important;
+    border-bottom: none !important;
+  }
+  .guides-content .container .guides-right-content .tabs-header-wrap .tab-item {
+    padding: 0 16px !important;
+    margin: 0;
+  }
+  .guides-content .container .guides-right-content .tabs-header-wrap .tab-item .tabs-name {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .guides-content .container .guides-right-content .video-guides-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .guides-content .container .guides-right-content .video-guides-item .video-thumbnail {
+    height: 250px !important;
+  }
 }/*# sourceMappingURL=Guides.css.map */

@@ -7,6 +7,7 @@ const STYLES = [
     "vbt-white-solid",
     "vbt-white-outline",
     "vbt-white",
+    "vbt-red-solid",
     "button-video",
     "vbt-blue-action"
 ];

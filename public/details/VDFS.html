@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://10.225.1.62:3000/details/ProductsDetails.css">
+</head>
+<body>
+    <div class="vbd-products">
+        <div class="product-title">
+            <h1>Vietbando Distributed File System - VDFS</h1>
+        </div>
+        <div class="products_image-wrapper">
+            <img src="http://10.225.1.62:3000/details/images/Apps-Vietbando_Maps_API.png" alt="">            
+        </div>
+        <div class="artilce-detail">
+            <h2>Giới thiệu chung về Vietbando Memory Database Engine</h2>
+            <p>Hiện nay, lượng dữ liệu phát sinh từ các hệ thống như: log GPS, log hệ thống, log giao dịch, dữ liệu mạng xã hội, … tăng một cách bùng nổ. Điều này dẫn đến quá trình xử lý và khai thác dữ liệu ngày càng gặp nhiều khó khăn nếu như không muốn nói là bất khả thi khi vượt ngưỡng.</p>
+            <p>Hệ cơ sở dữ liệu quan hệ (RDBMS) tập trung chủ yếu vào thể hiện và xử lý dữ liệu theo một cấu trúc rõ ràng, trong khi VDFS tiếp cận theo một cách khác, tập trung vào việc lưu trữ, đáp ứng và khai thác dữ liệu với tần suất lớn. Các vấn đề lớn nhất ta thường phải đối mặt khi tiếp cận theo hướng này đó là:</p>
+            <ul>
+                <li>Khả năng lưu trữ một khối lượng dữ liệu khổng lồ tăng dần theo cấp số nhân theo thời gian</li>
+                <li>Khả năng lưu trữ dữ liệu phi cấu trúc với nhiều chuẩn khác nhau</li>
+                <li>Khả năng tùy biến, mở rộng hệ thống theo nhu cầu, thời gian, …</li> 
+                <li>Khả năng phục hồi, bảo toàn dữ liệu khi có lỗi hệ thống hay vấn đề phát sinh</li>  
+                <li>Nắm bắt được những điểm mấu chốt đó, VDFS được VietBanDo phát triển nhằm đưa ra một giải pháp phù hợp với thị trường, với nhu cầu của xã hội hơn, cũng như đón đầu xu hướng, công nghệ của thế giới hiện nay. Vietbando Distributed File System - VDFS tiếp cận theo một cách khác, tập trung vào việc lưu trữ, đáp ứng và khai thác dữ liệu với tần suất lớn:</li> 
+                <li>Khả năng lưu trữ một khối lượng dữ liệu (hiệu năng không thay đổi theo kích thước tập tin lớn hay nhỏ) khổng lồ tăng dần theo cấp số nhân theo thời gian.</li> 
+                <li>Khả năng lưu trữ dữ liệu phi cấu trúc với nhiều chuẩn khác nhau.</li> 
+                <li>Khả năng tùy biến, mở rộng hệ thống theo nhu cầu, thời gian, …</li> 
+                <li>Khả năng phục hồi, bảo toàn dữ liệu khi có lỗi hệ thống hay vấn đề phát sinh.</li> 
+            </ul>
+            <h2>Đặc điểm của Vietbando Distributed File System</h2>
+            <h3>VDFS là một hệ thống tập tin phân tán với các đặc tính sau:</h3>
+            <ul>
+                <li><strong>Xử lý khối lượng lớn dữ liệu dưới hình thức các chunk:</strong> mặc định một chunk là 4MB.</li>
+                <li><strong>Đưa ra khái niệm “tập tin phẳng” (flat file):</strong> phân vùng hoặc tập tin là nơi lưu trữ được cấp phát sẵn trong bảng FAT, tối ưu hóa đáng kể khả năng làm việc của đĩa cứng.</li>
+                <li><strong>Hỗ trợ thao tác trực tiếp với các phân vùng dữ liệu.</strong> </li>
+                <li><strong>Mô hình cấp phát dữ liệu xoay vòng:</strong>  khi phân vùng / tập tin lưu trữ hết dung lượng, dữ liệu mới sẽ bắt đầu xoay vòng ghi lại từ đầu thay vì phải nới rộng phân vùng/ tập tin ra. Điều này có thể dẫn đến mất mát dữ liệu khi bị ghi đè, chính vì vậy dung lượng phân vùng/ tập tin phải được tính toán cho đủ với khối lượng dữ liệu được ghi xuống.</li>
+                <li><strong>Hệ thống quản lý metadata phân tán:</strong> thông tin về các chunk được quản lý bởi các VDFS Router, không phải tập trung ở nơi lưu trữ.</li>
+                <li><strong>Hỗ trợ việc khôi phục dữ liệu thông qua bản sao các chunk.</strong> </li>
+                <li><strong>Hỗ trợ gom nhóm các VDFS Node:</strong> nhằm tối ưu hóa việc sử dụng băng thông mạng cũng như điều hướng việc đọc/ ghi dữ liệu xuống các nhóm VDFS Node khác nhau.</li>
+                <li><strong>Khả năng mở rộng ngay cả khi hệ thống đang vận hành:</strong> VDFS Node có thể dễ dàng được thêm vào trực tiếp mà không cần phải ngắt hệ thống.</li>
+                <li><strong>Hệ thống vẫn đảm bảo hoạt động bình thường khi xảy ra sự cố ở các VDFS Node.</strong> </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

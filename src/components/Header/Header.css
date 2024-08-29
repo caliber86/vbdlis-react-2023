@@ -3,16 +3,16 @@ COLOR
 */
 header.light-theme {
   background-color: #fff;
-  border-bottom: 1px solid #f5f6fa;
+  border-bottom: 1px solid #F2F2F2;
 }
 header.light-theme nav ul .menu-item a {
-  color: #050C38 !important;
+  color: #000 !important;
 }
 header.light-theme nav ul .menu-item a:hover {
-  color: #0086ff !important;
+  color: #E62311 !important;
 }
 header.light-theme nav ul .menu-item.active a {
-  color: #0086ff !important;
+  color: #E62311 !important;
 }
 
 header {
@@ -191,7 +191,7 @@ header .header-content nav ul .dropdown-cols .center ul.dropdown li a .dropdown-
   border-radius: 8px;
   padding: 8px;
   margin-right: 16px;
-  background-color: #f5f6fa;
+  background-color: #F2F2F2;
 }
 header .header-content nav ul .dropdown-cols .center ul.dropdown li:hover a {
   color: #0086ff;

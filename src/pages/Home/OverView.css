@@ -37,6 +37,7 @@ COLOR
   max-width: 960px;
   text-align: center;
   font-size: 18px;
+  color: #666;
   line-height: 26px;
   margin: 0 auto 96px auto;
   max-width: 800px;
@@ -66,7 +67,7 @@ COLOR
 }
 .overview .section-content .product-highlight .service-heading-title {
   font-size: 24px;
-  color: #41497B;
+  color: #666;
 }
 .overview .section-content .product-highlight .link {
   font-size: 18px;
@@ -91,7 +92,7 @@ COLOR
 .overview .section-content .product-highlight .service-heading-text {
   font-size: 18px;
   line-height: 26px;
-  color: #050C38;
+  color: #666;
   margin: 24px 0 24px 0;
 }
 .overview .section-content .product-highlight .product-detail {
@@ -128,6 +129,10 @@ COLOR
 @media (max-width: 425px) {
   .section-content:nth-child(odd), .section-content:nth-child(even) {
     flex-direction: column;
+  }
+  #overview .container {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   #overview .container .product-img {
     width: 100%;

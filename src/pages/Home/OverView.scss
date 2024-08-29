@@ -45,6 +45,7 @@
     max-width: 960px;
     text-align: center;
     font-size: 18px;
+    color: $fontcolor;
     line-height: 26px;
     margin: 0 auto 96px auto;
     max-width: 800px;
@@ -77,7 +78,7 @@
   
       .service-heading-title {
         font-size: 24px;
-        color: $grey-500;
+        color: $fontcolor;
         // text-transform: uppercase;
       }
 
@@ -106,7 +107,7 @@
       .service-heading-text {
         font-size: 18px;
         line-height: 26px;
-        color: $grey-800;
+        color: $fontcolor;
         margin: 24px 0 24px 0;
       }
   

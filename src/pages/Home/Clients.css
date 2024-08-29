@@ -2,7 +2,7 @@
 COLOR
 */
 section.clients {
-  background-color: #f5f6fa !important;
+  background-color: #F2F2F2 !important;
 }
 
 .clients {
@@ -37,6 +37,10 @@ section.clients {
 }
 
 @media (max-width: 425px) {
+  .clients .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .clients .container ul {
     display: flex;
     justify-content: center;

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://10.225.1.62:3000/details/ProductsDetails.css">
+</head>
+<body>
+    <div class="vbd-products">
+        <div class="product-title">
+            <h1>Phần mềm nhận dạng biển số xe VIETBANDO LPR</h1>
+        </div>
+        <div class="products_image-wrapper">
+            <img src="http://10.225.1.62:3000/details/images/Apps-Vietbando_Maps_API.png" alt="">            
+        </div>
+        <div class="artilce-detail">
+            <h2>Giới thiệu</h2>
+            <p><strong>Vietbando LPR</strong> là hệ thống sử dụng công nghệ hình ảnh và trí tuệ nhân tạo để tự động nhận dạng và ghi nhận biển số xe trên các phương tiện. Điều này giúp cải thiện tính hiệu quả và độ chính xác trong việc quản lý lưu thông và giao thông, đồng thời tăng khả năng giám sát và kiểm soát trong các hệ thống an ninh và quản lý bãi đỗ xe.</p>
+            <p>Hệ thống sử dụng các kỹ thuật xử lý hình ảnh để phát hiện và trích xuất biển số xe từ hình ảnh hoặc video. Sau đó, thông qua việc so khớp với cơ sở dữ liệu biển số xe, phần mềm sẽ xác định chính xác biển số và có thể kết hợp với các dữ liệu thêm như thời gian, vị trí và hướng di chuyển để tạo ra thông tin chi tiết và hữu ích.</p>
+            <p><strong>Vietbando LPR</strong> có thể ứng dụng đa dạng các lĩnh vực khác nhau. Trong lĩnh vực giao thông, nó có thể được sử dụng để tự động thu phí trạm BOT, giám sát tình hình giao thông và phát hiện xe vi phạm. Trong an ninh, nó có thể hỗ trợ trong việc theo dõi các phương tiện nghi ngờ, xác minh thông tin về xe và cải thiện quản lý an ninh khu vực. Ngoài ra, trong lĩnh vực quản lý bãi đỗ xe, phần mềm Vietbando LPR giúp tối ưu hóa việc kiểm soát ra vào, tìm kiếm thông tin xe trong thời gian ngắn và tự động ghi nhận sự kiện đỗ xe.</p>
+            <h2>Cấu trúc chức năng Vietbando LPR</h2>
+            <p><strong>Vietbando LPR</strong> là ứng dụng dạng dịch vụ được cài đặt trên một PC, kết nối với camera thông qua giao thức RTSP từ đó phát hiện, nhận dạng và thu thập các biển số xe xuất hiện (đi qua) cùng quan sát của Camera.</p>
+            <p><img src="http://10.225.1.62:3000/details/images/VBD-LPR-1.png" alt=""></p>
+            <h2>Các chức năng chính</h2>
+            <h3>1. Quản lý các kết nối camera</h3>
+            <p>Bao gồm các chức năng dùng để tạo kết nối tới camera thông qua giao thức RTSP (Realtime Transport Stream Protocol) và các thông tin liên quan như: độ phân giải, FPS, ….</p>
+            <h3>2. Phát hiện biển số xe</h3>
+            <p>Bao gồm các chức năng phát hiện biển số xe từ các luồng stream camera, trích các frame hình để phát hiện biển số xe, xác định kích thước biển số xe (hình ảnh).</p> 
+            <h3>3. Nhận dạng biển số xe</h3>
+            <p>Bao gồm các chức năng nhận dạng biển số xe với hình ảnh biển số xe đã thu thập được sẽ thông qua chức năng xử lý nhận dạng từ đó đưa ra được chính xác giá trị của biển số (bằng kí tự) và các thông tin thuộc tính kèm theo như màu sắc, …</p>
+            <h3>4. Chuyển tiếp hình ảnh về hệ thống trung tâm</h3>
+            <p>Bao gồm các chức năng sử dụng kết nối bằng mạng di động (3G/4G/5G) hoặc bằng mạng wifi của thiết bị để gửi các ảnh trích xuất được (chứa biển số xe) để gửi về hệ thống trung tâm từ đó mở ra các thêm cách dịch vụ khác mà hạ tầng, cấu hình của Vietbando LPR không đáp ứng nổi.</p>
+            <h3>5. Gửi dữ liệu biển số thu thập được về hệ thống trung tâm</h3>
+            <p>Bao gồm các chức năng sử dụng kết nối bằng mạng di động (3G/4G/5G) hoặc bằng mạng wifi của thiết bị để gửi các biển số xe đã thu thập được về hệ thống server tập trung.</p> 
+            <h3>6. HTTP API</h3>
+            <p>Bao gồm tập hợp các giao tiếp thông qua giao thức HTTP được cung cấp để người sử dụng có thể điều khiển được các tính năng của chương trình (không thông qua giao diện) như: kiểm tra các dịch vụ hỗ trợ, kiểm tra hoạt động, bổ sung camera, …</p>
+            <h3>7. Heartbeat</h3>
+            <p>Bao gồm các chức năng kiểm tra tình trạng hoạt động của chương trình trong suốt quá trình vận hành.</p>
+            <h3>8. Lưu trữ dữ liệu cục bộ (khi mất kết nối)</h3>
+            <p>Bao gồm các chức năng lưu trữ lại các kết quả biển số xe đã thu thập được, bao gồm ảnh toàn cảnh, giá trị biển số xe đã nhận dạng được, … trong trường hợp mạng kết nối di dộng bị sự cố, chập chờn dẫn tới việc không gửi dữ liệu về hệ thống tập trung được.</p>           
+        </div>
+    </div>
+</body>
+</html>

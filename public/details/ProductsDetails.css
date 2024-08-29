@@ -1,0 +1,64 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+body .vbd-products {
+  width: 100%;
+  max-width: 920px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+body .vbd-products .product-title {
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+body .vbd-products .product-title h1 {
+  font-size: 48px;
+}
+body .vbd-products .products_image-wrapper img {
+  width: 100%;
+  border-radius: 20px;
+}
+body .vbd-products .artilce-detail {
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+body .vbd-products .artilce-detail .sub-title p {
+  font-size: 20px;
+}
+body .vbd-products .artilce-detail h2 {
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+body .vbd-products .artilce-detail h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+body .vbd-products .artilce-detail h4 {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+body .vbd-products .artilce-detail p {
+  color: #222;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+body .vbd-products .artilce-detail p img {
+  width: 100%;
+}
+body .vbd-products .artilce-detail ul {
+  margin-left: 16px;
+}
+body .vbd-products .artilce-detail ul li {
+  margin-bottom: 8px;
+}/*# sourceMappingURL=ProductsDetails.css.map */

@@ -5,7 +5,7 @@ import Button from '../Button';
 import { Animated } from 'react-animated-css';
 
 import logoDark from './../../vbdlis-logo-white.svg';
-import logoLight from './../../vbdlis-logo-full.svg';
+import logoLight from './../../vbd-logo.svg';
 import up_icon from '../../images/arrow-up-white.svg';
 import down_icon from '../../images/arrow-down-white.svg';
 import DD_ICON1 from '../../images/setting.svg';
@@ -20,7 +20,7 @@ const Header = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname.includes('/guides') || location.pathname === '/contactus' || location.pathname === '/news' || location.pathname === '/terms' || location.pathname === '/security') {
+    if (location.pathname.includes('/') || location.pathname.includes('/guides') || location.pathname === '/contactus' || location.pathname === '/news' || location.pathname === '/terms' || location.pathname === '/security') {
       setTheme('light-theme');
     }
     else {
@@ -55,7 +55,7 @@ const Header = () => {
       <>
         <nav className={mobile ? "menu open" : "menu"}>
           <ul>
-            <li ref={ref} className={show ? `${getClassNameMenu('/sys-app')} menu-with-dropdown` : `${getClassNameMenu('/sys-app')}`}>
+            {/* <li ref={ref} className={show ? `${getClassNameMenu('/sys-app')} menu-with-dropdown` : `${getClassNameMenu('/sys-app')}`}>
               <Link onClick={() => setShow(show ? false : true)}>
                 Hệ thống
                 <img width={'24px'} height={'24px'} src={show ? up_icon : down_icon} alt="" />
@@ -82,8 +82,8 @@ const Header = () => {
                   </div>
                 </div>
               ) : null}
-            </li>
-            <li className={getClassNameMenu('/guides')}><Link to='/guides/operating-app'>Hướng dẫn</Link></li>
+            </li> */}
+            <li className={getClassNameMenu('/guides')}><Link to='/operating-app'>Sản phẩm</Link></li>
             <li className={getClassNameMenu('/news')}><Link to='/news'>Tin tức</Link></li>
             <li className={getClassNameMenu('/contactus')}><Link to='/contactus'>Liên hệ</Link></li>
           </ul>
@@ -91,7 +91,7 @@ const Header = () => {
         <nav className={mobile ? "menu menu-right open" : "menu menu-right"}>
           <ul>
             <li className={getClassNameMenu('/login')}><Link to='/login'>Đăng nhập</Link></li>
-            <li className={getClassNameMenu('/register')}><Link to='/contactus' className="redBtn"><Button buttonSize="vbt-medium" buttonStyle="vbt-blue-solid">Đăng ký</Button></Link></li>
+            <li className={getClassNameMenu('/register')}><Link to='/contactus' className="redBtn"><Button buttonSize="vbt-medium" buttonStyle="vbt-red-solid">Đăng ký</Button></Link></li>
           </ul>
         </nav>
       </>
@@ -118,7 +118,7 @@ const Header = () => {
     <header className={`default-theme ${theme}`}>
       <div className="header-content container">
         <div id="logo" className="brand">
-          <Link to="/">
+          <Link to="/operating-app">
             <img src={theme === 'light-theme' ? logoLight : logoDark} alt="" />
           </Link>
         </div>

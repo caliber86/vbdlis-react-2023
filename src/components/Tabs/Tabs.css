@@ -23,13 +23,13 @@ COLOR
   margin-right: 4px;
 }
 .tabs-control .tabs-header-wrap .tab-item:hover {
-  background-color: #f5f6fa;
+  background-color: #F2F2F2;
 }
 .tabs-control .tabs-header-wrap .tab-item:hover span {
   opacity: 1;
 }
 .tabs-control .tabs-header-wrap .tab-item.active {
-  background-color: #0086ff;
+  background-color: #000;
 }
 .tabs-control .tabs-header-wrap .tab-item.active span {
   color: white;
@@ -37,7 +37,7 @@ COLOR
 }
 .tabs-control .tabs-header-wrap button span {
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
   color: #050C38;
   opacity: 0.9;

@@ -28,8 +28,8 @@ COLOR
   margin-left: 8px;
 }
 .contact-page .contact-grid .contact-card {
-  background-color: #f5f6fa;
-  padding: 40px 40px 80px 40px;
+  background-color: #F2F2F2;
+  padding: 40px;
   border-radius: 24px;
   height: -moz-fit-content;
   height: fit-content;
@@ -49,9 +49,27 @@ COLOR
   color: #050C38;
   padding: 16px;
   border-radius: 8px;
-  border: 1px solid #f5f6fa;
+  border: 1px solid #F2F2F2;
   margin-bottom: 16px;
 }
 .contact-page .contact-grid .contact-card form textarea {
-  height: 160px;
+  height: 200px;
+}
+
+@media (max-width: 425px) {
+  .contact-page.container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .contact-page.container .contact-grid {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .contact-page.container .contact-grid .contact-card {
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+  .contact-page.container .contact-grid .contact-card button {
+    width: 100%;
+  }
 }/*# sourceMappingURL=Contact.css.map */

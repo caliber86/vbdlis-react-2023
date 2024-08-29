@@ -16,8 +16,8 @@
 	<g id="Group">
 		
 			<linearGradient id="Map_dot_00000088119455093549043550000000248708779595086237_" gradientUnits="userSpaceOnUse" x1="325.475" y1="222.1442" x2="326.475" y2="222.1442" gradientTransform="matrix(646.6064 0 0 -325.0054 -210427.7188 72398.0703)">
-			<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.6"/>
-			<stop  offset="1" style="stop-color:#5FB7F9"/>
+			<stop  offset="0" style="stop-color:#000;stop-opacity:0.2"/>
+			<stop  offset="1" style="stop-color:#000;stop-opacity:0.3"/>
 		</linearGradient>
 		
 			<path id="Map_dot" style="opacity:0.347;fill:url(#Map_dot_00000088119455093549043550000000248708779595086237_);enable-background:new    ;" d="
@@ -2733,8 +2733,8 @@
 			c0,0,0,0,0,0C307,76.5,305.8,77.8,305.8,79.3z"/>
 		
 			<linearGradient id="Marker_Coppy_00000056422305074403983150000016653776423591969666_" gradientUnits="userSpaceOnUse" x1="325.5483" y1="222.656" x2="326.3558" y2="221.9035" gradientTransform="matrix(607.897 0 0 -250.6557 -197769.3125 55926.3867)">
-			<stop  offset="0" style="stop-color:#025CD4"/>
-			<stop  offset="1" style="stop-color:#0C31A7"/>
+			<stop  offset="0" style="stop-color:#FA5242"/>
+			<stop  offset="1" style="stop-color:#DA2110"/>
 		</linearGradient>
 		<path id="Marker_Coppy" style="fill:url(#Marker_Coppy_00000056422305074403983150000016653776423591969666_);" d="M171.2,302.1
 			c0-4.4,3.7-7.9,8.1-7.9c4.3,0,7.8,3.5,7.9,7.9c0,5.9-8,14.6-8,14.6S171.2,308,171.2,302.1L171.2,302.1z M176.3,302.1

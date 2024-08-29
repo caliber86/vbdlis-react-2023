@@ -16,6 +16,7 @@ import ContactUs from './pages/ContactUs/ContactUs';
 import Terms from './pages/Legal/Terms';
 import Security from './pages/Legal/Security';
 import ScrollToTop from './components/ScrollToTop';
+import AppDetailPage from './pages/Application/AppDetailPage';
 // import NewDetail from './pages/News/NewDetail';
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
       children: [
         { index: true, element: <HomePage /> },
         { path: "operating-app", element: <OperatingApp /> },
+        { path: "operating-app/*", element: <AppDetailPage />},
         { path: "constructor-app", element: <ConstructorApp /> },
         { path: "about", element: <AboutUs /> },
         { path: "guides/*", element: <Guides /> },

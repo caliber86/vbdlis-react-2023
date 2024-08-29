@@ -2,7 +2,7 @@
 COLOR
 */
 .footer {
-  background-color: #050C38;
+  background-color: #000;
   padding-bottom: 0;
 }
 .footer .flare {
@@ -25,7 +25,7 @@ COLOR
 .footer .container .footer-top .left-footer .vbd-description {
   font-size: 16px;
   font-weight: normal;
-  color: #C9CEEB;
+  color: #ccc;
   margin: 24px 0;
 }
 .footer .container .footer-top .right-footer {
@@ -49,7 +49,7 @@ COLOR
 }
 .footer .container .footer-top .right-footer .text-cols a {
   font-size: 16px;
-  color: #C9CEEB;
+  color: #ccc;
   margin-bottom: 16px;
 }
 .footer .container .footer-top .right-footer .text-cols a:hover {
@@ -59,7 +59,7 @@ COLOR
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #41497B;
+  border-top: 1px solid #666;
   margin-top: 48px;
   padding: 48px 0;
 }
@@ -70,18 +70,18 @@ COLOR
 }
 .footer .container .footer-bottom .left-footer p {
   font-size: 16px;
-  color: #C9CEEB;
+  color: #ccc;
   margin: 0;
 }
 .footer .container .footer-bottom .left-footer .dot {
   font-size: 16px;
   line-height: 16px;
   font-weight: 600;
-  color: #C9CEEB;
+  color: #ccc;
   margin: 0 16px;
 }
 .footer .container .footer-bottom .left-footer a {
-  color: #C9CEEB;
+  color: #ccc;
 }
 .footer .container .footer-bottom .left-footer a:hover {
   color: #fff;
@@ -100,4 +100,48 @@ COLOR
 }
 .footer .container .footer-bottom .right-footer .social-icon:hover {
   filter: brightness(130%);
+}
+
+@media (max-width: 425px) {
+  #footer .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #footer .container .footer-top {
+    display: block;
+  }
+  #footer .container .footer-top .left-footer {
+    width: 100%;
+  }
+  #footer .container .footer-top .right-footer {
+    flex-direction: column;
+    width: 100%;
+  }
+  #footer .container .footer-top .right-footer .text-cols {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
+  #footer .container .footer-bottom {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-top: 0;
+  }
+  #footer .container .footer-bottom .left-footer {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  #footer .container .footer-bottom .left-footer .dot {
+    display: none;
+  }
+  #footer .container .footer-bottom .left-footer a {
+    margin-bottom: 16px;
+  }
+  #footer .container .footer-bottom .right-footer {
+    margin-bottom: 16px;
+  }
+  #footer .container .footer-bottom .right-footer a {
+    margin-left: 0;
+    margin-right: 16px;
+  }
 }/*# sourceMappingURL=Footer.css.map */

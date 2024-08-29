@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://10.225.1.62:3000/details/ProductsDetails.css">
+</head>
+<body>
+    <div class="vbd-products">
+        <div class="product-title">
+            <h1>Vietbando Search Engine Server</h1>
+        </div>
+        <div class="products_image-wrapper">
+            <img src="http://10.225.1.62:3000/details/images/Apps-Vietbando_Maps_API.png" alt="">            
+        </div>
+        <div class="artilce-detail">
+            <div class="sub-title">
+                <p>Vietbando Search Engine Server (VSS) là một dịch vụ cung cấp các chức năng tìm kiếm thông tin/tài liệu được xây dựng trên nền tảng mã nguồn mở Apache Lucene/Solr cùng với các phần mở rộng do Vietbando tự xây dựng.</p>
+            </div>
+            <h2>Giới thiệu</h2>
+            <p><strong>Vietbando Search Engine Server (VSS)</strong> là một dịch vụ cung cấp các chức năng tìm kiếm thông tin/tài liệu được xây dựng trên nền tảng mã nguồn mở Apache Lucene/Solr cùng với các phần mở rộng do Vietbando tự xây dựng.</p>
+            <p>Tính năng chính của VSS bao gồm khả năng tìm kiếm toàn văn (full text search - FTS), đặc biệt tập trung vào khả năng xử lý tìm kiếm tiếng Việt, đánh dấu (highlighting) kết quả, phân tích - thống kê trên dữ liệu, tích hợp với các hệ cơ sở dữ liệu (bao gồm SQL, NoSQL), xử lý nhiều kiểu văn bản (ví dụ: Word, PDF), tìm kiếm không gian (spatial search) và hỗ trợ phân quyền trên tài liệu. VSS có độ tin cậy cao, có khả năng tùy biến cao, mở rộng tốt bằng cách có thể làm việc trên hệ thống phân tán.</p>
+            <h2>Mô tả chức năng</h2>
+            <h3>1. Thêm/Xóa/Sửa tài liệu</h3>
+            <p>Với chức năng cung cấp một dịch vụ trọn gói về tìm kiếm thông tin/tài liệu thì chức năng thêm/xóa/sửa nội dung tài liệu là một chức năng không thể thiếu của VSS. Với chức năng này, VSS cung cấp các hàm dịch vụ giúp tạo mới các index, thêm mới các tài liệu vào hệ thống, xóa đi các tài liệu không cần thiết và sửa nội dung những tài liệu cần chỉnh sửa nội dung.</p>
+            <ul>
+                <li>Thêm tài liệu.</li>
+                <li>Xóa tài liệu.</li>
+                <li>Sửa tài liệu.</li>
+            </ul>
+            <h3>2. Sử dụng các đặc trưng của Tiếng Việt trong phân tích truy vấn trên tài liệu Tiếng Việt</h3>
+            <ul>
+                <li>Từ có dấu - không dấu.</li>
+                <li>Từ ghép - tên riêng.</li>
+                <li>Từ đồng nghĩa.</li>
+            </ul>
+            <h3>3. Tìm kiếm toàn văn</h3>
+            <ul>
+                <li>Tìm kiếm theo từ.</li>
+                <li>Tìm kiếm theo Field.</li>
+                <li>Tìm kiếm Wildcard.</li>
+                <li>Tìm kiếm từ gần giống (Fuzzy).</li>
+                <li>Tìm kiếm cụm từ gần giống.</li>
+                <li>Tìm kiếm theo Range.</li>
+            </ul>
+            <h3>4. Tìm kiếm không gian</h3>
+            <p>VSS hỗ trợ một số vấn đề tìm kiếm không gian như sau:</p>
+            <ul>
+                <li><strong>NearbySearch:</strong> Là truy vấn các tài liệu có thông tin về vị trí (dạng hình học là điểm) ở gần một vị trí cần tìm bất kỳ và đồng thời các kết quả tìm thấy sẽ được sắp xếp theo thứ tự từ gần đến xa so với vị trí truy vấn. Với truy vấn dạng này, ngoài các yêu cầu bắt buộc như nội dung tài liệu cần truy vấn thì hệ thống đòi hỏi tài liệu phải có ít nhất 1 trường dữ liệu mô tả về vị trí trong đó. Nếu tài liệu có nhiều hơn 1 trường dữ liệu về vị trí thì khi truy vấn yêu cầu phải nêu rõ trường dữ liệu nào được dùng để lấy thông tin vị trí, nếu không mô tả thì hệ thống sẽ tự động duyệt qua hết tất cả các trường dữ liệu về vị trí để thực hiện truy vấn. Ngoài thông tin về trường dữ liệu thì thông tin về khoảng cách cũng là một thông tin quan trọng, nó cho biết bán kính giới hạn vùng tìm kiếm, nếu không có giá trị này hệ thống sẽ tìm không giới hạn.</li>
+                <li><strong>PRSearch:</strong> Là truy vấn các tài liệu có thông tin về vị trí (dạng hình học là điểm) ở gần một đoạn path bất kỳ và đồng thời kết quả tìm kiếm sẽ được sắp xếp từ gần đến xa so với đường path truy vấn. Với truy vấn dạng này, ngoài các yêu cầu bắt buộc như nội dung tài liệu cần truy vấn thì hệ thống đòi hỏi tài liệu phải có ít nhất 1 trường dữ liệu mô tả về vị trí trong đó. Nếu tài liệu có nhiều hơn 1 trường dữ liệu về vị trí thì khi truy vấn yêu cầu phải nêu rõ trường dữ liệu nào được dùng để lấy thông tin vị trí, nếu không mô tả thì hệ thống sẽ tự động duyệt qua hết tất cả các trường dữ liệu về vị trí để thực hiện truy vấn. Ngoài thông tin về trường dữ liệu thì thông tin về khoảng cách cũng là một thông tin quan trọng, nó cho biết khoảng cách giới hạn từ đường path mở ra 2 bên để giới hạn vùng tìm kiếm, nếu không có giá trị này thì hệ thống sẽ tìm không giời hạn. Tuy nhiên nếu tìm không giới hạn thì sẽ mất ý nghĩa của chức năng này.</li>
+                <li><strong>RegionSearch:</strong> Tìm các tài liệu có thông tin về hình dáng (dạng hình học là đa giác) thỏa các điều kiện tương tác (như giao nhau, chứa trong, v.v…) với dạng hình học trong truy vấn. Với truy vấn dạng này, ngoài các yêu cầu bắt buộc như nội dung tài liệu cần truy vấn thì hệ thống đòi hỏi tài liệu phải có ít nhất 1 trường dữ liệu mô tả về vị trí hoặc hình dạng trong đó. Nếu tài liệu có nhiều hơn 1 trường dữ liệu về vị trí hoặc hình dạng thì khi truy vấn yêu cầu phải nêu rõ trường dữ liệu nào được dùng để lấy thông tin vị trí hoặc hình dạng, nếu không mô tả thì hệ thống sẽ tự động duyệt qua hết tất cả các trường dữ liệu về vị trí hoặc hình dạng để thực hiện truy vấn.</li>
+            </ul>
+            <h3>5. Phân tích - Thống kê trên dữ liệu</h3>
+            <p>Ngoài các chức năng liên quan đến tìm kiếm truy vấn tài liệu thì VSS cũng hỗ trợ các hàm dịch vụ cho phép lấy các thông tin tổng hợp, thống kê trên tập tài liệu được index. Các hàm dịch vụ về tổng hợp, thống kê được phân loại như sau:</p>
+            <ul>
+                <li>Thống kê theo từ.</li>
+                <li>Thống kê theo Query.</li>
+                <li>Thống kê theo miền giá trị.</li>
+            </ul>
+            <h3>6. Phân quyền tài liệu</h3>
+            <p>VSS hỗ trợ khả năng thiết lập các phân quyền trên mức tài liệu cho các hệ thống tìm kiếm. Điều này có nghĩa là một hệ thống tìm kiếm có thể cho phép hoặc không cho phép một user hay một group các user quyền tương tác đến một hay nhiều tài liệu nào đó.</p>
+        </div>
+    </div>
+</body>
+</html>

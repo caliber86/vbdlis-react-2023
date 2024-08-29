@@ -9,10 +9,11 @@ export default function Cta() {
         <div className='container'>
             <div className='cta-card' style={{backgroundImage: 'url(./../content/img/cta-card-bg.svg)'}}>
                 <div className='card-content'>
-                    <h1 className='card-title'>Bắt đầu thử nghiệm với VBDLis</h1>
-                    <div className='card-description'>Chúng tôi sẵn sàng gặp gỡ trực tiếp để tư vấn và mong muốn có cơ hội được hợp tác cùng Doanh nghiệp của bạn</div>
+                    <h1 className='card-title'>Liên hệ với chúng tôi hôm nay</h1>
+                    {/* <div className='card-description'>Chúng tôi sẵn sàng gặp gỡ trực tiếp để tư vấn và mong muốn có cơ hội được hợp tác cùng Doanh nghiệp của bạn</div> */}
+                    <div className='card-description'>Cần giúp đỡ hoặc có câu hỏi? hãy liên hệ với một trong những chuyên gia của chúng tôi.</div>
                     <Link to="/contactus" spy={true} smooth={true} duration={500} >
-                        <Button className='btn-cta' buttonStyle="vbt-white" buttonSize="vbt-larger">Đăng ký</Button>
+                        <Button className='btn-cta' buttonStyle="vbt-red-solid" buttonSize="vbt-larger">Liên hệ</Button>
                     </Link>
                 </div>
             </div>

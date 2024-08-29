@@ -1,0 +1,29 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1245_7966)">
+<rect x="3.05176e-05" width="80" height="80" rx="16" fill="url(#paint0_linear_1245_7966)"/>
+<rect x="1.50003" y="1.5" width="77" height="77" rx="14.5" stroke="url(#paint1_linear_1245_7966)" stroke-width="3"/>
+<g clip-path="url(#clip1_1245_7966)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M62.3993 20.601V21.7351L62.1026 22.1993H53.2903L42.7791 40.2187L40.9248 37.0436L50.5195 20.601C54.4794 20.601 58.4394 20.601 62.3993 20.601ZM64 19.0002H49.6007L39.9988 35.4573L32.2656 22.1993H21.6898L41.8962 53.9528L40.7214 55.8H39.2786L17.6007 21.7351V20.601H20.6706H31.3324L30.3993 19.0002H16V22.1993L38.4005 57.3983H41.5995L64 22.1993V19.0002Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31.9665 47.9137C28.7698 49.8326 26.1762 51.8497 26.1666 53.5342C26.2599 58.4536 37.0127 61.2769 62.3993 60.7147C55.8648 63.5476 17.6725 68.1344 16.177 56.2283C15.4186 50.1557 27.9444 48.1003 31.9665 47.9137Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31.9665 47.9137C28.7698 49.8326 26.1762 51.8497 26.1666 53.5342C26.2599 58.4536 37.0127 61.2769 62.3993 60.7147C50.5913 61.7985 22.7283 63.239 22.3407 54.7066C22.1229 49.8614 28.0066 48.0979 31.9665 47.9137Z" fill="#E0E0E0"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1245_7966" x1="3.05176e-05" y1="0" x2="80" y2="83.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FA5242"/>
+<stop offset="0.338542" stop-color="#F32916"/>
+<stop offset="0.661458" stop-color="#E62311"/>
+<stop offset="1" stop-color="#DA2110"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1245_7966" x1="3.05176e-05" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.4"/>
+<stop offset="0.401042" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_1245_7966">
+<rect width="80" height="80" fill="white"/>
+</clipPath>
+<clipPath id="clip1_1245_7966">
+<rect width="48" height="48" fill="white" transform="translate(16 16)"/>
+</clipPath>
+</defs>
+</svg>

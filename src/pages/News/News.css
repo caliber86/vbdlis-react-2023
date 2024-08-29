@@ -26,7 +26,7 @@ COLOR
   text-align: left;
 }
 .news-page .news-card-item .news-card {
-  background-color: #f5f6fa;
+  background-color: #F2F2F2;
   display: flex;
   flex-direction: column;
   border-radius: 24px;
@@ -78,4 +78,18 @@ COLOR
 }
 .news-page .news-card-item .news-card .news-info .news-link:hover::after {
   right: -2px;
+}
+
+@media (max-width: 425px) {
+  .news-page.container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .news-page.container .news-card-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .news-page.container .news-post {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=News.css.map */

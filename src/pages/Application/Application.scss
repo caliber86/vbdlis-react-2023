@@ -7,20 +7,32 @@
     z-index: 1;
     height: 100%;
     width: 100%;
-    background: $grey-900;
+    background: $white;
     position: relative;
+    display: contents;
 
     .flare {
       position: absolute;
-      background-color: $blue-400;
-      width: 29vw;
-      height: 29vw;
+      background-color: rgb(230 35 17 / 20%);
+      width: 48vw;
+      height: 48vw;
       left: 50%;
-      top: 50%;
+      top: 100%;
       border-radius: 50%;
-      filter: blur(29vw * 0.28);
-      margin: calc(-0.5*29vw) 0 0 calc(-0.5*29vw);
+      filter: blur(48vw * 0.28);
+      margin: calc(-0.5*48vw) 0 0 calc(-0.5*48vw);
       z-index: -1;
+
+      // background: radial-gradient(at bottom,rgb(230 35 17 / 15%) -50%,rgb(255 255 255 / 0%));
+      // position: absolute;
+      // top: 250px;
+      // bottom: 0;
+      // left: 0;
+      // right: 0;
+      // height: 400px;
+      // width: 100%;
+      // max-height: 100%;
+      // z-index: -1;
     }
 
     .container {
@@ -58,16 +70,16 @@
 
     h1 {
       font-size: 64px;
-      color: $white;
+      color: $black;
       margin: 0 auto 24px auto;
-      max-width: 800px;
+      max-width: 1024px;
     }
 
     p {
       font-size: 20px;
-      color: $grey-400;
+      color: $fontcolor;
       margin: 0 auto 48px auto;
-      max-width: 480px;     
+      max-width: 800px;     
     }
   }
 
@@ -84,7 +96,8 @@
     .container {
       padding-top: 80px;
       h2 {
-        margin-bottom: 40px;
+        font-size: 52px;
+        margin-bottom: 0;
       }
     }
   }
@@ -93,27 +106,39 @@
     background-color: $bglightgray;
     min-height: 500px;
     width: 100%;
+
+    .produc-list {
+      padding-top: 96px;
+      margin-bottom: 48px;
+    }
   }
 }
 
 .operating-app {
+  .app-page--banner {
+    .container {
+      max-width: 1920px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 
   .app-list-card {
     width: 100%;
-    max-width: 1248px;
     display: grid;
-    padding: 80px 0;
+    padding: 0 0 80px 0;
     justify-content: space-between;
     flex-wrap: nowrap;
     cursor: pointer;
 
     grid-gap: 24px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     text-align: left;
+    // border-bottom: 1px solid rgb(0 0 0 / 10%);
 
     .app-card {
-      height: 350px;
+      height: 300px;
       background-color: white;
       padding: 40px;
       border-radius: 24px;
@@ -127,19 +152,24 @@
       }
 
       .ac-title {
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 600;
         margin-top: 16px;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
       }
 
       .ac-description {
-        font-size: 17px;
+        font-size: 16px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
       }
 
       img {
-        border-radius: 16px;
-        box-shadow: 8px 8px 16px rgb(0 136 255 / 25%);
+        // border-radius: 12px;
+        // box-shadow: 8px 8px 16px rgb(230 35 17 / 20%);
+        // box-shadow: 8px 8px 16px rgb(0 0 0 / 20%);
       }
     }
   }
@@ -173,7 +203,7 @@
       }
 
       .ac-title {
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 600;
         margin-top: 24px;
         margin-bottom: 16px;
@@ -195,7 +225,7 @@
 
     img {
       border-radius: 16px;
-      box-shadow: 8px 8px 16px rgb(0 136 255 / 20%);
+      box-shadow: 8px 8px 16px rgb(0 0 0 / 20%);
     }
 
     h1 {
@@ -268,13 +298,29 @@
       h1 {
         font-size: 48px;
       }
+      h2 {
+        text-align: left;
+        font-size: 52px !important;
+      }
       .app-hero-image {
         width: 100%;
       }
+      p {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+      .app-hero-button {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        button {
+          width: 100%;
+        }
+      }      
     }
     .app-page--tabs {
       display: flex;
-      flex-direction: column;
+      flex-direction: column;     
 
       .tabs-header-wrap {
         width: 100%;
@@ -287,11 +333,16 @@
         } 
       }
     }
-    .app-list-card {
-      display: flex;
-      flex-direction: column;
-      .app-card {
-        height: 100%;
+    .app-page--content {
+      .app-list-card {
+        display: flex;
+        flex-direction: column;
+        .app-card {
+          height: 100%;
+        }
+      }
+      .produc-list {
+        padding-top: 48px;
       }
     }
 

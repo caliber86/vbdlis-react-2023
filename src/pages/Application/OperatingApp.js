@@ -5,26 +5,30 @@ import DataHelper from '../../helper/data.helper';
 import Modal from '../../components/Modal/Modal';
 import IconDefault from '../../images/ic-app-default.svg';
 import CardModal from './CardModal';
-import Tabs from '../../components/Tabs/Tabs';
+// import Tabs from '../../components/Tabs/Tabs';
 import { Link } from 'react-router-dom';
 import Cta from '../Home/Cta';
 import Popup from '../../components/Modal/Popup';
 
 const TABS = [
   {
-    id: 'app-web',
-    name: 'Hệ thống web'
+    id: 'application-software',
+    name: 'Phần mềm ứng dụng'
   },
   {
-    id: 'app-desktop',
-    name: 'Ứng dụng Desktop'
+    id: 'core-software',
+    name: 'Phần mềm lõi'
+  },
+  {
+    id: 'database-software',
+    name: 'Phần mềm CSDL'
   }
 ]
 
 const OperatingApp = () => {
 
   const [data, setData] = useState();
-  const [current, setCurrent] = useState();
+  // const [current, setCurrent] = useState();
   const [isOpen, setIsOpen] = useState(false);
   const [dataModal, setDataModal] = useState();
   const [openVideo, setOpenVideo] = useState(false);
@@ -35,15 +39,24 @@ const OperatingApp = () => {
     (async () => {
       const rs = await DataHelper.getDataJson(url);
       if (rs) {
-        const _data = TABS.map(item => {
+        const _data = Object.entries(rs).map(entry => {
           return {
-            ...item,
-            children: rs[item.id] || []
-          }
-        })
-        setData(_data);
-        setCurrent(_data[0])
+            id: entry[0],
+            children: entry[1]
+          };
+        });
+        setData(_data)
       }
+      // if (rs) {
+      //   const _data = TABS.map(item => {
+      //     return {
+      //       ...item,
+      //       children: rs[item.id] || []
+      //     }
+      //   })
+      //   setData(_data);
+      //   setCurrent(_data[0])
+      // }
     })();
   }, []);
 
@@ -51,27 +64,31 @@ const OperatingApp = () => {
     document.body.style.overflow = isOpen ? "hidden" : 'auto';
   }, [isOpen]);
 
-  const RenderGridCard = () => {
+  const RenderGridCard = (current) => {
+    const title = TABS.find((tab) => tab?.id === current?.id)?.name || '';
     return (
-      <div className='app-list-card'>
-        {
-          Array.isArray(current?.children) && current?.children?.length && current.children.map((item) => {
-            return (
-              <div
-                className='app-card'
-                onClick={() => {
-                  setIsOpen(true);
-                  setDataModal(item)
-                }}
-              >
-                <img width={'80px'} height={'80px'} src={item?.image || IconDefault} alt="" />
-                <h5 className="ac-title">{item?.title || ''}</h5>
-                <p className="ac-description">{item?.subtitle || ''}</p>
-              </div>
-            )
-          })
-        }
-      </div>
+      <>
+        <h3 className='produc-list'>{title}</h3>
+        <div className='app-list-card'>
+          {
+            Array.isArray(current?.children) && current?.children?.length && current.children.map((item) => {
+              return (
+                <div
+                  className='app-card'
+                  onClick={() => {
+                    setIsOpen(true);
+                    setDataModal(item)
+                  }}
+                >
+                  <img width={'64px'} height={'64px'} src={item?.image || IconDefault} alt="" />
+                  <h5 className="ac-title">{item?.title || ''}</h5>
+                  <p className="ac-description">{item?.subtitle || ''}</p>
+                </div>
+              )
+            })
+          }
+        </div>
+      </>
     )
   }
 
@@ -84,16 +101,16 @@ const OperatingApp = () => {
           <div className='container'>
             {/* <img width={'80px'} height={'80px'} src={IconDefault} alt="" /> */}
             {/* <h4>{'Hệ thống'}</h4> */}
-            <h1>{'Hệ thống vận hành Cơ sở dữ liệu Đất đai'}</h1>
-            <p>Cung cấp các giải pháp toàn diện phục vụ công tác quản lý, vận hành và khai thác Cơ sở dữ liệu đất đai</p>
+            <h1>{'Các sản phẩm của Vietbando'}</h1>
+            <p>Vietbando cung cấp các giải pháp và ứng dụng công nghệ GIS - Geographic Information System, từ các công cụ thu thập, biên tập dữ liệu đến các hệ thống lưu trữ, tìm kiếm, khai thác, hỗ trợ ra quyết định trên nhiều nền tảng khác nhau như Desktop, Web và Mobile. Các sản phẩm của Vietbando mang đến cho khách hàng các giải pháp và dịch vụ GIS toàn diện, hiệu quả và chất lượng nhất.</p>
             <div className='app-hero-button'>
               <Link to="/contactus" spy={true} smooth={true} duration={500} >
-                <Button buttonStyle="vbt-blue-solid" buttonSize="vbt-larger">
-                  <span>Đăng ký</span>
+                <Button buttonStyle="vbt-red-solid" buttonSize="vbt-larger">
+                  <span>Liên hệ</span>
                 </Button>
               </Link>
               <Link to="" spy={true} smooth={true} duration={500} >
-                <Button buttonStyle="vbt-white-outline" buttonSize="vbt-larger-icon" onClick={() =>
+                <Button buttonStyle="vbt-white" buttonSize="vbt-larger-icon" onClick={() =>
                   setOpenVideo(true)
                 }>
                   <span className='ic-btn'>
@@ -105,14 +122,14 @@ const OperatingApp = () => {
                 </Button>
               </Link>
             </div>
-            <img className='app-hero-image' width={'1200px'} height={'auto'} src={'./../content/img/app-hero-images-1.png'} alt="aaa" />
+            <img className='app-hero-image' width={'100%'} height={'auto'} src={'./../content/img/app-hero-images-1.png'} alt="aaa" />
           </div>
         </div>
 
         <div className='app-page--tabs'>
           <div className='container'>
-            <h2>{'Các phân hệ của hệ thống'}</h2>
-            <Tabs
+            <h2>{'Danh mục phần mềm'}</h2>
+            {/* <Tabs
               menu={TABS}
               selected={current?.id}
               onSelect={(val) => {
@@ -124,13 +141,14 @@ const OperatingApp = () => {
                   setCurrent(_curr)
                 }
               }}
-            />
+            /> */}
           </div>
         </div>
 
         <div className='app-page--content'>
           <div className='container'>
-            {RenderGridCard()}
+            {/* {RenderGridCard()} */}
+            { data && data?.length && data.map((feature)=>RenderGridCard(feature))}
           </div>
         </div>
 

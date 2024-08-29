@@ -1,7 +1,7 @@
 @import './../variables.scss';
 
 .footer {
-    background-color: $grey-800;
+    background-color: $black;
     padding-bottom: 0;
 
     .flare {
@@ -28,7 +28,7 @@
                 .vbd-description {
                     font-size: 16px;
                     font-weight: normal;
-                    color: $grey-400;
+                    color: #ccc;
                     margin: 24px 0;
                 }
             }
@@ -57,7 +57,7 @@
                     }
                     a {
                         font-size: 16px;
-                        color: $grey-400;
+                        color: #ccc;
                         margin-bottom: 16px;
                         &:hover {
                             color: $white;
@@ -71,7 +71,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-top: 1px solid $grey-500;
+            border-top: 1px solid $fontcolor;
             margin-top: 48px;
             padding: 48px 0;
 
@@ -81,18 +81,18 @@
                 align-items: center;
                 p {
                     font-size: 16px;
-                    color: $grey-400;
+                    color: #ccc;
                     margin: 0;
                 }
                 .dot {
                     font-size: 16px;
                     line-height: 16px;
                     font-weight: 600;
-                    color: $grey-400;
+                    color: #ccc;
                     margin: 0 16px;
                 }
                 a {
-                    color: $grey-400;
+                    color: #ccc;
                     &:hover {
                         color: $white;
                     }
